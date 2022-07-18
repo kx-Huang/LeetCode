@@ -26,13 +26,13 @@ public:
         ListNode *fast = head;
         ListNode *entry = head;
 
-        // Slow & Fast Pointers: determint if cycle exists
+        // slow & fast pointers: determint if cycle exists
         while (fast->next && fast->next->next) {
             slow = slow->next;
             fast = fast->next->next;
             // found cycle
             if (slow == fast) {
-                // Floyd’s Cycle Finding Algorithm:
+                // Floyd’s cycle finding algorithm:
                 // step of head to entry = step of meeting to entry
                 while (slow != entry) {
                     slow = slow->next;
