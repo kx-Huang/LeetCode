@@ -32,10 +32,12 @@ The problems are categorized into two parts:
 
 - Template in C++: [**`std::unordered_map<>`**](https://en.cppreference.com/w/cpp/container/unordered_map)
 
-|     | Title                   | Difficulty | Time | Space |
-|-----|-------------------------|------------|------|-------|
-| 1   | Two sum                 | Easy       | O(n) | O(n)  |
-|     |                         |            |      |       |
+- Problems:
+
+  |     | Title                   | Difficulty | Time | Space |
+  |-----|-------------------------|------------|------|-------|
+  | 1   | Two sum                 | Easy       | O(n) | O(n)  |
+  |     |                         |            |      |       |
 
 ## Methodology
 
