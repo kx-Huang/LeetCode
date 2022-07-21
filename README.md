@@ -17,11 +17,16 @@ The problems are categorized into two parts:
 ### Hash Table
 
 - Time Complexity:
-  - Access: **O(1)** on average, **O(n)** in worst case
-  - Search: **O(1)** on average, **O(n)** in worst case
-  - Insert: **O(1)** on average, **O(n)** in worst case
-  - Delete: **O(1)** on average, **O(n)** in worst case
-  - Rehash: **O(n)**, but amortized to **O(1)** average per operation
+
+  |        | Average | Worst |
+  |--------|---------|-------|
+  | Access | O(1)    | O(n)  |
+  | Search | O(1)    | O(n)  |
+  | Insert | O(1)    | O(n)  |
+  | Delete | O(1)    | O(n)  |
+  | Rehash | O(n)    | O(n)  |
+
+  *Note*: amortized to **O(1)** on average per operation
 
 - Ordering: `No`
 
