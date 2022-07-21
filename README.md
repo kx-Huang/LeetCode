@@ -28,9 +28,9 @@ The problems are categorized into two parts:
 
   *Note*: amortized to **O(1)** on average per operation
 
-- Ordering: `No`
+- Ordering: **No**
 
-- Template in `C++`: [`std::unordered_map<>`](https://en.cppreference.com/w/cpp/container/unordered_map)
+- Template in C++: [**`std::unordered_map<>`**](https://en.cppreference.com/w/cpp/container/unordered_map)
 
 |     | Title                   | Difficulty | Time | Space |
 |-----|-------------------------|------------|------|-------|
