@@ -2,4 +2,8 @@
 Language: Cpp
 BasedOnStyle: Google
 IndentWidth: 4
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
 ...
