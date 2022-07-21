@@ -31,14 +31,16 @@ The problems are categorized into two parts:
 
 - Ordering: No
 
-- Template in C++: [**`std::unordered_map<>`**](https://en.cppreference.com/w/cpp/container/unordered_map)
+- Template in C++:
+  - [**`std::unordered_map`**](https://en.cppreference.com/w/cpp/container/unordered_map)
+  - [**`std::unordered_set`**](https://en.cppreference.com/w/cpp/container/unordered_set)
 
 - Problems:
 
-  |     | Title                | Difficulty | Time | Space |
-  |-----|----------------------|------------|------|-------|
-  | 1   | Two sum              | Easy       | O(n) | O(n)  |
-  |     |                      |            |      |       |
+  |     | Title                        | Difficulty | Time | Space |
+  |-----|------------------------------|------------|------|-------|
+  | 1   | Two sum                      | Easy       | O(n) | O(n)  |
+  | 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
 
 ## 2. Methodology
 
