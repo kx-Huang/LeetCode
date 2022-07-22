@@ -10,10 +10,11 @@ The problems are categorized into two parts:
   - [Hash Table](#11-hash-table)
 
 2. Methodology:
-  - [Binary Search](#21-binary-search)
-  - [Dynamic Programming](#22-dynamic-programming)
-  - [Prefix Sum](#23-prefix-sum)
-  - [Two Pointers](#24-two-pointers)
+  - [Backtracking](#21-backtracking)
+  - [Binary Search](#22-binary-search)
+  - [Dynamic Programming](#23-dynamic-programming)
+  - [Prefix Sum](#24-prefix-sum)
+  - [Two Pointers](#25-two-pointers)
 
 ## 1. Data Structure
 
@@ -45,7 +46,13 @@ The problems are categorized into two parts:
 
 ## 2. Methodology
 
-### 2.1 Binary Search
+### 2.1 Backtracking
+
+|     | Title        | Difficulty | Time    | Space |
+|-----|--------------|------------|---------|-------|
+| 46  | Permutations | Medium     | O(n*n!) | O(n!) |
+
+### 2.2 Binary Search
 
 - Time Complexity:
 
@@ -65,20 +72,20 @@ The problems are categorized into two parts:
 | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
 | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
 
-### 2.2 Dynamic Programming
+### 2.3 Dynamic Programming
 
 |      | Title                     | Difficulty | Time    | Space |
 |------|---------------------------|------------|---------|-------|
 |      |                           |            |         |       |
 
-### 2.3 Prefix Sum
+### 2.4 Prefix Sum
 
 |     | Title                              | Difficulty | Time | Space |
 |-----|------------------------------------|------------|------|-------|
 | 238 | Product of Array Except Self       | Medium     | O(n) | O(n)  |
 |     |                                    |            |      |       |
 
-### 2.4 Two Pointers
+### 2.5 Two Pointers
 
 |     | Title                              | Difficulty | Time   | Space |
 |-----|------------------------------------|------------|--------|-------|
