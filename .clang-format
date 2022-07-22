@@ -2,6 +2,7 @@
 Language: Cpp
 BasedOnStyle: Google
 IndentWidth: 4
+AccessModifierOffset: -4
 AllowShortBlocksOnASingleLine: true
 AllowShortFunctionsOnASingleLine: true
 AllowShortIfStatementsOnASingleLine: true
