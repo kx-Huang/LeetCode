@@ -11,7 +11,8 @@ The problems are categorized into two parts:
 
 2. Methodology:
   - [Binary Search](#21-binary-search)
-  - [Two Pointers](#22-two-pointers)
+  - [Prefix Sum](#22-prefix-sum)
+  - [Two Pointers](#23-two-pointers)
 
 ## 1. Data Structure
 
@@ -67,7 +68,16 @@ The problems are categorized into two parts:
   | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
   |     |                        |            |         |       |
 
-### 2.2 Two Pointers
+### 2.2 Prefix Sum
+
+- Problems:
+
+  |     | Title                              | Difficulty | Time | Space |
+  |-----|------------------------------------|------------|------|-------|
+  | 238 | Product of Array Except Self       | Medium     | O(n) | O(1)  |
+  |     |                                    |            |      |       |
+
+### 2.3 Two Pointers
 
 - Problems:
 
