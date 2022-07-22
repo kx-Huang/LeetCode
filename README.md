@@ -37,13 +37,11 @@ The problems are categorized into two parts:
   - [**`std::unordered_map`**](https://en.cppreference.com/w/cpp/container/unordered_map)
   - [**`std::unordered_set`**](https://en.cppreference.com/w/cpp/container/unordered_set)
 
-- Problems:
-
-  |     | Title                        | Difficulty | Time | Space |
-  |-----|------------------------------|------------|------|-------|
-  | 1   | Two sum                      | Easy       | O(n) | O(n)  |
-  | 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
-  | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
+|     | Title                        | Difficulty | Time | Space |
+|-----|------------------------------|------------|------|-------|
+| 1   | Two sum                      | Easy       | O(n) | O(n)  |
+| 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
+| 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
 
 ## 2. Methodology
 
@@ -62,39 +60,31 @@ The problems are categorized into two parts:
   | Iterative | O(1) | O(1)    | O(1)     |
   | Recursive | O(1) | O(logn) | O(logn)  |
 
-- Problems:
-
-  |     | Title                  | Difficulty | Time    | Space |
-  |-----|------------------------|------------|---------|-------|
-  | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
-  | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
+|     | Title                  | Difficulty | Time    | Space |
+|-----|------------------------|------------|---------|-------|
+| 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
+| 704 | Binary Search          | Easy       | O(logn) | O(1)  |
 
 ### 2.2 Dynamic Programming
 
-- Problems:
-
-  |      | Title                     | Difficulty | Time    | Space |
-  |------|---------------------------|------------|---------|-------|
-  |      |                           |            |         |       |
+|      | Title                     | Difficulty | Time    | Space |
+|------|---------------------------|------------|---------|-------|
+|      |                           |            |         |       |
 
 ### 2.3 Prefix Sum
 
-- Problems:
-
-  |     | Title                              | Difficulty | Time | Space |
-  |-----|------------------------------------|------------|------|-------|
-  | 238 | Product of Array Except Self       | Medium     | O(n) | O(n)  |
-  |     |                                    |            |      |       |
+|     | Title                              | Difficulty | Time | Space |
+|-----|------------------------------------|------------|------|-------|
+| 238 | Product of Array Except Self       | Medium     | O(n) | O(n)  |
+|     |                                    |            |      |       |
 
 ### 2.4 Two Pointers
 
-- Problems:
-
-  |     | Title                              | Difficulty | Time   | Space |
-  |-----|------------------------------------|------------|--------|-------|
-  | 167 | Two Sum II - Input Array Is Sorted | Medium     | O(n)   | O(1)  |
-  | 475 | Heaters                            | Medium     | O(n+m) | O(1)  |
-  | 977 | Squares of a Sorted Array          | Easy       | O(n)   | O(n)  |
+|     | Title                              | Difficulty | Time   | Space |
+|-----|------------------------------------|------------|--------|-------|
+| 167 | Two Sum II - Input Array Is Sorted | Medium     | O(n)   | O(1)  |
+| 475 | Heaters                            | Medium     | O(n+m) | O(1)  |
+| 977 | Squares of a Sorted Array          | Easy       | O(n)   | O(n)  |
 
 ## Environment Setup
 
