@@ -44,6 +44,7 @@ The problems are categorized into two parts:
 | 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
 | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
 | 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
+| 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
 
 ## 2. Methodology
 
@@ -84,7 +85,7 @@ The problems are categorized into two parts:
 |     | Title                              | Difficulty | Time | Space |
 |-----|------------------------------------|------------|------|-------|
 | 238 | Product of Array Except Self       | Medium     | O(n) | O(n)  |
-|     |                                    |            |      |       |
+| 560 | Subarray Sum Equals K              | Medium     | O(n) | O(n)  |
 
 ### 2.5 Two Pointers
 
