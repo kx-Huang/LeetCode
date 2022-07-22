@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-   public:
+public:
     vector<int> twoSum(vector<int>& numbers, int target) {
         // two pointers method
         int left = 0;
