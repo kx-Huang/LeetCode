@@ -84,7 +84,7 @@ The problems are categorized into two parts:
   |     | Title                              | Difficulty | Time | Space |
   |-----|------------------------------------|------------|------|-------|
   | 167 | Two Sum II - Input Array Is Sorted | Medium     | O(n) | O(1)  |
-  |     |                                    |            |      |       |
+  | 475 | Heaters                            | Medium     | O(n) | O(1)  |
 
 ## Environment Setup
 
