@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-   public:
+public:
     bool containsDuplicate(vector<int>& nums) {
         // Solution 1: check if any insertion to set fails
         unordered_set<int> s;
