@@ -3,4 +3,4 @@
 - Sample input: `ABC`
 - Sample output: `ABC ACB BAC BCA CBA CAB`
 
-![Backtracking Process](46.png)
+![Backtracking Process](img/46.png)
