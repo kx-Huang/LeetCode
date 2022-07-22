@@ -66,7 +66,7 @@ The problems are categorized into two parts:
   |     | Title                  | Difficulty | Time    | Space |
   |-----|------------------------|------------|---------|-------|
   | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
-  |     |                        |            |         |       |
+  | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
 
 ### 2.2 Prefix Sum
 
