@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-   public:
+public:
     int longestConsecutive(vector<int>& nums) {
         // construct set with iterator of vector
         unordered_set<int> s(nums.begin(), nums.end());
