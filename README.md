@@ -43,6 +43,7 @@ The problems are categorized into two parts:
 | 1   | Two sum                      | Easy       | O(n) | O(n)  |
 | 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
 | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
+| 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
 
 ## 2. Methodology
 
