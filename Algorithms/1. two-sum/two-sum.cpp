@@ -2,15 +2,19 @@
  * @lc app=leetcode id=1 lang=cpp
  *
  * [1] Two Sum
+ *
+ * Methods:
+ * Data Structure: Hash Table
+ *
  */
 
 // @lc code=start
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        // hash table
         unordered_map<int, int> hashtable{make_pair(nums[0], 0)};
 
+        // find complement for each element: O(n)
         for (int i = 1; i < nums.size(); i++) {
             // get iterator of complement
             auto it = hashtable.find(target - nums[i]);
