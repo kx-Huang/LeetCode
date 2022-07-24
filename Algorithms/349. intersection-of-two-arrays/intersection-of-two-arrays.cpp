@@ -2,6 +2,10 @@
  * @lc app=leetcode id=349 lang=cpp
  *
  * [349] Intersection of Two Arrays
+ *
+ * Methods:
+ * Data Structure: Hash Table
+ *
  */
 
 // @lc code=start
@@ -14,7 +18,7 @@ public:
         // if an element found in set:
         //  1. delete element to prevent double count
         //  2. add to answer vector
-        for (int e : nums2)
+        for (int e : nums2)  // O(n)
             if (s.erase(e)) ans.push_back(e);
 
         return ans;
