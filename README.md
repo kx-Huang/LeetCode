@@ -44,12 +44,12 @@ The problems are categorized into two parts:
 - Time Complexity:
 
   |        | Best | Average | Worst | Remarks                                     |
-  |--------|------|---------|-------|---------------------------------------------|
-  | Access | O(1) |  O(1)   | O(n)  |                                             |
-  | Search | O(1) |  O(1)   | O(n)  |                                             |
-  | Insert | O(1) |  O(1)   | O(n)  |                                             |
-  | Delete | O(1) |  O(1)   | O(n)  |                                             |
-  | Rehash | O(n) |  O(n)   | O(n)  | Amortized to O(1) on average per operation  |
+  |--------|------|:-------:|-------|---------------------------------------------|
+  | Access | O(1) | O(1)    | O(n)  |                                             |
+  | Search | O(1) | O(1)    | O(n)  |                                             |
+  | Insert | O(1) | O(1)    | O(n)  |                                             |
+  | Delete | O(1) | O(1)    | O(n)  |                                             |
+  | Rehash | O(n) | O(n)    | O(n)  | Amortized to O(1) on average per operation  |
 
   *Note*: amortized to O(1) on average per operation
 
