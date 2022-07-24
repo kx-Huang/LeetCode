@@ -45,7 +45,7 @@ The problems are categorized into two parts:
 - Time Complexity:
 
   |        | Best | Average | Worst | Remarks                                                     |
-  |--------|:----:|:-------:|:-----:|-------------------------------------------------------------|
+  |--------|------|---------|-------|-------------------------------------------------------------|
   | Access | O(1) | O(1)    | O(n)  |                                                             |
   | Search | O(1) | O(1)    | O(n)  |                                                             |
   | Insert | O(1) | O(1)    | O(n)  | Rehashing cost is amortized to O(1) over individual inserts |
