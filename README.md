@@ -50,6 +50,7 @@ The problems are categorized into two parts:
 ## 1.2 Heap
 
 |     | Title                     | Difficulty | Time     | Space |
+|-----|---------------------------|------------|----------|-------|
 | 313 | Super Ugly Number         | Medium     | O(nlogk) | O(n)  |
 
 
