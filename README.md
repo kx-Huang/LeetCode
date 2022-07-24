@@ -8,6 +8,7 @@ The problems are categorized into two parts:
 
 1. Data Structure:
   - [Hash Table](#11-hash-table)
+  - [Heap](#12-heap)
 
 2. Methodology:
   - [Backtracking](#21-backtracking)
