@@ -32,8 +32,7 @@ The problems are categorized into two parts:
 
 - Ordering: Yes
 
-- Template in C++:
-  - [`std::priority_queue`](https://en.cppreference.com/w/cpp/container/priority_queue)
+- Template in C++: [`std::priority_queue`](https://en.cppreference.com/w/cpp/container/priority_queue)
 
 |     | Title                     | Difficulty | Time     | Space |
 |-----|---------------------------|------------|----------|-------|
