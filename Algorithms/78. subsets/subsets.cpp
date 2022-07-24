@@ -14,25 +14,24 @@ public:
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
         vector<int> subset;
-        backtrack(ans, subset, nums, 0);
+        getSubsets(ans, subset, nums, 0);  // O(n*2!)
         return ans;
     }
 
 private:
-    void backtrack(vector<vector<int>>& ans, vector<int>& subset,
-                   vector<int>& nums, int pos) {
-        // To leaf of binary tree, add subset to answer and return
-        if (pos == nums.size()) {
-            ans.push_back(subset);  // O(n) per recursion
-            return;
+    void getSubsets(vector<vector<int>>& ans, vector<int>& subset,
+                    vector<int>& nums, int pos) {
+        ans.push_back(subset);  // O(n)
+        if (pos == nums.size()) return;
+
+        // Recursion get subset: O(2^n)
+        // T(1) = 2
+        // T(n) = 2T(n-1)
+        for (int i = pos; i < nums.size(); i++) {
+            subset.push_back(nums[i]);
+            getSubsets(ans, subset, nums, i + 1);
+            subset.pop_back();
         }
-        // Recursion: O(2^n)
-        // add left node: with nums[pos]
-        subset.push_back(nums[pos]);
-        backtrack(ans, subset, nums, pos + 1);
-        // add right node: without nums[pos]
-        subset.pop_back();
-        backtrack(ans, subset, nums, pos + 1);
     }
 };
 // @lc code=end
