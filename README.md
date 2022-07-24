@@ -34,9 +34,11 @@ The problems are categorized into two parts:
 
 - Template in C++: [`std::priority_queue`](https://en.cppreference.com/w/cpp/container/priority_queue)
 
-|     | Title                     | Difficulty | Time     | Space |
-|-----|---------------------------|------------|----------|-------|
-| 313 | Super Ugly Number         | Medium     | O(nlogk) | O(n)  |
+- LeetCode Problems:
+
+  |     | Title                     | Difficulty | Time     | Space |
+  |-----|---------------------------|------------|----------|-------|
+  | 313 | Super Ugly Number         | Medium     | O(nlogk) | O(n)  |
 
 ### 1.2 Hash Table
 
@@ -56,13 +58,15 @@ The problems are categorized into two parts:
   - [`std::unordered_map`](https://en.cppreference.com/w/cpp/container/unordered_map)
   - [`std::unordered_set`](https://en.cppreference.com/w/cpp/container/unordered_set)
 
-|     | Title                        | Difficulty | Time | Space |
-|-----|------------------------------|------------|------|-------|
-| 1   | Two sum                      | Easy       | O(n) | O(n)  |
-| 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
-| 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
-| 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
-| 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
+- LeetCode Problems:
+
+  |     | Title                        | Difficulty | Time | Space |
+  |-----|------------------------------|------------|------|-------|
+  | 1   | Two sum                      | Easy       | O(n) | O(n)  |
+  | 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
+  | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
+  | 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
+  | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
 
 ## 2. Methodology
 
@@ -87,10 +91,12 @@ The problems are categorized into two parts:
   | Iterative | O(1) | O(1)    | O(1)     |
   | Recursive | O(1) | O(logn) | O(logn)  |
 
-|     | Title                  | Difficulty | Time    | Space |
-|-----|------------------------|------------|---------|-------|
-| 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
-| 704 | Binary Search          | Easy       | O(logn) | O(1)  |
+- LeetCode Problems:
+
+  |     | Title                  | Difficulty | Time    | Space |
+  |-----|------------------------|------------|---------|-------|
+  | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
+  | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
 
 ### 2.3 Dynamic Programming
 
