@@ -2,6 +2,10 @@
  * @lc app=leetcode id=704 lang=cpp
  *
  * [704] Binary Search
+ *
+ * Methods: Binary Search
+ * Data Structure: Array
+ *
  */
 
 // @lc code=start
@@ -11,7 +15,7 @@ public:
         int left = 0;
         int right = nums.size() - 1;
 
-        // binary search
+        // Binary search: O(logn)
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (nums[mid] == target)
