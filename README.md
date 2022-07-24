@@ -25,9 +25,9 @@ The problems are categorized into two parts:
 
   |        | Best     | Average  | Worst    | Remarks                                                                                                                                                                                        |
   |--------|----------|----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | Create | O(n)     | O(n)     | O(n)     | Put all the items into a complete binary tree. Starting at the rightmost array position that has a child, **percolate down** all nodes in reverse level-order.                                 |
-  | Push   | O(1)     | O(logn)  | O(logn)  | Insert new item as the rightmost leaf of the tree. **Percolate up** newItem to an appropriate spot in the heap to restore the heap property.                                                   |
-  | Pop    | O(1)     | O(logn)  | O(logn)  | Save the root to be returned. Move the item in the rightmost leaf of the tree to the root. **Percolate down** the recently moved item at the root to its proper place to restore heap property.|
+  | Create | O(n)     | O(n)     | O(n)     | Put all the items into a complete binary tree. Starting at the rightmost array position that has a child, *percolate down* all nodes in reverse level-order.                                 |
+  | Push   | O(1)     | O(logn)  | O(logn)  | Insert new item as the rightmost leaf of the tree. *Percolate up* newItem to an appropriate spot in the heap to restore the heap property.                                                   |
+  | Pop    | O(1)     | O(logn)  | O(logn)  | Save the root to be returned. Move the item in the rightmost leaf of the tree to the root. *Percolate down* the recently moved item at the root to its proper place to restore heap property.|
   | Sort   | O(nlogn) | O(nlogn) | O(nlogn) | Initialize a min heap with all the elements to be sorted. Repeatedly call *pop* to extract elements out of the heap.                                                                           |
 
 - Ordering: Yes
