@@ -51,8 +51,6 @@ The problems are categorized into two parts:
   | Delete | O(1) | O(1)    | O(n)  |                                                             |
   | Rehash | O(n) | O(n)    | O(n)  |                                                             |
 
-  *Note*: amortized to O(1) on average per operation
-
 - Ordering: No
 
 - Template in C++:
