@@ -7,4 +7,5 @@ AllowShortBlocksOnASingleLine: true
 AllowShortFunctionsOnASingleLine: true
 AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
+SpacesInContainerLiterals: false
 ...
