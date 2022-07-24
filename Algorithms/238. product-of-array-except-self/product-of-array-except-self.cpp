@@ -2,6 +2,10 @@
  * @lc app=leetcode id=238 lang=cpp
  *
  * [238] Product of Array Except Self
+ *
+ * Methods: Prefix Sum
+ * Data Structure: Array
+ *
  */
 
 // @lc code=start
@@ -13,7 +17,7 @@ public:
         int productFromRight = 1;
         vector<int> ans(n, 1);
 
-        // keep left and right cumulative product
+        // keep left and right cumulative product: O(n)
         for (int i = 0; i < n; i++) {
             ans[i] *= productFromLeft;
             productFromLeft *= nums[i];
