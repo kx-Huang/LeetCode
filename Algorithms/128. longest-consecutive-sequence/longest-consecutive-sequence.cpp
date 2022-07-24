@@ -2,6 +2,10 @@
  * @lc app=leetcode id=128 lang=cpp
  *
  * [128] Longest Consecutive Sequence
+ *
+ * Methods:
+ * Data Structure: Hash Table
+ *
  */
 
 // @lc code=start
@@ -13,7 +17,7 @@ public:
         int maxLength = 0;
         int currentCount = 1;
 
-        // count consecutives only if a number is the start of a sequence
+        // count consecutives only if a number is the start of a sequence: O(n)
         for (int i = 0; i < nums.size(); i++) {
             int currentNum = nums[i];
             if (s.find(currentNum - 1) != s.end()) continue;
