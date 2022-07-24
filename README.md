@@ -43,13 +43,13 @@ The problems are categorized into two parts:
 
 - Time Complexity:
 
-  |        | Best | Average | Worst | Remarks                                     |
-  |--------|------|:-------:|-------|---------------------------------------------|
-  | Access | O(1) | O(1)    | O(n)  |                                             |
-  | Search | O(1) | O(1)    | O(n)  |                                             |
-  | Insert | O(1) | O(1)    | O(n)  |                                             |
-  | Delete | O(1) | O(1)    | O(n)  |                                             |
-  | Rehash | O(n) | O(n)    | O(n)  | Amortized to O(1) on average per operation  |
+  |        | Best | Average | Worst | Remarks                                                     |
+  |--------|:----:|:-------:|:-----:|-------------------------------------------------------------|
+  | Access | O(1) | O(1)    | O(n)  |                                                             |
+  | Search | O(1) | O(1)    | O(n)  |                                                             |
+  | Insert | O(1) | O(1)    | O(n)  | Rehashing cost is amortized to O(1) over individual inserts |
+  | Delete | O(1) | O(1)    | O(n)  |                                                             |
+  | Rehash | O(n) | O(n)    | O(n)  |                                                             |
 
   *Note*: amortized to O(1) on average per operation
 
