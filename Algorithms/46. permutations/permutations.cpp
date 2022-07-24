@@ -13,20 +13,22 @@ class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
-        backtrack(ans, nums, 0);  // O(n*n!)
+        getPermutations(ans, nums, 0);  // O(n*n!)
         return ans;
     }
 
 private:
-    void backtrack(vector<vector<int>>& ans, vector<int>& nums, int pos) {
+    void getPermutations(vector<vector<int>>& ans, vector<int>& nums, int pos) {
         if (pos == nums.size() - 1) {
-            ans.push_back(nums);
+            ans.push_back(nums);  // O(n)
             return;
         }
-        // recursion: O(n*n!)
+        // Recursion get permutation: O(n!)
+        // T(1) = 1
+        // T(n) = n * T(n-1)
         for (int i = pos; i < nums.size(); i++) {
             swap(nums[pos], nums[i]);
-            backtrack(ans, nums, pos + 1);  // O(n!)
+            getPermutations(ans, nums, pos + 1);
             swap(nums[pos], nums[i]);
         }
     }
