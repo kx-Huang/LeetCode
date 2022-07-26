@@ -116,7 +116,8 @@ The problems are categorized into two parts:
 
 |     | Title                              | Difficulty | Time   | Space  |
 | --- | ---------------------------------- | ---------- | ------ | ------ |
-| 15  | Three Sum                          | Medium     | O(n^2) | O(n^2) |
+| 15  | 3Sum                               | Medium     | O(n^2) | O(n^2) |
+| 16  | 3Sum Closest                       | Medium     | O(n^2) | O(n^2) |
 | 167 | Two Sum II - Input Array Is Sorted | Medium     | O(n)   | O(1)   |
 | 475 | Heaters                            | Medium     | O(n+m) | O(1)   |
 | 977 | Squares of a Sorted Array          | Easy       | O(n)   | O(n)   |
