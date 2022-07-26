@@ -1,6 +1,6 @@
 # Resources
 
-## Big-O cheat sheet^[[`https://www.bigocheatsheet.com`](https://www.bigocheatsheet.com)]
+## [Big-O cheat sheet](https://www.bigocheatsheet.com)
 
 ![Big-O Complexity Chart](img/big-o/chart.png)
 
