@@ -1,5 +1,8 @@
 # Resources
 
+- [Resources](#resources)
+  - [Big-O cheat sheet](#big-o-cheat-sheet)
+
 ## [Big-O cheat sheet](https://www.bigocheatsheet.com)
 
 ![Big-O Complexity Chart](img/big-o/chart.png)
