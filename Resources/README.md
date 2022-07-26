@@ -1,11 +1,11 @@
 # Resources <!-- omit in toc -->
 
-- [Big-O Cheat Sheet](#big-o-cheat-sheet)
+- [1. Big-O Cheat Sheet (https://www.bigocheatsheet.com)](#1-big-o-cheat-sheet-httpswwwbigocheatsheetcom)
   - [Big-O Chart](#big-o-chart)
   - [Data Structure](#data-structure)
   - [Sorting Algorithm](#sorting-algorithm)
 
-## [Big-O Cheat Sheet](https://www.bigocheatsheet.com)
+## 1. Big-O Cheat Sheet (https://www.bigocheatsheet.com)
 
 ### Big-O Chart
 
@@ -18,3 +18,6 @@
 ### Sorting Algorithm
 
 ![Complexity Table of Sorting Algorithms](img/big-o/sorting.png)
+
+## Reference <!-- omit in toc -->
+1. Big-O Cheat Sheet. [https://www.bigocheatsheet.com](https://www.bigocheatsheet.com)
