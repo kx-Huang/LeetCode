@@ -76,10 +76,11 @@ Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777
 
 ### 2.1 Backtracking
 
-|     | Title        | Difficulty | Time     | Space    |
-| --- | ------------ | ---------- | -------- | -------- |
-| 46  | Permutations | Medium     | O(n*n!)  | O(n*n!)  |
-| 78  | Subsets      | Medium     | O(n*2^n) | O(n*2^n) |
+|     | Title           | Difficulty | Time     | Space    |
+| --- | --------------- | ---------- | -------- | -------- |
+| 46  | Permutations    | Medium     | O(n*n!)  | O(n*n!)  |
+| 47  | Permutations II | Medium     | O(n*n!)  | O(n*n!)  |
+| 78  | Subsets         | Medium     | O(n*2^n) | O(n*2^n) |
 
 ### 2.2 Binary Search
 
