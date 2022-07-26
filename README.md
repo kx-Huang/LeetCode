@@ -11,7 +11,7 @@ Personal solutions and notes for LeetCode problems in `C++`
   - [0.3 Keyboard Shortcut for Code Submission](#03-keyboard-shortcut-for-code-submission)
   - [0.4 Helpful VSCode Extensions](#04-helpful-vscode-extensions)
 - [1. Data Structure](#1-data-structure)
-- [1.1 Binary Heap](#11-binary-heap)
+  - [1.1 Binary Heap](#11-binary-heap)
   - [1.2 Hash Table](#12-hash-table)
   - [1.3 Linked List](#13-linked-list)
 - [2. Methodology](#2-methodology)
@@ -23,10 +23,8 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ## Acknowledgement
 
-Great thanks to:
-
-- [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** @University of Michigan-Ann Arbor that provides the initial category of LeetCode problems for me to start with.
-- All contributors of online resouces.
+- Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** @University of Michigan-Ann Arbor that provides the initial category of LeetCode problems for me to start with.
+- Great thanks to all contributors of related resouces.
 
 ## 0. Environment Setup
 
@@ -88,7 +86,7 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 
 ## 1. Data Structure
 
-## 1.1 Binary Heap
+### 1.1 Binary Heap
 
 - Time Complexity
 
