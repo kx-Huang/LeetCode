@@ -17,6 +17,10 @@ The problems are categorized into two parts:
   - [Prefix Sum](#24-prefix-sum)
   - [Two Pointers](#25-two-pointers)
 
+## 0. Acknowledgement
+
+Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization *Sparks US** @[University of Michigan-Ann Arbor](https://umich.edu) that provides the initial category of LeetCode problems for me to start with.
+
 ## 1. Data Structure
 
 ## 1.1 Binary Heap
