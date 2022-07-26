@@ -17,36 +17,38 @@ public:
         // sort: O(nlogn)
         sort(nums.begin(), nums.end());
 
-        // for each number < 0, search for its complementary pairs
+        // for each number < 0, search for its complementary pairs: O(n^2)
         for (int i = 0; i < nums.size() - 1; i++) {
-            // prevent first number duplicate
+            int first = nums[i];
+            // skip same first number
             if (i > 0 && nums[i] == nums[i - 1]) continue;
 
-            int target = -nums[i];
+            int target = -first;
             int left = i + 1;
             int right = nums.size() - 1;
 
             // prevent duplicates: only search with non-positive first number
             if (target < 0) break;
 
-            // two pointers
+            // two pointers: O(n)
             while (left < right) {
-                int sum = nums[left] + nums[right];
-                if (sum < target) {
-                    left++;
-                } else if (sum > target) {
-                    right--;
-                } else {
+                int second = nums[left];
+                int third = nums[right];
+                int sum = second + third;
+                if (sum == target) {
                     // found one triplet
-                    vector<int> triplet(3, 0);
-                    triplet[0] = nums[i];
-                    triplet[1] = nums[left];
-                    triplet[2] = nums[right];
-                    ans.push_back(triplet);
-                    // prevent second number duplicate
-                    while (left < right && nums[left] == triplet[1]) left++;
-                    // prevent third number duplicate
-                    while (left < right && nums[left] == triplet[2]) right--;
+                    ans.push_back({first, second, third});
+                    // move to next slot
+                    left++;
+                    right--;
+                    // skip same second number
+                    while (left < right && nums[left] == second) left++;
+                    // skip same third number
+                    while (left < right && nums[left] == third) right--;
+                } else if (sum < target) {
+                    left++;
+                } else {
+                    right--;
                 }
             }
         }
