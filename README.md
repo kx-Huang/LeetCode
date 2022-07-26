@@ -19,7 +19,7 @@ The problems are categorized into two parts:
 
 ## 0. Acknowledgement
 
-Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization *Sparks US** @[University of Michigan-Ann Arbor](https://umich.edu) that provides the initial category of LeetCode problems for me to start with.
+Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** @University of Michigan-Ann Arbor that provides the initial category of LeetCode problems for me to start with.
 
 ## 1. Data Structure
 
