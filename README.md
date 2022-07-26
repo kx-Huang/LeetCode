@@ -19,7 +19,8 @@ The problems are categorized into two parts:
 
 ## 0. Acknowledgement
 
-Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** @University of Michigan-Ann Arbor that provides the initial category of LeetCode problems for me to start with.
+- Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** @University of Michigan-Ann Arbor that provides the initial category of LeetCode problems for me to start with
+- Great thanks to all contributors of online resouces
 
 ## 1. Data Structure
 
@@ -71,6 +72,25 @@ Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777
   | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
   | 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
   | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
+
+### 1.3 Linked List
+
+- Time Complexity:
+
+  |        | Best | Average | Worst |
+  | ------ | ---- | ------- | ----- |
+  | Access | O(1) | O(n)    | O(n)  |
+  | Search | O(1) | O(n)    | O(n)  |
+  | Insert | O(1) | O(1)    | O(1)  |
+  | Delete | O(1) | O(1)    | O(1)  |
+
+- Related Methodology: **Slow-Fast Pointer**
+
+- LeetCode Problems:
+
+  |     | Title                  | Difficulty | Time | Space |
+  | --- | ---------------------- | ---------- | ---- | ----- |
+  | 234 | Palindrome Linked List | Easy       | O(n) | O(1)  |
 
 ## 2. Methodology
 
