@@ -1,6 +1,6 @@
 # LeetCode [![wakatime](https://wakatime.com/badge/user/7d2c2fc8-bd1d-4e1e-bb2b-b49c6120ed53/project/888b92b9-c84f-4617-b31c-3668de8ecca4.svg)](https://wakatime.com/badge/user/7d2c2fc8-bd1d-4e1e-bb2b-b49c6120ed53/project/888b92b9-c84f-4617-b31c-3668de8ecca4) <!-- omit in toc -->
 
-Personal solutions and notes for LeetCode problems in `C++`.
+Personal solutions and notes for LeetCode problems in `C++`
 
 ## Table of Content: <!-- omit in toc -->
 
@@ -23,8 +23,10 @@ Personal solutions and notes for LeetCode problems in `C++`.
 
 ## Acknowledgement
 
-- Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** @University of Michigan-Ann Arbor that provides the initial category of LeetCode problems for me to start with
-- Great thanks to all contributors of online resouces
+Great thanks to:
+
+- [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** @University of Michigan-Ann Arbor that provides the initial category of LeetCode problems for me to start with.
+- All contributors of online resouces.
 
 ## 0. Environment Setup
 
