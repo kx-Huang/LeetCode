@@ -109,6 +109,7 @@ Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777
 |     | Title             | Difficulty | Time     | Space |
 | --- | ----------------- | ---------- | -------- | ----- |
 | 313 | Super Ugly Number | Medium     | O(nlogk) | O(n)  |
+| 322 | Coin Change       | Medium     | O(n*m)   | O(m)  |
 
 ### 2.4 Prefix Sum
 
