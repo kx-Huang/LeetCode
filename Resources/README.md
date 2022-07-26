@@ -1,11 +1,11 @@
 # Resources <!-- omit in toc -->
 
-- [1. Big-O Cheat Sheet (https://www.bigocheatsheet.com)](#1-big-o-cheat-sheet-httpswwwbigocheatsheetcom)
+- [1. Big-O Cheat Sheet](#1-big-o-cheat-sheet)
   - [Big-O Chart](#big-o-chart)
   - [Data Structure](#data-structure)
   - [Sorting Algorithm](#sorting-algorithm)
 
-## 1. Big-O Cheat Sheet (https://www.bigocheatsheet.com)
+## 1. Big-O Cheat Sheet
 
 ### Big-O Chart
 
