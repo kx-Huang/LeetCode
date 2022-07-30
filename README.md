@@ -145,11 +145,12 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 
 - LeetCode Problems:
 
-  |     | Title                  | Difficulty | Time | Space |
-  | --- | ---------------------- | ---------- | ---- | ----- |
-  | 24  | Swap Nodes in Pairs    | Medium     | O(n) | O(1)  |
-  | 86  | Partition List         | Medium     | O(n) | O(1)  |
-  | 234 | Palindrome Linked List | Easy       | O(n) | O(1)  |
+  |     | Title                            | Difficulty | Time   | Space |
+  | --- | -------------------------------- | ---------- | ------ | ----- |
+  | 24  | Swap Nodes in Pairs              | Medium     | O(n)   | O(1)  |
+  | 86  | Partition List                   | Medium     | O(n)   | O(1)  |
+  | 160 | Intersection of Two Linked Lists | Easy       | O(m+n) | O(1)  |
+  | 234 | Palindrome Linked List           | Easy       | O(n)   | O(1)  |
 
 ## 2. Methodology
 
@@ -188,7 +189,7 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 |     | Title             | Difficulty | Time     | Space |
 | --- | ----------------- | ---------- | -------- | ----- |
 | 313 | Super Ugly Number | Medium     | O(nlogk) | O(n)  |
-| 322 | Coin Change       | Medium     | O(n*m)   | O(m)  |
+| 322 | Coin Change       | Medium     | O(m*n)   | O(m)  |
 
 ### 2.4 Prefix Sum
 
@@ -204,5 +205,5 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 | 15  | 3Sum                               | Medium     | O(n^2) | O(n^2) |
 | 16  | 3Sum Closest                       | Medium     | O(n^2) | O(n^2) |
 | 167 | Two Sum II - Input Array Is Sorted | Medium     | O(n)   | O(1)   |
-| 475 | Heaters                            | Medium     | O(n+m) | O(1)   |
+| 475 | Heaters                            | Medium     | O(m+n) | O(1)   |
 | 977 | Squares of a Sorted Array          | Easy       | O(n)   | O(n)   |
