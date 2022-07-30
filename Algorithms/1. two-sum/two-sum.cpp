@@ -3,7 +3,7 @@
  *
  * [1] Two Sum
  *
- * Methods:
+ * Methods: Iterative Traversal
  * Data Structure: Hash Table
  *
  */
