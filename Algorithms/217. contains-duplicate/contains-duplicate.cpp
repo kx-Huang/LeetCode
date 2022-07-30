@@ -3,7 +3,7 @@
  *
  * [217] Contains Duplicate
  *
- * Methods:
+ * Methods: Iterative Traversal
  * Data Structure: Hash Table
  *
  */
