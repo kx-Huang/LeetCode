@@ -148,6 +148,7 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
   |     | Title                  | Difficulty | Time | Space |
   | --- | ---------------------- | ---------- | ---- | ----- |
   | 24  | Swap Nodes in Pairs    | Medium     | O(n) | O(1)  |
+  | 86  | Partition List         | Medium     | O(n) | O(1)  |
   | 234 | Palindrome Linked List | Easy       | O(n) | O(1)  |
 
 ## 2. Methodology
