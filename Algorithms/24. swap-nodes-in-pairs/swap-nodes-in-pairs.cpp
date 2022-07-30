@@ -24,14 +24,14 @@ public:
     ListNode* swapPairs(ListNode* head) {
         if (head == NULL || head->next == NULL) return head;
 
-        ListNode* newHead = new ListNode();
-        ListNode* prev = newHead;
+        ListNode* dummyHead = new ListNode();
+        ListNode* prev = dummyHead;
         ListNode* curr = head;
 
         while (1) {
             if (curr->next == NULL) {  // one node left, append and return
                 prev->next = curr;
-                return newHead->next;
+                return dummyHead->next;
             } else {  // have 2 nodes
                 ListNode* next = curr->next->next;
                 // append 2 nodes in reverse order
@@ -40,7 +40,7 @@ public:
                 prev->next = curr;
                 prev = prev->next;
                 prev->next = NULL;
-                if (next == NULL) return newHead->next;  // return if no pair
+                if (next == NULL) return dummyHead->next;  // return if no pair
                 curr = next;
             }
         }
