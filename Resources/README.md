@@ -1,5 +1,7 @@
 # Resources <!-- omit in toc -->
 
+## Table of Content: <!-- omit in toc -->
+
 - [1. Big-O Cheat Sheet](#1-big-o-cheat-sheet)
   - [Big-O Chart](#big-o-chart)
   - [Data Structure](#data-structure)
