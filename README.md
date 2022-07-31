@@ -148,6 +148,7 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
   |     | Title                            | Difficulty | Time   | Space |
   | --- | -------------------------------- | ---------- | ------ | ----- |
   | 24  | Swap Nodes in Pairs              | Medium     | O(n)   | O(1)  |
+  | 25  | Reverse Nodes in k-Group         | Hard       | O(n)   | O(1)  |
   | 86  | Partition List                   | Medium     | O(n)   | O(1)  |
   | 142 | Linked List Cycle II             | Medium     | O(n)   | O(1)  |
   | 160 | Intersection of Two Linked Lists | Easy       | O(m+n) | O(1)  |
