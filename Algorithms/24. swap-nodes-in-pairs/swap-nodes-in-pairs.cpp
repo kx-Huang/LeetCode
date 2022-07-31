@@ -34,13 +34,17 @@ public:
                 return dummyHead->next;
             } else {  // have 2 nodes
                 ListNode* next = curr->next->next;
+
                 // append 2 nodes in reverse order
                 prev->next = curr->next;
                 prev = prev->next;
                 prev->next = curr;
                 prev = prev->next;
                 prev->next = NULL;
-                if (next == NULL) return dummyHead->next;  // return if no pair
+
+                // return if no more pairs
+                if (next == NULL) return dummyHead->next;
+
                 curr = next;
             }
         }
