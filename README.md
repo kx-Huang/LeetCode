@@ -152,6 +152,7 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
   | 142 | Linked List Cycle II             | Medium     | O(n)   | O(1)  |
   | 160 | Intersection of Two Linked Lists | Easy       | O(m+n) | O(1)  |
   | 234 | Palindrome Linked List           | Easy       | O(n)   | O(1)  |
+  | 328 | Odd Even Linked List             | Medium     | O(n)   | O(1)  |
 
 ## 2. Methodology
 
