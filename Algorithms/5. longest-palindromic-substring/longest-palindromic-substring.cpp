@@ -3,7 +3,7 @@
  *
  * [5] Longest Palindromic Substring
  *
- * Methods: Dynamic Programming
+ * Method: Dynamic Programming
  * Data Structure: String, Array
  *
  */
