@@ -3,7 +3,7 @@
  *
  * [475] Heaters
  *
- * Methods: Two Pointers
+ * Method: Two Pointers
  * Data Structure: Array
  *
  */
