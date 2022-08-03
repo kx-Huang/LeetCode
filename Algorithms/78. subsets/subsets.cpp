@@ -3,7 +3,7 @@
  *
  * [78] Subsets
  *
- * Methods: Backtracking
+ * Method: Backtracking
  * Data Structure: Array
  *
  */
