@@ -3,7 +3,7 @@
  *
  * [763] Partition Labels
  *
- * Methods: Sliding Window
+ * Method: Sliding Window
  * Data Structure: Hash Table, String
  *
  */
