@@ -17,9 +17,10 @@ Personal solutions and notes for LeetCode problems in `C++`
 - [2. Methodology](#2-methodology)
   - [2.1 Backtracking](#21-backtracking)
   - [2.2 Binary Search](#22-binary-search)
-  - [2.3 Dynamic Programming](#23-dynamic-programming)
-  - [2.4 Prefix Sum](#24-prefix-sum)
-  - [2.5 Two Pointers](#25-two-pointers)
+  - [2.3 Divide and Conquer](#23-divide-and-conquer)
+  - [2.4 Dynamic Programming](#24-dynamic-programming)
+  - [2.5 Prefix Sum](#25-prefix-sum)
+  - [2.6 Two Pointers](#26-two-pointers)
 
 ## Acknowledgement
 
@@ -189,21 +190,27 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
   | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
   | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
 
-### 2.3 Dynamic Programming
+### 2.3 Divide and Conquer
+
+|     | Title                | Difficulty | Time      | Space   |
+| --- | -------------------- | ---------- | --------- | ------- |
+| 23  | Merge k Sorted Lists | Medium     | O(nklogk) | O(logk) |
+
+### 2.4 Dynamic Programming
 
 |     | Title             | Difficulty | Time     | Space |
 | --- | ----------------- | ---------- | -------- | ----- |
 | 313 | Super Ugly Number | Medium     | O(nlogk) | O(n)  |
 | 322 | Coin Change       | Medium     | O(m*n)   | O(m)  |
 
-### 2.4 Prefix Sum
+### 2.5 Prefix Sum
 
 |     | Title                        | Difficulty | Time | Space |
 | --- | ---------------------------- | ---------- | ---- | ----- |
 | 238 | Product of Array Except Self | Medium     | O(n) | O(n)  |
 | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
 
-### 2.5 Two Pointers
+### 2.6 Two Pointers
 
 |     | Title                              | Difficulty | Time   | Space  |
 | --- | ---------------------------------- | ---------- | ------ | ------ |
