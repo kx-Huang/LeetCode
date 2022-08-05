@@ -3,7 +3,7 @@
  *
  * [86] Partition List
  *
- * Methods: Traversal with Iteration
+ * Methods: Iterative Traversal
  * Data Structure: Linked List
  *
  */
