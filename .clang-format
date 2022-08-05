@@ -4,7 +4,7 @@ BasedOnStyle: Google
 IndentWidth: 4
 AccessModifierOffset: -4
 AllowShortBlocksOnASingleLine: true
-AllowShortFunctionsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 SpacesInContainerLiterals: false
