@@ -3,7 +3,7 @@
  *
  * [24] Swap Nodes in Pairs
  *
- * Methods: Traversal with Iteration
+ * Methods: Iterative Traversal
  * Data Structure: Linked List
  *
  */
