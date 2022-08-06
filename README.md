@@ -35,7 +35,7 @@ Personal solutions and notes for LeetCode problems in `C++`.
 ## 0. Acknowledgement
 
 - Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** [@University of Michigan-Ann Arbor](https://umich.edu) that provides the initial category of LeetCode problems for me to start with
-- `LeetCode VSCode Extension` is used for quick problem preview and code submission
+- `LeetCode VSCode Extension` is used for quick problem preview and code submission, please check `config.md` for detailed instructions
 - Great thanks to all resouce contributors of related resouces
 
 ## 1. Data Structure
