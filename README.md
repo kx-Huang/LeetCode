@@ -20,7 +20,8 @@ Personal solutions and notes for LeetCode problems in `C++`
   - [2.3 Divide and Conquer](#23-divide-and-conquer)
   - [2.4 Dynamic Programming](#24-dynamic-programming)
   - [2.5 Prefix Sum](#25-prefix-sum)
-  - [2.6 Two Pointers](#26-two-pointers)
+  - [2.6 Reservoir Sampling](#26-reservoir-sampling)
+  - [2.7 Two Pointers](#27-two-pointers)
 
 ## Acknowledgement
 
@@ -157,6 +158,7 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
   | 160 | Intersection of Two Linked Lists | Easy       | O(m+n)   | O(1)  |
   | 234 | Palindrome Linked List           | Easy       | O(n)     | O(1)  |
   | 328 | Odd Even Linked List             | Medium     | O(n)     | O(1)  |
+  | 382 | Linked List Random Node          | Medium     | O(n)     | O(1)  |
 
 ## 2. Methodology
 
@@ -210,7 +212,37 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 | 238 | Product of Array Except Self | Medium     | O(n) | O(n)  |
 | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
 
-### 2.6 Two Pointers
+### 2.6 Reservoir Sampling
+
+- To prove: Select $k$ entries from $n$ options $\{X_1, X_2,...,X_n\}$. For any $n\ge k$, each entry is selected with same probability $P(X_i)=\frac{k}{n}$.
+- Procedures:
+  - Choose $\{X_1, X_2,..., X_k\}$ first and put them into the reservoir
+  - For $i\in [1,n-k]$, do:
+    1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
+    2. If $X_{k+i}$ is picked, randomly replace an entry in the reservoir with same probability
+- Proof: **Mathematical Induction**
+  - Initial condition $n=k$: $\{X_1, X_2,..., X_k\}$ are all in the reservoir.
+  - Keep $k$ constant and increase $n$.
+  - When $n=k+1$:
+    - $X_{k+1}$ is picked with $P(X_{k+1})=\frac{k}{k+1}=\frac{k}{n}$
+    - For $j=1,2,...,k$, the probability of $X_j$ is not being replaced is $P(X_j) = 1-\frac{k}{n}\cdot\frac{1}{k}=\frac{n-1}{n}=\frac{k}{n}$
+  - Assume $n=k+i$ is true:
+    - For $j\in[1,k+i]$, the probability of $X_j$ is in the reservoir is $P(X_{k+i})=\frac{k}{k+i}$
+  - When $n=k+i+1$:
+    - For $j=k+i+1$, $X_j$ is picked with $P(X_j)=\frac{k}{k+i+1}=\frac{k}{n}$
+    - For $j\in[1,k+i]$, the probability of $X_j$:
+      1. in the reservoir last round: $\frac{k}{k+i}$
+      2. not being replaced: $1-\frac{k}{k+i+1}\cdot\frac{1}{k}$
+
+      So $P(X_j) = \frac{k}{k+i}\cdot\left(1-\frac{k}{k+i+1}\cdot\frac{1}{k}\right)=\frac{k}{k+i}\cdot\frac{k+i}{k+i+1}=\frac{k}{n}$
+  - Q.E.D.
+
+
+|     | Title                   | Difficulty | Time | Space |
+| --- | ----------------------- | ---------- | ---- | ----- |
+| 382 | Linked List Random Node | Medium     | O(n) | O(1)  |
+
+### 2.7 Two Pointers
 
 |     | Title                              | Difficulty | Time   | Space  |
 | --- | ---------------------------------- | ---------- | ------ | ------ |
