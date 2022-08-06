@@ -39,6 +39,9 @@ Personal solutions and notes for LeetCode problems in `C++`.
 - Great thanks to all resouce contributors of related resouces
 
 ## 1. Data Structure
+
+---
+
 ### 1.1 Graph
 
 ---
