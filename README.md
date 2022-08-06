@@ -195,11 +195,13 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 ### 2.5 Reservoir Sampling
 
 - To prove: Select $k$ entries from $n$ options $\{X_1, X_2,...,X_n\}$. For any $n\ge k$, each entry is selected with same probability $P(X_i)=\frac{k}{n}$.
+
 - Procedures:
   - Choose $\{X_1, X_2,..., X_k\}$ first and put them into the reservoir
   - For $i\in [1,n-k]$, do:
     1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
     2. If $X_{k+i}$ is picked, randomly replace an entry in the reservoir with same probability
+
 - Proof: **Mathematical Induction**
   - Initial condition $n=k$: $\{X_1, X_2,..., X_k\}$ are all in the reservoir.
   - Keep $k$ constant and increase $n$.
@@ -217,33 +219,27 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
       So $P(X_j) = \frac{k}{k+i}\cdot\left(1-\frac{k}{k+i+1}\cdot\frac{1}{k}\right)=\frac{k}{k+i}\cdot\frac{k+i}{k+i+1}=\frac{k}{n}$
   - Q.E.D.
 
+- LeetCode Problems:
 
-|     | Title                   | Difficulty | Time | Space |
-| --- | ----------------------- | ---------- | ---- | ----- |
-| 382 | Linked List Random Node | Medium     | O(n) | O(1)  |
+  |     | Title                   | Difficulty | Time | Space |
+  | --- | ----------------------- | ---------- | ---- | ----- |
+  | 382 | Linked List Random Node | Medium     | O(n) | O(1)  |
 
 ### 2.6 Search
 
-|     | Title                              | Difficulty | Time    | Space     |
-| --- | ---------------------------------- | ---------- | ------- | --------- |
-| 35  | Search Insert Position             | Easy       | O(logn) | O(1)      |
-| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)    | O(1)/O(n) |
-| 704 | Binary Search                      | Easy       | O(logn) | O(1)      |
+|     | Title                              | Difficulty | Time    | Space |
+| --- | ---------------------------------- | ---------- | ------- | ----- |
+| 35  | Search Insert Position             | Easy       | O(logn) | O(1)  |
+| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)    | O(1)  |
+| 704 | Binary Search                      | Easy       | O(logn) | O(1)  |
 
 #### 2.6.1 Binary Search
 
-- Time Complexity:
-
-  | Best | Average | Worst   |
-  | ---- | ------- | ------- |
-  | O(1) | O(logn) | O(logn) |
+- Time Complexity: O(logn)
 
 - Space Complexity:
-
-  |           | Best | Average | Worst   |
-  | --------- | ---- | ------- | ------- |
-  | Iterative | O(1) | O(1)    | O(1)    |
-  | Recursive | O(1) | O(logn) | O(logn) |
+  - Iterative: O(1)
+  - Recursive: O(logn)
 
 - LeetCode Problems:
 
@@ -254,9 +250,9 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 
 #### 2.6.2 Depth First Search
 
-|     | Title                              | Difficulty | Time | Space     |
-| --- | ---------------------------------- | ---------- | ---- | --------- |
-| 114 | Flatten Binary Tree to Linked List | Medium     | O(n) | O(1)/O(n) |
+|     | Title                              | Difficulty | Time | Space |
+| --- | ---------------------------------- | ---------- | ---- | ----- |
+| 114 | Flatten Binary Tree to Linked List | Medium     | O(n) | O(1)  |
 
 ### 2.7 Two Pointers
 
