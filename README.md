@@ -206,7 +206,7 @@ Personal solutions and notes for LeetCode problems in `C++`
 |     | Title                              | Difficulty | Time      | Space   |
 | --- | ---------------------------------- | ---------- | --------- | ------- |
 | 23  | Merge k Sorted Lists               | Medium     | O(nklogk) | O(logk) |
-| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)      | O(1)    |
+| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)      | O(n)    |
 
 ---
 
