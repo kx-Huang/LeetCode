@@ -18,13 +18,19 @@
 
 ![Big-O Complexity Chart](img/big-o/chart.png)
 
+---
+
 ### 1.2 Data Structure
 
 ![Complexity Table of Data Structures](img/big-o/data-structure.png)
 
+---
+
 ### 1.3 Sorting Algorithm
 
 ![Complexity Table of Sorting Algorithms](img/big-o/sorting.png)
+
+---
 
 ## 2. Morris Traversal
 ### 2.1 In-order Morris Traversal
@@ -46,6 +52,8 @@
 
 ![In-order Morris Traversal](img/morris-traversal/morris-inorder-traversal.jpeg)
 
+---
+
 ### 2.2 Pre-order Morris Traversal
 
 - Step 0: set `cur` to `root`
@@ -66,6 +74,8 @@
 *Remarks: The only difference between in-order and pre-order traversal is the **timing of printing***
 
 ![Pre-order Morris Traversal](img/morris-traversal/morris-preorder-traversal.jpeg)
+
+---
 
 ### 2.3 Post-order Morris Traversal
 
@@ -89,6 +99,8 @@
 *Remarks: The only different between post-order and other two traversals is the **timing and method of printing***
 
 ![Post-order Morris Traversal](img/morris-traversal/morris-postorder-traversal.jpeg)
+
+---
 
 ## 3. Proof of Reservoir Sampling
 
