@@ -1,6 +1,6 @@
 # LeetCode ![](https://img.shields.io/badge/status-updating-brightgreen) [![wakatime](https://wakatime.com/badge/user/7d2c2fc8-bd1d-4e1e-bb2b-b49c6120ed53/project/888b92b9-c84f-4617-b31c-3668de8ecca4.svg)](https://wakatime.com/badge/user/7d2c2fc8-bd1d-4e1e-bb2b-b49c6120ed53/project/888b92b9-c84f-4617-b31c-3668de8ecca4) ![](https://visitor-badge.glitch.me/badge?page_id=kx-Huang.LeetCode&left_color=gray&right_color=blue) <!-- omit in toc -->
 
-Personal solutions and notes for LeetCode problems in `C++`.
+Personal solutions and notes for LeetCode problems in `C++`
 
 ## Table of Content <!-- omit in toc -->
 
