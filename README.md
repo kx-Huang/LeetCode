@@ -155,11 +155,9 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ### 1.5 Tree
 
-|     | Title                              | Difficulty | Time     | Space |
-| --- | ---------------------------------- | ---------- | -------- | ----- |
-| 23  | Merge k Sorted Lists               | Hard       | O(nlogk) | O(k)  |
-| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)     | O(1)  |
-| 313 | Super Ugly Number                  | Medium     | O(nlogk) | O(n)  |
+|     | Title                              | Difficulty | Time | Space |
+| --- | ---------------------------------- | ---------- | ---- | ----- |
+| 114 | Flatten Binary Tree to Linked List | Medium     | O(n) | O(1)  |
 
 ---
 
@@ -205,9 +203,10 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ### 2.2 Divide and Conquer
 
-|     | Title                | Difficulty | Time      | Space   |
-| --- | -------------------- | ---------- | --------- | ------- |
-| 23  | Merge k Sorted Lists | Medium     | O(nklogk) | O(logk) |
+|     | Title                              | Difficulty | Time      | Space   |
+| --- | ---------------------------------- | ---------- | --------- | ------- |
+| 23  | Merge k Sorted Lists               | Medium     | O(nklogk) | O(logk) |
+| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)      | O(1)    |
 
 ---
 
