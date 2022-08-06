@@ -16,11 +16,13 @@ Personal solutions and notes for LeetCode problems in `C++`
   - [1.3 Linked List](#13-linked-list)
 - [2. Methodology](#2-methodology)
   - [2.1 Backtracking](#21-backtracking)
-  - [2.2 Binary Search](#22-binary-search)
-  - [2.3 Divide and Conquer](#23-divide-and-conquer)
-  - [2.4 Dynamic Programming](#24-dynamic-programming)
-  - [2.5 Prefix Sum](#25-prefix-sum)
-  - [2.6 Reservoir Sampling](#26-reservoir-sampling)
+  - [2.2 Divide and Conquer](#22-divide-and-conquer)
+  - [2.3 Dynamic Programming](#23-dynamic-programming)
+  - [2.4 Prefix Sum](#24-prefix-sum)
+  - [2.5 Reservoir Sampling](#25-reservoir-sampling)
+  - [2.6 Search](#26-search)
+    - [2.6.1 Binary Search](#261-binary-search)
+    - [2.6.2 Depth First Search](#262-depth-first-search)
   - [2.7 Two Pointers](#27-two-pointers)
 
 ## Acknowledgement
@@ -170,49 +172,27 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 | 47  | Permutations II | Medium     | O(n*n!)  | O(n*n!)  |
 | 78  | Subsets         | Medium     | O(n*2^n) | O(n*2^n) |
 
-### 2.2 Binary Search
-
-- Time Complexity:
-
-  | Best | Average | Worst   |
-  | ---- | ------- | ------- |
-  | O(1) | O(logn) | O(logn) |
-
-- Space Complexity:
-
-  |           | Best | Average | Worst   |
-  | --------- | ---- | ------- | ------- |
-  | Iterative | O(1) | O(1)    | O(1)    |
-  | Recursive | O(1) | O(logn) | O(logn) |
-
-- LeetCode Problems:
-
-  |     | Title                  | Difficulty | Time    | Space |
-  | --- | ---------------------- | ---------- | ------- | ----- |
-  | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
-  | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
-
-### 2.3 Divide and Conquer
+### 2.2 Divide and Conquer
 
 |     | Title                | Difficulty | Time      | Space   |
 | --- | -------------------- | ---------- | --------- | ------- |
 | 23  | Merge k Sorted Lists | Medium     | O(nklogk) | O(logk) |
 
-### 2.4 Dynamic Programming
+### 2.3 Dynamic Programming
 
 |     | Title             | Difficulty | Time     | Space |
 | --- | ----------------- | ---------- | -------- | ----- |
 | 313 | Super Ugly Number | Medium     | O(nlogk) | O(n)  |
 | 322 | Coin Change       | Medium     | O(m*n)   | O(m)  |
 
-### 2.5 Prefix Sum
+### 2.4 Prefix Sum
 
 |     | Title                        | Difficulty | Time | Space |
 | --- | ---------------------------- | ---------- | ---- | ----- |
 | 238 | Product of Array Except Self | Medium     | O(n) | O(n)  |
 | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
 
-### 2.6 Reservoir Sampling
+### 2.5 Reservoir Sampling
 
 - To prove: Select $k$ entries from $n$ options $\{X_1, X_2,...,X_n\}$. For any $n\ge k$, each entry is selected with same probability $P(X_i)=\frac{k}{n}$.
 - Procedures:
@@ -241,6 +221,42 @@ Bind in `Code - Preferences - Keyboard Shortcuts`, or `keybindings.json`:
 |     | Title                   | Difficulty | Time | Space |
 | --- | ----------------------- | ---------- | ---- | ----- |
 | 382 | Linked List Random Node | Medium     | O(n) | O(1)  |
+
+### 2.6 Search
+
+|     | Title                              | Difficulty | Time    | Space     |
+| --- | ---------------------------------- | ---------- | ------- | --------- |
+| 35  | Search Insert Position             | Easy       | O(logn) | O(1)      |
+| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)    | O(1)/O(n) |
+| 704 | Binary Search                      | Easy       | O(logn) | O(1)      |
+
+#### 2.6.1 Binary Search
+
+- Time Complexity:
+
+  | Best | Average | Worst   |
+  | ---- | ------- | ------- |
+  | O(1) | O(logn) | O(logn) |
+
+- Space Complexity:
+
+  |           | Best | Average | Worst   |
+  | --------- | ---- | ------- | ------- |
+  | Iterative | O(1) | O(1)    | O(1)    |
+  | Recursive | O(1) | O(logn) | O(logn) |
+
+- LeetCode Problems:
+
+  |     | Title                  | Difficulty | Time    | Space |
+  | --- | ---------------------- | ---------- | ------- | ----- |
+  | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
+  | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
+
+#### 2.6.2 Depth First Search
+
+|     | Title                              | Difficulty | Time | Space     |
+| --- | ---------------------------------- | ---------- | ---- | --------- |
+| 114 | Flatten Binary Tree to Linked List | Medium     | O(n) | O(1)/O(n) |
 
 ### 2.7 Two Pointers
 
