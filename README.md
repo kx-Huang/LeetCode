@@ -41,6 +41,8 @@ Personal solutions and notes for LeetCode problems in `C++`.
 ## 1. Data Structure
 ### 1.1 Graph
 
+---
+
 ### 1.2 Hash Table
 
 - Time Complexity:
@@ -70,6 +72,8 @@ Personal solutions and notes for LeetCode problems in `C++`.
   | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
   | 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
   | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
+
+---
 
 ### 1.3 Heap
 
@@ -112,7 +116,11 @@ Personal solutions and notes for LeetCode problems in `C++`.
 
 #### 1.3.2 Binomial Heap
 
+---
+
 #### 1.3.3 Fibonacci Heap
+
+---
 
 ### 1.4 Linked List
 
@@ -142,6 +150,8 @@ Personal solutions and notes for LeetCode problems in `C++`.
   | 328 | Odd Even Linked List               | Medium     | O(n)     | O(1)  |
   | 382 | Linked List Random Node            | Medium     | O(n)     | O(1)  |
 
+---
+
 ### 1.5 Tree
 
 |     | Title                              | Difficulty | Time     | Space |
@@ -150,19 +160,35 @@ Personal solutions and notes for LeetCode problems in `C++`.
 | 114 | Flatten Binary Tree to Linked List | Medium     | O(n)     | O(1)  |
 | 313 | Super Ugly Number                  | Medium     | O(nlogk) | O(n)  |
 
+---
+
 #### 1.5.1 AVL Tree
+
+---
 
 #### 1.5.2 B Tree
 
+---
+
 #### 1.5.3 B+ Tree
+
+---
 
 #### 1.5.4 Binary Search Tree (BST)
 
+---
+
 #### 1.5.5 K-D Tree
+
+---
 
 #### 1.5.6 Red-black Tree
 
+---
+
 #### 1.5.7 Trie
+
+---
 
 ## 2. Methodology
 
@@ -174,11 +200,15 @@ Personal solutions and notes for LeetCode problems in `C++`.
 | 47  | Permutations II | Medium     | O(n*n!)  | O(n*n!)  |
 | 78  | Subsets         | Medium     | O(n*2^n) | O(n*2^n) |
 
+---
+
 ### 2.2 Divide and Conquer
 
 |     | Title                | Difficulty | Time      | Space   |
 | --- | -------------------- | ---------- | --------- | ------- |
 | 23  | Merge k Sorted Lists | Medium     | O(nklogk) | O(logk) |
+
+---
 
 ### 2.3 Dynamic Programming
 
@@ -187,12 +217,16 @@ Personal solutions and notes for LeetCode problems in `C++`.
 | 313 | Super Ugly Number | Medium     | O(nlogk) | O(n)  |
 | 322 | Coin Change       | Medium     | O(m*n)   | O(m)  |
 
+---
+
 ### 2.4 Prefix Sum
 
 |     | Title                        | Difficulty | Time | Space |
 | --- | ---------------------------- | ---------- | ---- | ----- |
 | 238 | Product of Array Except Self | Medium     | O(n) | O(n)  |
 | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
+
+---
 
 ### 2.5 Reservoir Sampling
 
@@ -227,6 +261,8 @@ Personal solutions and notes for LeetCode problems in `C++`.
   | --- | ----------------------- | ---------- | ---- | ----- |
   | 382 | Linked List Random Node | Medium     | O(n) | O(1)  |
 
+---
+
 ### 2.6 Search
 
 |     | Title                              | Difficulty | Time    | Space |
@@ -234,6 +270,8 @@ Personal solutions and notes for LeetCode problems in `C++`.
 | 35  | Search Insert Position             | Easy       | O(logn) | O(1)  |
 | 114 | Flatten Binary Tree to Linked List | Medium     | O(n)    | O(1)  |
 | 704 | Binary Search                      | Easy       | O(logn) | O(1)  |
+
+---
 
 #### 2.6.1 Binary Search
 
@@ -250,6 +288,8 @@ Personal solutions and notes for LeetCode problems in `C++`.
   | 35  | Search Insert Position | Easy       | O(logn) | O(1)  |
   | 704 | Binary Search          | Easy       | O(logn) | O(1)  |
 
+---
+
 #### 2.6.2 Depth First Search
 
 - Binary Tree:
@@ -265,6 +305,8 @@ Personal solutions and notes for LeetCode problems in `C++`.
   | --- | ---------------------------------- | ---------- | ---- | ----- |
   | 114 | Flatten Binary Tree to Linked List | Medium     | O(n) | O(1)  |
 
+---
+
 ### 2.7 Two Pointers
 
 |     | Title                              | Difficulty | Time   | Space  |
@@ -274,3 +316,5 @@ Personal solutions and notes for LeetCode problems in `C++`.
 | 167 | Two Sum II - Input Array Is Sorted | Medium     | O(n)   | O(1)   |
 | 475 | Heaters                            | Medium     | O(m+n) | O(1)   |
 | 977 | Squares of a Sorted Array          | Easy       | O(n)   | O(n)   |
+
+---
