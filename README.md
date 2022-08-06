@@ -239,7 +239,7 @@ Personal solutions and notes for LeetCode problems in `C++`.
     1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
     2. If $X_{k+i}$ is picked, randomly replace an entry in the reservoir with same probability
 
-- Proof: See Section 3 *"Proof of Reservoir Sampling"* in [Resources Page](https://github.com/kx-Huang/LeetCode/tree/master/Resources#table-of-content)
+- Proof: See Section 3 *"Proof of Reservoir Sampling"* in [Resources Page](https://github.com/kx-Huang/LeetCode/tree/master/Resources#table-of-content-)
 
 - LeetCode Problems:
 
