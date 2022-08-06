@@ -40,8 +40,6 @@ Personal solutions and notes for LeetCode problems in `C++`.
 
 ## 1. Data Structure
 
----
-
 ### 1.1 Graph
 
 ---
