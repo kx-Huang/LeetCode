@@ -2,7 +2,7 @@
 
 Personal solutions and notes for LeetCode problems in `C++`.
 
-## Table of Content: <!-- omit in toc -->
+## Table of Content <!-- omit in toc -->
 
 - [0. Acknowledgement](#0-acknowledgement)
 - [1. Data Structure](#1-data-structure)
