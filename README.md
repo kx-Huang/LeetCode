@@ -156,9 +156,10 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ### 1.5 Tree
 
-|     | Title                              | Difficulty | Time | Space |
-| --- | ---------------------------------- | ---------- | ---- | ----- |
-| 114 | Flatten Binary Tree to Linked List | Medium     | O(n) | O(1)  |
+|     | Title                                     | Difficulty | Time | Space   |
+| --- | ----------------------------------------- | ---------- | ---- | ------- |
+| 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n) | O(logn) |
+| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n) | O(1)    |
 
 ---
 
@@ -215,7 +216,7 @@ Personal solutions and notes for LeetCode problems in `C++`
 | --- | ----------------------------------------- | ---------- | --------- | ------- |
 | 23  | Merge k Sorted Lists                      | Medium     | O(nklogk) | O(logk) |
 | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn) |
-| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)    |
+| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(n)    |
 
 
 ---
