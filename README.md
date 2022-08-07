@@ -138,18 +138,19 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 - LeetCode Problems:
 
-  |     | Title                              | Difficulty | Time     | Space |
-  | --- | ---------------------------------- | ---------- | -------- | ----- |
-  | 23  | Merge k Sorted Lists               | Hard       | O(nlogk) | O(k)  |
-  | 24  | Swap Nodes in Pairs                | Medium     | O(n)     | O(1)  |
-  | 25  | Reverse Nodes in k-Group           | Hard       | O(n)     | O(1)  |
-  | 86  | Partition List                     | Medium     | O(n)     | O(1)  |
-  | 114 | Flatten Binary Tree to Linked List | Medium     | O(n)     | O(1)  |
-  | 142 | Linked List Cycle II               | Medium     | O(n)     | O(1)  |
-  | 160 | Intersection of Two Linked Lists   | Easy       | O(m+n)   | O(1)  |
-  | 234 | Palindrome Linked List             | Easy       | O(n)     | O(1)  |
-  | 328 | Odd Even Linked List               | Medium     | O(n)     | O(1)  |
-  | 382 | Linked List Random Node            | Medium     | O(n)     | O(1)  |
+  |     | Title                                     | Difficulty | Time     | Space   |
+  | --- | ----------------------------------------- | ---------- | -------- | ------- |
+  | 23  | Merge k Sorted Lists                      | Hard       | O(nlogk) | O(k)    |
+  | 24  | Swap Nodes in Pairs                       | Medium     | O(n)     | O(1)    |
+  | 25  | Reverse Nodes in k-Group                  | Hard       | O(n)     | O(1)    |
+  | 86  | Partition List                            | Medium     | O(n)     | O(1)    |
+  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)     | O(logn) |
+  | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)     | O(1)    |
+  | 142 | Linked List Cycle II                      | Medium     | O(n)     | O(1)    |
+  | 160 | Intersection of Two Linked Lists          | Easy       | O(m+n)   | O(1)    |
+  | 234 | Palindrome Linked List                    | Easy       | O(n)     | O(1)    |
+  | 328 | Odd Even Linked List                      | Medium     | O(n)     | O(1)    |
+  | 382 | Linked List Random Node                   | Medium     | O(n)     | O(1)    |
 
 ---
 
@@ -174,6 +175,13 @@ Personal solutions and notes for LeetCode problems in `C++`
 ---
 
 #### 1.5.4 Binary Search Tree (BST)
+
+- LeetCode Problems:
+
+  |     | Title                                     | Difficulty | Time | Space   |
+  | --- | ----------------------------------------- | ---------- | ---- | ------- |
+  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n) | O(logn) |
+
 
 ---
 
@@ -203,10 +211,12 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ### 2.2 Divide and Conquer
 
-|     | Title                              | Difficulty | Time      | Space   |
-| --- | ---------------------------------- | ---------- | --------- | ------- |
-| 23  | Merge k Sorted Lists               | Medium     | O(nklogk) | O(logk) |
-| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)      | O(n)    |
+|     | Title                                     | Difficulty | Time      | Space   |
+| --- | ----------------------------------------- | ---------- | --------- | ------- |
+| 23  | Merge k Sorted Lists                      | Medium     | O(nklogk) | O(logk) |
+| 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn) |
+| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)    |
+
 
 ---
 
@@ -250,11 +260,13 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ### 2.6 Search
 
-|     | Title                              | Difficulty | Time    | Space |
-| --- | ---------------------------------- | ---------- | ------- | ----- |
-| 35  | Search Insert Position             | Easy       | O(logn) | O(1)  |
-| 114 | Flatten Binary Tree to Linked List | Medium     | O(n)    | O(1)  |
-| 704 | Binary Search                      | Easy       | O(logn) | O(1)  |
+|     | Title                                     | Difficulty | Time    | Space   |
+| --- | ----------------------------------------- | ---------- | ------- | ------- |
+| 35  | Search Insert Position                    | Easy       | O(logn) | O(1)    |
+| 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)    | O(logn) |
+| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)    | O(1)    |
+| 704 | Binary Search                             | Easy       | O(logn) | O(1)    |
+
 
 ---
 
@@ -289,9 +301,10 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 - LeetCode Problems:
 
-  |     | Title                              | Difficulty | Time | Space |
-  | --- | ---------------------------------- | ---------- | ---- | ----- |
-  | 114 | Flatten Binary Tree to Linked List | Medium     | O(n) | O(1)  |
+  |     | Title                                     | Difficulty | Time | Space   |
+  | --- | ----------------------------------------- | ---------- | ---- | ------- |
+  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n) | O(logn) |
+  | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n) | O(1)    |
 
 ---
 
