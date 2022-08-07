@@ -13,7 +13,9 @@ Personal solutions and notes for LeetCode problems in `C++`
     - [1.3.2 Binomial Heap](#132-binomial-heap)
     - [1.3.3 Fibonacci Heap](#133-fibonacci-heap)
   - [1.4 Linked List](#14-linked-list)
-  - [1.5 Tree](#15-tree)
+  - [1.5 Queue](#15-queue)
+  - [1.6 Stack](#16-stack)
+  - [1.7 Tree](#17-tree)
     - [1.5.1 AVL Tree](#151-avl-tree)
     - [1.5.2 B Tree](#152-b-tree)
     - [1.5.3 B+ Tree](#153-b-tree)
@@ -31,7 +33,8 @@ Personal solutions and notes for LeetCode problems in `C++`
     - [2.6.1 Binary Search](#261-binary-search)
     - [2.6.2 Breadth First Search (BFS)](#262-breadth-first-search-bfs)
     - [2.6.3 Depth First Search (DFS)](#263-depth-first-search-dfs)
-  - [2.7 Two Pointers](#27-two-pointers)
+  - [2.7 Sorting](#27-sorting)
+  - [2.8 Two Pointers](#28-two-pointers)
 
 ## 0. Acknowledgement
 
@@ -148,6 +151,7 @@ Personal solutions and notes for LeetCode problems in `C++`
   | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)     | O(logn) |
   | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)     | O(1)    |
   | 142 | Linked List Cycle II                      | Medium     | O(n)     | O(1)    |
+  | 148 | Sort List                                 | Medium     | O(nlogn) | O(logn) |
   | 160 | Intersection of Two Linked Lists          | Easy       | O(m+n)   | O(1)    |
   | 234 | Palindrome Linked List                    | Easy       | O(n)     | O(1)    |
   | 328 | Odd Even Linked List                      | Medium     | O(n)     | O(1)    |
@@ -155,7 +159,15 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ---
 
-### 1.5 Tree
+### 1.5 Queue
+
+---
+
+### 1.6 Stack
+
+---
+
+### 1.7 Tree
 
 |     | Title                                     | Difficulty | Time | Space   |
 | --- | ----------------------------------------- | ---------- | ---- | ------- |
@@ -218,6 +230,7 @@ Personal solutions and notes for LeetCode problems in `C++`
 | 23  | Merge k Sorted Lists                      | Medium     | O(nklogk) | O(logk) |
 | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn) |
 | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(n)    |
+| 148 | Sort List                                 | Medium     | O(nlogn)  | O(logn) |
 
 
 ---
@@ -314,7 +327,16 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ---
 
-### 2.7 Two Pointers
+### 2.7 Sorting
+
+|     | Title                | Difficulty | Time       | Space   |
+| --- | -------------------- | ---------- | ---------- | ------- |
+| 23  | Merge k Sorted Lists | Hard       | O(nk*logk) | O(logk) |
+| 148 | Sort List            | Medium     | O(nlogn)   | O(logn) |
+
+---
+
+### 2.8 Two Pointers
 
 |     | Title                              | Difficulty | Time   | Space  |
 | --- | ---------------------------------- | ---------- | ------ | ------ |
