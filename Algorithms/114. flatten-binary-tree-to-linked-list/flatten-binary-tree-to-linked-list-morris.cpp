@@ -25,17 +25,17 @@ class Solution {
 public:
     void flatten(TreeNode* root) {
         TreeNode* curr = root;
-        TreeNode* pre = NULL;  // for finding predecessor of current node
+        TreeNode* pred = NULL;  // for finding predecessor of current node
 
+        // Morris Traversal: O(N), N nodes to be constructed
         while (curr) {
             if (curr->left) {
                 // find predecessor
-                pre = curr->left;
-                while (pre->right) pre = pre->right;
+                pred = curr->left;
+                while (pred->right) pred = pred->right;
 
-                // append right sub-tree to the predecessor of current node
-                // append left sub-tree to the right child of current node
-                pre->right = curr->right;
+                // append left sub-tree to middle of current and right sub-tree
+                pred->right = curr->right;
                 curr->right = curr->left;
                 curr->left = NULL;
             }

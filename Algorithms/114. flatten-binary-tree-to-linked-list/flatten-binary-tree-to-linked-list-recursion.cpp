@@ -23,6 +23,8 @@
  */
 class Solution {
 public:
+    // Time complexity: O(N), N nodes to be constructed
+    // Space complexity: O(N) for recursion stack, maximum depth can go up ßto N
     void flatten(TreeNode* root) {
         if (!root) return;
 
