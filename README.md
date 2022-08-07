@@ -138,7 +138,7 @@ Personal solutions and notes for LeetCode problems in `C++`
   | Insert | O(1) | O(1)    | O(1)  |
   | Delete | O(1) | O(1)    | O(1)  |
 
-- Related Methodology: [**Slow & Fast Pointers**](#27-slow--fast-pointers)
+- Related Methodology: [2.7 Slow & Fast Pointers](#27-slow--fast-pointers)
 
 - LeetCode Problems:
 
