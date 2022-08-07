@@ -29,7 +29,8 @@ Personal solutions and notes for LeetCode problems in `C++`
   - [2.5 Reservoir Sampling](#25-reservoir-sampling)
   - [2.6 Search](#26-search)
     - [2.6.1 Binary Search](#261-binary-search)
-    - [2.6.2 Depth First Search](#262-depth-first-search)
+    - [2.6.2 Breadth First Search (BFS)](#262-breadth-first-search-bfs)
+    - [2.6.3 Depth First Search (DFS)](#263-depth-first-search-dfs)
   - [2.7 Two Pointers](#27-two-pointers)
 
 ## 0. Acknowledgement
@@ -288,7 +289,11 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ---
 
-#### 2.6.2 Depth First Search
+#### 2.6.2 Breadth First Search (BFS)
+
+---
+
+#### 2.6.3 Depth First Search (DFS)
 
 - Binary Tree:
 
