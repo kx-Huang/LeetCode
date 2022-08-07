@@ -33,8 +33,9 @@ Personal solutions and notes for LeetCode problems in `C++`
     - [2.6.1 Binary Search](#261-binary-search)
     - [2.6.2 Breadth First Search (BFS)](#262-breadth-first-search-bfs)
     - [2.6.3 Depth First Search (DFS)](#263-depth-first-search-dfs)
-  - [2.7 Sorting](#27-sorting)
-  - [2.8 Two Pointers](#28-two-pointers)
+  - [2.7 Slow & Fast Pointers](#27-slow--fast-pointers)
+  - [2.8 Sorting](#28-sorting)
+  - [2.9 Two Pointers](#29-two-pointers)
 
 ## 0. Acknowledgement
 
@@ -138,7 +139,7 @@ Personal solutions and notes for LeetCode problems in `C++`
   | Insert | O(1) | O(1)    | O(1)  |
   | Delete | O(1) | O(1)    | O(1)  |
 
-- Related Methodology: **Slow-Fast Pointer**
+- Related Methodology: [**Slow & Fast Pointers**](#27-slow--fast-pointers)
 
 - LeetCode Problems:
 
@@ -169,10 +170,16 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ### 1.7 Tree
 
-|     | Title                                     | Difficulty | Time | Space   |
-| --- | ----------------------------------------- | ---------- | ---- | ------- |
-| 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n) | O(logn) |
-| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n) | O(1)    |
+- Related Methodology:
+  - [2.2 Divide and Conquer](#22-divide-and-conquer)
+  - [2.6 Search](#26-search)
+
+- LeetCode Problems:
+
+  |     | Title                                     | Difficulty | Time | Space   |
+  | --- | ----------------------------------------- | ---------- | ---- | ------- |
+  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n) | O(logn) |
+  | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n) | O(1)    |
 
 ---
 
@@ -232,7 +239,6 @@ Personal solutions and notes for LeetCode problems in `C++`
 | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(n)    |
 | 148 | Sort List                                 | Medium     | O(nlogn)  | O(logn) |
 
-
 ---
 
 ### 2.3 Dynamic Programming
@@ -263,7 +269,7 @@ Personal solutions and notes for LeetCode problems in `C++`
     1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
     2. If $X_{k+i}$ is picked, randomly replace an entry in the reservoir with same probability
 
-- Proof: See [Section 3: *Proof of Reservoir Sampling*](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for more details
+*Remark: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for detailed proof*
 
 - LeetCode Problems:
 
@@ -281,7 +287,6 @@ Personal solutions and notes for LeetCode problems in `C++`
 | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)    | O(logn) |
 | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)    | O(1)    |
 | 704 | Binary Search                             | Easy       | O(logn) | O(1)    |
-
 
 ---
 
@@ -315,8 +320,7 @@ Personal solutions and notes for LeetCode problems in `C++`
   | Recursive traversal                                                            | O(n)            | O(n)             |
   | [Morris traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) | O(n)            | O(1)             |
 
-- Remarks: See [Section 2: *Morris Traversal*](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for more details
-
+*Remarks: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for more details*
 
 - LeetCode Problems:
 
@@ -327,7 +331,17 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ---
 
-### 2.7 Sorting
+### 2.7 Slow & Fast Pointers
+
+|     | Title                  | Difficulty | Time     | Space   |
+| --- | ---------------------- | ---------- | -------- | ------- |
+| 142 | Linked List Cycle II   | Medium     | O(n)     | O(1)    |
+| 148 | Sort List              | Medium     | O(nlogn) | O(logn) |
+| 234 | Palindrome Linked List | Easy       | O(n)     | O(1)    |
+
+---
+
+### 2.8 Sorting
 
 |     | Title                | Difficulty | Time       | Space   |
 | --- | -------------------- | ---------- | ---------- | ------- |
@@ -336,7 +350,7 @@ Personal solutions and notes for LeetCode problems in `C++`
 
 ---
 
-### 2.8 Two Pointers
+### 2.9 Two Pointers
 
 |     | Title                              | Difficulty | Time   | Space  |
 | --- | ---------------------------------- | ---------- | ------ | ------ |
