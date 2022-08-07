@@ -95,10 +95,18 @@ Personal solutions and notes for LeetCode problems in `C++`
   | Sort   | O(nlogn) | O(nlogn) | O(nlogn) |
 
 - Procedures:
-  - **Create**: Put all the items into a complete binary tree. Starting at the rightmost array position that has a child, *percolate down* all nodes in reverse level-order.
-  - **Push**：Insert new item as the rightmost leaf of the tree. *Percolate up* newItem to an appropriate spot in the heap to restore the heap property.
-  - **Pop**: Save the root to be returned. Move the item in the rightmost leaf of the tree to the root. *Percolate down* the recently moved item at the root to its proper place to restore heap property.
-  - **Sort**: Initialize a min heap with all the elements to be sorted. Repeatedly call *pop* to extract elements out of the heap.
+
+  |        | Step | Procedure                                                                                                     |
+  | ------ | ---- | ------------------------------------------------------------------------------------------------------------- |
+  | Create | 1    | Put all the items into a complete binary tree.                                                                |
+  |        | 2    | Starting at the rightmost array position that has a child, *percolate down* all nodes in reverse level-order. |
+  | Push   | 1    | Insert new item as the rightmost leaf of the tree.                                                            |
+  |        | 2    | *Percolate up* newItem to an appropriate spot in the heap to restore the heap property.                       |
+  | Pop    | 1    | Save the root to be returned.                                                                                 |
+  |        | 2    | Move the item in the rightmost leaf of the tree to the root.                                                  |
+  |        | 3    | *Percolate down* the recently moved item at the root to its proper place to restore heap property.            |
+  | Sort   | 1    | Initialize a min heap with all the elements to be sorted.                                                     |
+  |        | 2    | Repeatedly call *pop* to extract elements out of the heap.                                                    |
 
 - Ordering: Yes
 
