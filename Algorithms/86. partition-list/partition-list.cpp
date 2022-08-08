@@ -24,10 +24,10 @@ public:
     ListNode* partition(ListNode* head, int x) {
         if (head == NULL || head->next == NULL) return head;
 
-        ListNode* smallDummyHead = new ListNode();  // dummy head
-        ListNode* largeDummyHead = new ListNode();  // dummy head
-        ListNode* small = smallDummyHead;
-        ListNode* large = largeDummyHead;
+        ListNode smallDummyHead = ListNode();
+        ListNode largeDummyHead = ListNode();
+        ListNode* small = &smallDummyHead;
+        ListNode* large = &largeDummyHead;
 
         // append small value to small list, large value to large list
         while (head != NULL) {
@@ -42,10 +42,10 @@ public:
         }
 
         // append large to small
-        small->next = largeDummyHead->next;
+        small->next = largeDummyHead.next;
         large->next = NULL;
 
-        return smallDummyHead->next;
+        return smallDummyHead.next;
     }
 };
 // @lc code=end
