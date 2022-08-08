@@ -3,7 +3,7 @@
  *
  * [234] Palindrome Linked List
  *
- * Methods: Slow-Fast Pointer
+ * Methods: Slow & Fast Pointers
  * Data Structure: Linked List
  *
  */
@@ -52,7 +52,7 @@ private:
     }
 
     ListNode* findMid(ListNode* head) {
-        // Slow-Fast Pointer
+        // Slow & Fast Pointers
         ListNode* slow = head;
         ListNode* fast = head;
         while (fast != NULL && fast->next != NULL) {
