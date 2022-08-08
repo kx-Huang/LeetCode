@@ -37,7 +37,7 @@ public:
         ListNode* secondHalf = slow->next;
         slow->next = NULL;
 
-        // recursion merge the divided lists
+        // recursion merge the divided lists: O(nlogn)
         return mergeTwoLists(sortList(firstHalf), sortList(secondHalf));
     }
 
