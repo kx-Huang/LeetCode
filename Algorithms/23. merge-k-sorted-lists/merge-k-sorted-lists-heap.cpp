@@ -22,8 +22,8 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        ListNode* dummyNode = new ListNode();
-        ListNode* curr = dummyNode;
+        ListNode dummyHead = ListNode();
+        ListNode* curr = &dummyHead;
         priority_queue<ListNode*, vector<ListNode*>, cmp> pq;
 
         // push all list head into min heap
@@ -40,7 +40,7 @@ public:
             curr->next = minNode;
             curr = curr->next;
         }
-        return dummyNode->next;
+        return dummyHead.next;
     }
 
 private:
