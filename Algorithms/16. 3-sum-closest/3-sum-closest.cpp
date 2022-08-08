@@ -12,7 +12,6 @@
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
-        // if less or equal than 3 elements, return their sum
         if (nums.size() <= 3) return accumulate(nums.begin(), nums.end(), 0);
 
         // initialize answer to any possible value in nums
