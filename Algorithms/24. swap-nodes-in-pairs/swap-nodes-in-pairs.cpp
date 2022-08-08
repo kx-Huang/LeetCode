@@ -24,14 +24,14 @@ public:
     ListNode* swapPairs(ListNode* head) {
         if (head == NULL || head->next == NULL) return head;
 
-        ListNode* dummyHead = new ListNode();
-        ListNode* prev = dummyHead;
+        ListNode dummyHead = ListNode();
+        ListNode* prev = &dummyHead;
         ListNode* curr = head;
 
         while (1) {
             if (curr->next == NULL) {  // one node left, append and return
                 prev->next = curr;
-                return dummyHead->next;
+                return dummyHead.next;
             } else {  // have 2 nodes
                 ListNode* next = curr->next->next;
 
@@ -43,7 +43,7 @@ public:
                 prev->next = NULL;
 
                 // return if no more pairs
-                if (next == NULL) return dummyHead->next;
+                if (next == NULL) return dummyHead.next;
 
                 curr = next;
             }
