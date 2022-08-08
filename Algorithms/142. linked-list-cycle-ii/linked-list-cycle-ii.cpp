@@ -3,7 +3,7 @@
  *
  * [142] Linked List Cycle II
  *
- * Methods: Slow-Fast Pointer
+ * Methods: Slow & Fast Pointers
  * Data Structure: Linked List
  *
  */
@@ -26,7 +26,7 @@ public:
         ListNode *fast = head;
         ListNode *entry = head;
 
-        // Slow-Fast Pointer: determint if cycle exists
+        // Slow & Fast Pointers: determint if cycle exists
         while (fast->next && fast->next->next) {
             slow = slow->next;
             fast = fast->next->next;
