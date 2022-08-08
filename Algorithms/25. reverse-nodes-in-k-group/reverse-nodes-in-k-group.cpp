@@ -25,9 +25,9 @@ public:
         if (head == NULL || k == 1) return head;
 
         int count = 1;
-        ListNode* dummyHead = new ListNode();
-        dummyHead->next = head;
-        ListNode* prev = dummyHead;
+        ListNode dummyHead = ListNode();
+        dummyHead.next = head;
+        ListNode* prev = &dummyHead;
         ListNode* curr = head;
         ListNode* target = NULL;
 
@@ -63,7 +63,7 @@ public:
             }
             prev = curr;  // next sub-list
         }
-        return dummyHead->next;
+        return dummyHead.next;
     }
 };
 // @lc code=end
