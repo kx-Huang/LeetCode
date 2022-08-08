@@ -54,11 +54,10 @@ private:
     ListNode* findMid(ListNode* head) {
         // Slow & Fast Pointers
         ListNode* slow = head;
-        ListNode* fast = head;
+        ListNode* fast = head->next;
         while (fast != NULL && fast->next != NULL) {
             slow = slow->next;
-            fast = fast->next;
-            if (fast) fast = fast->next;
+            fast = fast->next->next;
         }
         return slow;
     }
