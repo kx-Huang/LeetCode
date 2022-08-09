@@ -332,7 +332,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
     1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
     2. If $X_{k+i}$ is picked, randomly replace an entry in the reservoir with same probability
 
-  *Note: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for detailed proof*
+  *Note: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for detailed proof*
 
 - LeetCode Problem
 
@@ -379,12 +379,12 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 - Binary Tree
 
-  |                                                                                | Time Complexity | Space Complexity |
-  | ------------------------------------------------------------------------------ | --------------- | ---------------- |
-  | Recursive traversal                                                            | O(n)            | O(n)             |
-  | [Morris traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) | O(n)            | O(1)             |
+  |                                                                                           | Time Complexity | Space Complexity |
+  | ----------------------------------------------------------------------------------------- | --------------- | ---------------- |
+  | Recursive traversal                                                                       | O(n)            | O(n)             |
+  | [Morris traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) | O(n)            | O(1)             |
 
-  *Note: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for more details*
+  *Note: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for more details*
 
 - LeetCode Problem
 
@@ -407,7 +407,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 2.8 Sorting
 
-- Complexity: See *[Section 1.3: Sorting Algorithm](https://github.com/kx-Huang/LeetCode/tree/master/Resources)* in resources page for more details
+- Complexity: See *[Section 1.3: Sorting Algorithm](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-)* in resources page for more details
 
 - LeetCode Problem
 
