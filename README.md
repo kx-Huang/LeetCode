@@ -52,25 +52,23 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 1.2 Hash Table
 
-- Time Complexity:
+- Time Complexity
 
-  |        | Best | Average | Worst |
-  | ------ | ---- | ------- | ----- |
-  | Access | O(1) | O(1)    | O(n)  |
-  | Search | O(1) | O(1)    | O(n)  |
-  | Insert | O(1) | O(1)    | O(n)  |
-  | Delete | O(1) | O(1)    | O(n)  |
-  | Rehash | O(n) | O(n)    | O(n)  |
+  |        | Average | Worst |
+  | ------ | ------- | ----- |
+  | Access | O(1)    | O(n)  |
+  | Search | O(1)    | O(n)  |
+  | Insert | O(1)    | O(n)  |
+  | Delete | O(1)    | O(n)  |
+  | Rehash | O(n)    | O(n)  |
 
-- Remarks: Rehashing cost is amortized to O(1) over individual inserts
+- Note: Rehashing cost is amortized to O(1) over individual inserts
 
-- Ordering: No
-
-- Template in C++:
+- Template in C++
   - [`std::unordered_map`](https://en.cppreference.com/w/cpp/container/unordered_map)
   - [`std::unordered_set`](https://en.cppreference.com/w/cpp/container/unordered_set)
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                        | Difficulty | Time | Space |
   | --- | ---------------------------- | ---------- | ---- | ----- |
@@ -89,14 +87,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 - Time Complexity
 
-  |        | Best     | Average  | Worst    |
-  | ------ | -------- | -------- | -------- |
-  | Create | O(n)     | O(n)     | O(n)     |
-  | Push   | O(1)     | O(logn)  | O(logn)  |
-  | Pop    | O(1)     | O(logn)  | O(logn)  |
-  | Sort   | O(nlogn) | O(nlogn) | O(nlogn) |
+  |        | Average  | Worst    |
+  | ------ | -------- | -------- |
+  | Create | O(n)     | O(n)     |
+  | Push   | O(logn)  | O(logn)  |
+  | Pop    | O(logn)  | O(logn)  |
+  | Sort   | O(nlogn) | O(nlogn) |
 
-- Procedures:
+- Procedure
 
   |        | Step  | Procedure                                                                                                     |
   | ------ | :---: | ------------------------------------------------------------------------------------------------------------- |
@@ -110,11 +108,9 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | Sort   |   1   | Initialize a min heap with all the elements to be sorted.                                                     |
   |        |   2   | Repeatedly call *pop* to extract elements out of the heap.                                                    |
 
-- Ordering: Yes
-
 - Template in C++: [`std::priority_queue`](https://en.cppreference.com/w/cpp/container/priority_queue)
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                | Difficulty | Time     | Space |
   | --- | -------------------- | ---------- | -------- | ----- |
@@ -131,18 +127,18 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 1.4 Linked List
 
-- Time Complexity:
+- Time Complexity
 
-  |        | Best | Average | Worst |
-  | ------ | ---- | ------- | ----- |
-  | Access | O(1) | O(n)    | O(n)  |
-  | Search | O(1) | O(n)    | O(n)  |
-  | Insert | O(1) | O(1)    | O(1)  |
-  | Delete | O(1) | O(1)    | O(1)  |
+  |        | Average | Worst |
+  | ------ | ------- | ----- |
+  | Access | O(n)    | O(n)  |
+  | Search | O(n)    | O(n)  |
+  | Insert | O(1)    | O(1)  |
+  | Delete | O(1)    | O(1)  |
 
-- Related Methodology: [2.7 Slow & Fast Pointers](#27-slow--fast-pointers)
+- Related Methodology [2.7 Slow & Fast Pointers](#27-slow--fast-pointers)
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                                     | Difficulty | Time     | Space   |
   | --- | ----------------------------------------- | ---------- | -------- | ------- |
@@ -173,7 +169,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 - Template in C++: [`std::basic_istringstream`](https://en.cppreference.com/w/cpp/io/basic_istringstream)
 
-- Useful Functions in C++:
+- Useful Function in C++
 
   | Function                                                                | Header      |
   | ----------------------------------------------------------------------- | ----------- |
@@ -183,9 +179,9 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)        | `<ctype.h>` |
   | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)        | `<ctype.h>` |
 
-- Related Methodology: [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
+- Related Algorithm: [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title              | Difficulty | Time   | Space |
   | --- | ------------------ | ---------- | ------ | ----- |
@@ -196,11 +192,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 1.8 Tree
 
-- Related Methodology:
+- Related Methodology
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
   - [2.6 Search](#26-search)
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                                     | Difficulty | Time | Space   |
   | --- | ----------------------------------------- | ---------- | ---- | ------- |
@@ -223,7 +219,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 #### 1.8.4 Binary Search Tree (BST)
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                                     | Difficulty | Time | Space   |
   | --- | ----------------------------------------- | ---------- | ---- | ------- |
@@ -291,7 +287,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 - Goal: Select $k$ entries from $n$ options $\{X_1, X_2,...,X_n\}$. For any $n\ge k$, each entry is selected with same probability $P(X_i)=\frac{k}{n}$.
 
-- Procedures:
+- Procedure
   - Choose $\{X_1, X_2,..., X_k\}$ first and put them into the reservoir
   - For $i\in [1,n-k]$, do:
     1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
@@ -299,7 +295,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 *Remark: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for detailed proof*
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                   | Difficulty | Time | Space |
   | --- | ----------------------- | ---------- | ---- | ----- |
@@ -320,13 +316,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 #### 2.6.1 Binary Search
 
-- Time Complexity: O(logn)
+- Complexity
 
-- Space Complexity:
-  - Iterative: O(1)
-  - Recursive: O(logn)
+  |           | Time    | Space   |
+  | --------- | ------- | ------- |
+  | Iterative | O(logn) | O(logn) |
+  | Recursive | O(1)    | O(logn) |
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                  | Difficulty | Time    | Space |
   | --- | ---------------------- | ---------- | ------- | ----- |
@@ -341,7 +338,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 #### 2.6.3 Depth First Search (DFS)
 
-- Binary Tree:
+- Binary Tree
 
   |                                                                                | Time Complexity | Space Complexity |
   | ------------------------------------------------------------------------------ | --------------- | ---------------- |
@@ -350,7 +347,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 *Remarks: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for more details*
 
-- LeetCode Problems:
+- LeetCode Problem
 
   |     | Title                                     | Difficulty | Time | Space   |
   | --- | ----------------------------------------- | ---------- | ---- | ------- |
