@@ -16,7 +16,7 @@ public:
         for (char& character : paragraph)
             character = isalpha(character) ? tolower(character) : ' ';
 
-        // initialize word-count pair to hashtable for O(1) look up: O(n)
+        // initialize word-count pair to hash table for O(1) look up: O(n)
         unordered_map<string, int> wordCounts;
         istringstream iss(paragraph);
         string word;
