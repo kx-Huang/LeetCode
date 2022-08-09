@@ -211,6 +211,15 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 #### 1.8.1 AVL Tree
 
+- Complexity
+
+  |        | Average | Worst   |
+  | ------ | ------- | ------- |
+  | Access | O(logn) | O(logn) |
+  | Search | O(logn) | O(logn) |
+  | Insert | O(logn) | O(logn) |
+  | Delete | O(logn) | O(logn) |
+
 ---
 
 #### 1.8.2 B Tree
@@ -223,20 +232,46 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 #### 1.8.4 Binary Search Tree (BST)
 
+- Complexity
+
+  |        | Average | Worst |
+  | ------ | ------- | ----- |
+  | Access | O(logn) | O(n)  |
+  | Search | O(logn) | O(n)  |
+  | Insert | O(logn) | O(n)  |
+  | Delete | O(logn) | O(n)  |
+
 - LeetCode Problem
 
   |     | Title                                     | Difficulty | Time | Space   |
   | --- | ----------------------------------------- | ---------- | ---- | ------- |
   | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n) | O(logn) |
 
-
 ---
 
 #### 1.8.5 K-D Tree
 
+- Complexity
+
+  |        | Average | Worst |
+  | ------ | ------- | ----- |
+  | Access | O(logn) | O(n)  |
+  | Search | O(logn) | O(n)  |
+  | Insert | O(logn) | O(n)  |
+  | Delete | O(logn) | O(n)  |
+
 ---
 
 #### 1.8.6 Red-black Tree
+
+- Complexity
+
+  |        | Average | Worst   |
+  | ------ | ------- | ------- |
+  | Access | O(logn) | O(logn) |
+  | Search | O(logn) | O(logn) |
+  | Insert | O(logn) | O(logn) |
+  | Delete | O(logn) | O(logn) |
 
 ---
 
@@ -372,10 +407,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 2.8 Sorting
 
-|     | Title                | Difficulty | Time       | Space   |
-| --- | -------------------- | ---------- | ---------- | ------- |
-| 23  | Merge k Sorted Lists | Hard       | O(nk*logk) | O(logk) |
-| 148 | Sort List            | Medium     | O(nlogn)   | O(logn) |
+- Complexity: See *[Section 1.3: Sorting Algorithm](https://github.com/kx-Huang/LeetCode/tree/master/Resources)* in resources page for more details
+
+- LeetCode Problem
+
+  |     | Title                | Difficulty | Time       | Space   |
+  | --- | -------------------- | ---------- | ---------- | ------- |
+  | 23  | Merge k Sorted Lists | Hard       | O(nk*logk) | O(logk) |
+  | 148 | Sort List            | Medium     | O(nlogn)   | O(logn) |
 
 ---
 
