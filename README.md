@@ -62,7 +62,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | Delete | O(1)    | O(n)  |
   | Rehash | O(n)    | O(n)  |
 
-- Note: Rehashing cost is amortized to O(1) over individual inserts
+  *Note: Rehashing cost is amortized to O(1) over individual inserts*
 
 - Template in C++
   - [`std::unordered_map`](https://en.cppreference.com/w/cpp/container/unordered_map)
@@ -293,7 +293,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
     1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
     2. If $X_{k+i}$ is picked, randomly replace an entry in the reservoir with same probability
 
-*Remark: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for detailed proof*
+  *Note: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for detailed proof*
 
 - LeetCode Problem
 
@@ -345,7 +345,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | Recursive traversal                                                            | O(n)            | O(n)             |
   | [Morris traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) | O(n)            | O(1)             |
 
-*Remarks: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for more details*
+  *Note: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources) in resources page for more details*
 
 - LeetCode Problem
 
