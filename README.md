@@ -183,11 +183,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)        | `<ctype.h>` |
   | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)        | `<ctype.h>` |
 
+- Related Methodology: Knuth–Morris–Pratt String Matching Algorithm (KMP)
+
 - LeetCode Problems:
 
-  |     | Title            | Difficulty | Time | Space |
-  | --- | ---------------- | ---------- | ---- | ----- |
-  | 819 | Most Common Word | Easy       | O(n) | O(n)  |
+  |     | Title              | Difficulty | Time   | Space |
+  | --- | ------------------ | ---------- | ------ | ----- |
+  | 28  | Implement strStr() | Easy       | O(m+n) | O(m)  |
+  | 819 | Most Common Word   | Easy       | O(n)   | O(n)  |
 
 ---
 
@@ -266,10 +269,12 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 2.3 Dynamic Programming
 
-|     | Title             | Difficulty | Time     | Space |
-| --- | ----------------- | ---------- | -------- | ----- |
-| 313 | Super Ugly Number | Medium     | O(nlogk) | O(n)  |
-| 322 | Coin Change       | Medium     | O(m*n)   | O(m)  |
+|     | Title              | Difficulty | Time     | Space |
+| --- | ------------------ | ---------- | -------- | ----- |
+| 28  | Implement strStr() | Easy       | O(m+n)   | O(m)  |
+| 313 | Super Ugly Number  | Medium     | O(nlogk) | O(n)  |
+| 322 | Coin Change        | Medium     | O(m*n)   | O(m)  |
+
 
 ---
 
