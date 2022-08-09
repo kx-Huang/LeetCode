@@ -15,14 +15,15 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   - [1.4 Linked List](#14-linked-list)
   - [1.5 Queue](#15-queue)
   - [1.6 Stack](#16-stack)
-  - [1.7 Tree](#17-tree)
-    - [1.5.1 AVL Tree](#151-avl-tree)
-    - [1.5.2 B Tree](#152-b-tree)
-    - [1.5.3 B+ Tree](#153-b-tree)
-    - [1.5.4 Binary Search Tree (BST)](#154-binary-search-tree-bst)
-    - [1.5.5 K-D Tree](#155-k-d-tree)
-    - [1.5.6 Red-black Tree](#156-red-black-tree)
-    - [1.5.7 Trie](#157-trie)
+  - [1.7 String](#17-string)
+  - [1.8 Tree](#18-tree)
+    - [1.8.1 AVL Tree](#181-avl-tree)
+    - [1.8.2 B Tree](#182-b-tree)
+    - [1.8.3 B+ Tree](#183-b-tree)
+    - [1.8.4 Binary Search Tree (BST)](#184-binary-search-tree-bst)
+    - [1.8.5 K-D Tree](#185-k-d-tree)
+    - [1.8.6 Red-black Tree](#186-red-black-tree)
+    - [1.8.7 Trie](#187-trie)
 - [2. Methodology](#2-methodology)
   - [2.1 Backtracking](#21-backtracking)
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
@@ -78,6 +79,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
   | 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
   | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
+  | 819 | Most Common Word             | Easy       | O(n) | O(n)  |
 
 ---
 
@@ -167,7 +169,26 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ---
 
-### 1.7 Tree
+### 1.7 String
+
+- Template in C++: [`std::basic_istringstream`](https://en.cppreference.com/w/cpp/io/basic_istringstream)
+
+- Useful Functions in C++:
+  - [`std::isalpha` (Defined in header `<cctype>`)](https://en.cppreference.com/w/cpp/string/byte/isalpha)
+  - [`std::isupper` (Defined in header `<cctype>`)](https://en.cppreference.com/w/cpp/string/byte/isupper)
+  - [`std::islower` (Defined in header `<cctype>`)](https://en.cppreference.com/w/cpp/string/byte/islower)
+  - [`tolower` (Defined in header `<ctype.h>`)](https://en.cppreference.com/w/c/string/byte/tolower)
+  - [`toupper` (Defined in header `<ctype.h>`)](https://en.cppreference.com/w/c/string/byte/toupper)
+
+- LeetCode Problems:
+
+  |     | Title            | Difficulty | Time | Space |
+  | --- | ---------------- | ---------- | ---- | ----- |
+  | 819 | Most Common Word | Easy       | O(n) | O(n)  |
+
+---
+
+### 1.8 Tree
 
 - Related Methodology:
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
@@ -182,19 +203,19 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ---
 
-#### 1.5.1 AVL Tree
+#### 1.8.1 AVL Tree
 
 ---
 
-#### 1.5.2 B Tree
+#### 1.8.2 B Tree
 
 ---
 
-#### 1.5.3 B+ Tree
+#### 1.8.3 B+ Tree
 
 ---
 
-#### 1.5.4 Binary Search Tree (BST)
+#### 1.8.4 Binary Search Tree (BST)
 
 - LeetCode Problems:
 
@@ -205,15 +226,15 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ---
 
-#### 1.5.5 K-D Tree
+#### 1.8.5 K-D Tree
 
 ---
 
-#### 1.5.6 Red-black Tree
+#### 1.8.6 Red-black Tree
 
 ---
 
-#### 1.5.7 Trie
+#### 1.8.7 Trie
 
 ---
 
