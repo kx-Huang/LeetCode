@@ -183,7 +183,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)        | `<ctype.h>` |
   | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)        | `<ctype.h>` |
 
-- Related Methodology: Knuth–Morris–Pratt String Matching Algorithm (KMP)
+- Related Methodology: [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
 
 - LeetCode Problems:
 
