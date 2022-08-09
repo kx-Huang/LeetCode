@@ -174,11 +174,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 - Template in C++: [`std::basic_istringstream`](https://en.cppreference.com/w/cpp/io/basic_istringstream)
 
 - Useful Functions in C++:
-  - [`std::isalpha`](https://en.cppreference.com/w/cpp/string/byte/isalpha)(Defined in header `<cctype>`)
-  - [`std::isupper`](https://en.cppreference.com/w/cpp/string/byte/isupper)(Defined in header `<cctype>`)
-  - [`std::islower`](https://en.cppreference.com/w/cpp/string/byte/islower)(Defined in header `<cctype>`)
-  - [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)(Defined in header `<ctype.h>`)
-  - [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)(Defined in header `<ctype.h>`)
+
+  | Function                                                                | Header      |
+  | ----------------------------------------------------------------------- | ----------- |
+  | [`std::isalpha`](https://en.cppreference.com/w/cpp/string/byte/isalpha) | `<cctype>`  |
+  | [`std::isupper`](https://en.cppreference.com/w/cpp/string/byte/isupper) | `<cctype>`  |
+  | [`std::islower`](https://en.cppreference.com/w/cpp/string/byte/islower) | `<cctype>`  |
+  | [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)        | `<ctype.h>` |
+  | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)        | `<ctype.h>` |
 
 - LeetCode Problems:
 
