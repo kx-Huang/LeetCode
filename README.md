@@ -179,15 +179,16 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)        | `<ctype.h>` |
   | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)        | `<ctype.h>` |
 
-- Related Algorithm: [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
+- Related Methodology: [2.9 Two Pointers](#29-two-pointers)
 
 - LeetCode Problem
 
-  |     | Title                | Difficulty | Time   | Space |
-  | --- | -------------------- | ---------- | ------ | ----- |
-  | 28  | Implement strStr()   | Easy       | O(m+n) | O(m)  |
-  | 819 | Most Common Word     | Easy       | O(n)   | O(n)  |
-  | 917 | Reverse Only Letters | Easy       | O(n)   | O(1)  |
+  |     | Title                                          | Difficulty | Time   | Space |
+  | --- | ---------------------------------------------- | ---------- | ------ | ----- |
+  | 3   | Longest Substring Without Repeating Characters | Medium     | O(n)   | O(n)  |
+  | 28  | Implement strStr()                             | Easy       | O(m+n) | O(m)  |
+  | 819 | Most Common Word                               | Easy       | O(n)   | O(n)  |
+  | 917 | Reverse Only Letters                           | Easy       | O(n)   | O(1)  |
 
 ---
 
@@ -378,13 +379,21 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 2.9 Two Pointers
 
-|     | Title                              | Difficulty | Time   | Space  |
-| --- | ---------------------------------- | ---------- | ------ | ------ |
-| 15  | 3Sum                               | Medium     | O(n^2) | O(n^2) |
-| 16  | 3Sum Closest                       | Medium     | O(n^2) | O(n^2) |
-| 167 | Two Sum II - Input Array Is Sorted | Medium     | O(n)   | O(1)   |
-| 475 | Heaters                            | Medium     | O(m+n) | O(1)   |
-| 917 | Reverse Only Letters               | Easy       | O(n)   | O(1)   |
-| 977 | Squares of a Sorted Array          | Easy       | O(n)   | O(n)   |
+- Related Algorithm
+  - [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
+  - [Sliding Window](https://www.geeksforgeeks.org/window-sliding-technique/)
+
+- LeetCode Problem
+
+  |     | Title                                          | Difficulty | Time   | Space  |
+  | --- | ---------------------------------------------- | ---------- | ------ | ------ |
+  | 3   | Longest Substring Without Repeating Characters | Medium     | O(n)   | O(n)   |
+  | 15  | 3Sum                                           | Medium     | O(n^2) | O(n^2) |
+  | 16  | 3Sum Closest                                   | Medium     | O(n^2) | O(n^2) |
+  | 28  | Implement strStr()                             | Easy       | O(m+n) | O(m)   |
+  | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)   | O(1)   |
+  | 475 | Heaters                                        | Medium     | O(m+n) | O(1)   |
+  | 917 | Reverse Only Letters                           | Easy       | O(n)   | O(1)   |
+  | 977 | Squares of a Sorted Array                      | Easy       | O(n)   | O(n)   |
 
 ---
