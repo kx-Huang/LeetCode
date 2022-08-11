@@ -159,9 +159,35 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ### 1.5 Queue
 
+- Time Complexity
+
+  |        | Average | Worst |
+  | ------ | ------- | ----- |
+  | Access | O(n)    | O(n)  |
+  | Search | O(n)    | O(n)  |
+  | Insert | O(1)    | O(1)  |
+  | Delete | O(1)    | O(1)  |
+
 ---
 
 ### 1.6 Stack
+
+- Time Complexity
+
+  |        | Average | Worst |
+  | ------ | ------- | ----- |
+  | Access | O(n)    | O(n)  |
+  | Search | O(n)    | O(n)  |
+  | Insert | O(1)    | O(1)  |
+  | Delete | O(1)    | O(1)  |
+
+- Template in C++: [`std::stack`](https://en.cppreference.com/w/cpp/container/stack)
+
+- LeetCode Problem
+
+  |     | Title             | Difficulty | Time | Space |
+  | --- | ----------------- | ---------- | ---- | ----- |
+  | 20  | Valid Parentheses | Easy       | O(n) | O(n)  |
 
 ---
 
