@@ -22,7 +22,7 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if (lists.empty()) return NULL;
+        if (lists.empty()) return nullptr;
 
         // merge all lists as merge sort does: O(nk*logk)
         // list length: n, list number: k
@@ -42,10 +42,10 @@ public:
 private:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
         // divide and conquer
-        // simple case: one of the lists is NULL
-        if (l1 == NULL)
+        // simple case: one of the lists is nullptr
+        if (l1 == nullptr)
             return l2;
-        else if (l2 == NULL)
+        else if (l2 == nullptr)
             return l1;
         // recursion: merge sub-lists and return the smaller node
         if (l1->val <= l2->val) {
