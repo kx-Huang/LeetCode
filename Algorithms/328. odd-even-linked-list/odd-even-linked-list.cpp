@@ -22,7 +22,7 @@
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
-        if (head == NULL || head->next == NULL || head->next->next == NULL)
+        if (head == nullptr || head->next == nullptr || head->next->next == nullptr)
             return head;
 
         ListNode* oddNode = head;
