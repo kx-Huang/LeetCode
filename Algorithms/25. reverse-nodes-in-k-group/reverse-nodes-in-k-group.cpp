@@ -22,14 +22,14 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        if (head == NULL || k == 1) return head;
+        if (head == nullptr || k == 1) return head;
 
         int count = 1;
         ListNode dummyHead = ListNode();
         dummyHead.next = head;
         ListNode* prev = &dummyHead;
         ListNode* curr = head;
-        ListNode* target = NULL;
+        ListNode* target = nullptr;
 
         // count node to determine reverse rounds
         while (curr = curr->next) count++;
