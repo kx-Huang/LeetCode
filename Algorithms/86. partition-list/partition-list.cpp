@@ -22,7 +22,7 @@
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        if (head == NULL || head->next == NULL) return head;
+        if (head == nullptr || head->next == nullptr) return head;
 
         ListNode smallDummyHead = ListNode();
         ListNode largeDummyHead = ListNode();
@@ -30,7 +30,7 @@ public:
         ListNode* large = &largeDummyHead;
 
         // append small value to small list, large value to large list
-        while (head != NULL) {
+        while (head != nullptr) {
             if (head->val < x) {
                 small->next = head;
                 small = small->next;
@@ -43,7 +43,7 @@ public:
 
         // append large to small
         small->next = largeDummyHead.next;
-        large->next = NULL;
+        large->next = nullptr;
 
         return smallDummyHead.next;
     }
