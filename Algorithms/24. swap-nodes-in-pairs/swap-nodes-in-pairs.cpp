@@ -22,14 +22,14 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        if (head == NULL || head->next == NULL) return head;
+        if (head == nullptr || head->next == nullptr) return head;
 
         ListNode dummyHead = ListNode();
         ListNode* prev = &dummyHead;
         ListNode* curr = head;
 
         while (1) {
-            if (curr->next == NULL) {  // one node left, append and return
+            if (curr->next == nullptr) {  // one node left, append and return
                 prev->next = curr;
                 return dummyHead.next;
             } else {  // have 2 nodes
@@ -40,10 +40,10 @@ public:
                 prev = prev->next;
                 prev->next = curr;
                 prev = prev->next;
-                prev->next = NULL;
+                prev->next = nullptr;
 
                 // return if no more pairs
-                if (next == NULL) return dummyHead.next;
+                if (next == nullptr) return dummyHead.next;
 
                 curr = next;
             }
