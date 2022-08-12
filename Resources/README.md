@@ -36,19 +36,19 @@
 ### 2.1 In-order Morris Traversal
 
 - Step 0: set `cur` to `root`
-- Step 1: if `cur->left` is `NULL`
+- Step 1: if `cur->left` is `nullptr`
   - **print `cur`**
   - update `cur` to `cur->right`
-- Step 2: if `cur->left` is not `NULL`
+- Step 2: if `cur->left` is not `nullptr`
   - find predecessor of `cur` (rightmost node of `cur`'s left sub-tree)
-    - if `pre->right` is `NULL` (not connected)
+    - if `pre->right` is `nullptr` (not connected)
       - connect `pre->right` to `cur`
       - update `cur` to `cur->left`
     - if `pre->right` is `cur` (already connected)
-      - set `pre->right` to `NULL` (revert tree structure)
+      - set `pre->right` to `nullptr` (revert tree structure)
       - **print `cur`**
       - update `cur` to `cur->right`
-- Step 3: if `cur` is not `NULL`, Go to Step 1
+- Step 3: if `cur` is not `nullptr`, Go to Step 1
 
 ![In-order Morris Traversal](img/morris-traversal/morris-inorder-traversal.jpeg)
 
@@ -57,19 +57,19 @@
 ### 2.2 Pre-order Morris Traversal
 
 - Step 0: set `cur` to `root`
-- Step 1: if `cur->left` is `NULL`
+- Step 1: if `cur->left` is `nullptr`
   - **print `cur`**
   - update `cur` to `cur->right`
-- Step 2: if `cur->left` is not `NULL`
+- Step 2: if `cur->left` is not `nullptr`
   - find predecessor of `cur` (rightmost node of `cur`'s left sub-tree)
-    - if `pre->right` is `NULL` (not connected)
+    - if `pre->right` is `nullptr` (not connected)
       - connect `pre->right` to `cur`
       - **print `cur`**
       - update `cur` to `cur->left`
     - if `pre->right` is `cur` (already connected)
-      - set `pre->right` to `NULL` (revert tree structure)
+      - set `pre->right` to `nullptr` (revert tree structure)
       - update `cur` to `cur->right`
-- Step 3: if `cur` is not `NULL`, Go to Step 1
+- Step 3: if `cur` is not `nullptr`, Go to Step 1
 
 *Remarks: The only difference between in-order and pre-order traversal is the **timing of printing***
 
@@ -83,18 +83,18 @@
   - create a `dummy` node
   - set `dummy->left` to `root`
   - set `cur` to `dummy`
-- Step 1: if `cur->left` is `NULL`
+- Step 1: if `cur->left` is `nullptr`
   - update `cur` to `cur->right`
-- Step 2: if `cur->left` is not `NULL`
+- Step 2: if `cur->left` is not `nullptr`
   - find predecessor of `cur` (rightmost node of `cur`'s left sub-tree)
-    - if `pre->right` is `NULL` (not connected)
+    - if `pre->right` is `nullptr` (not connected)
       - connect `pre->right` to `cur`
       - update `cur` to `cur->left`
     - if `pre->right` is `cur` (already connected)
-      - set `pre->right` to `NULL` (revert tree structure)
+      - set `pre->right` to `nullptr` (revert tree structure)
       - **Reverse print from `cur->left` to predecessor**
       - set `cur` to `cur->right`
-- Step 3: if `cur` is not `NULL`, Go to Step 1
+- Step 3: if `cur` is not `nullptr`, Go to Step 1
 
 *Remarks: The only different between post-order and other two traversals is the **timing and method of printing***
 
