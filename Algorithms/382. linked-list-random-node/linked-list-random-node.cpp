@@ -21,7 +21,7 @@
  */
 class Solution {
 private:
-    ListNode* head = NULL;
+    ListNode* head = nullptr;
 
 public:
     Solution(ListNode* head) {
@@ -41,7 +41,7 @@ public:
         //  So P(X) = 1/(n+1) (Q.E.D.)
         int ans = 0;
         ListNode* it = this->head;
-        for (int i = 1; it != NULL; i++, it = it->next)
+        for (int i = 1; it != nullptr; i++, it = it->next)
             if (rand() % i == 0) ans = it->val;  // P(x_n+1)=1/(x+1)
         return ans;
     }
