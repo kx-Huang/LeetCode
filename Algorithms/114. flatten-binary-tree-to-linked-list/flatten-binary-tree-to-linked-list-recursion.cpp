@@ -36,7 +36,7 @@ public:
         if (root->left) {
             TreeNode* right = root->right;
             root->right = root->left;
-            root->left = NULL;
+            root->left = nullptr;
             while (root->right) root = root->right;
             root->right = right;
         }
