@@ -22,7 +22,7 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        if (head == NULL || head->next == NULL) return true;
+        if (head == nullptr || head->next == nullptr) return true;
         ListNode* mid = findMid(head);
         ListNode* secondHalfReverse = reverseList(mid);
         return compareList(head, secondHalfReverse);
@@ -30,7 +30,7 @@ public:
 
 private:
     bool compareList(ListNode* head1, ListNode* head2) {
-        while (head1 != NULL && head2 != NULL) {
+        while (head1 != nullptr && head2 != nullptr) {
             if (head1->val != head2->val) return false;
             head1 = head1->next;
             head2 = head2->next;
@@ -39,10 +39,10 @@ private:
     }
 
     ListNode* reverseList(ListNode* head) {
-        ListNode* prev = NULL;  // save previous node
+        ListNode* prev = nullptr;  // save previous node
         ListNode* curr = head;
-        ListNode* next = NULL;  // save next node
-        while (curr != NULL) {
+        ListNode* next = nullptr;  // save next node
+        while (curr != nullptr) {
             next = curr->next;
             curr->next = prev;
             prev = curr;
@@ -55,7 +55,7 @@ private:
         // Slow & Fast Pointers
         ListNode* slow = head;
         ListNode* fast = head->next;
-        while (fast != NULL && fast->next != NULL) {
+        while (fast != nullptr && fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
         }
