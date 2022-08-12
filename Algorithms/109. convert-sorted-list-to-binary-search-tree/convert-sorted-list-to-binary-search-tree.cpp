@@ -33,13 +33,13 @@
  */
 class Solution {
 private:
-    ListNode* current = NULL;
+    ListNode* current = nullptr;
 
     // in-order traversal
     // Time complexity: O(n), list is move forward one step each recursion
     // Space complexity: O(logn) for recursion stack
     TreeNode* buildBST(int left, int right) {
-        if (left >= right) return NULL;
+        if (left >= right) return nullptr;
 
         TreeNode* node = new TreeNode();
         int mid = left + (right - left) / 2;
