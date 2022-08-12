@@ -22,12 +22,12 @@
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
-        if (head == NULL || head->next == NULL) return head;
+        if (head == nullptr || head->next == nullptr) return head;
 
         // Slow & Fast Pointers
         ListNode* slow = head;
         ListNode* fast = head->next;
-        while (fast != NULL && fast->next != NULL) {
+        while (fast != nullptr && fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
         }
@@ -35,7 +35,7 @@ public:
         // divide into two lists
         ListNode* firstHalf = head;
         ListNode* secondHalf = slow->next;
-        slow->next = NULL;
+        slow->next = nullptr;
 
         // recursion merge the divided lists: O(nlogn)
         return mergeTwoLists(sortList(firstHalf), sortList(secondHalf));
