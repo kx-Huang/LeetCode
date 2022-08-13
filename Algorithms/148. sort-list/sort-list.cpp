@@ -3,7 +3,7 @@
  *
  * [148] Sort List
  *
- * Methods: Divide and Conquer
+ * Method: Divide and Conquer
  * Data Structure: Linked List
  *
  */
