@@ -3,7 +3,7 @@
  *
  * [268] Missing Number
  *
- * Methods: Mathematical Optimization
+ * Method: Mathematical Optimization
  * Data Structure: Array
  *
  */

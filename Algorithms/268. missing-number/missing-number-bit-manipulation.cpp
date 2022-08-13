@@ -3,7 +3,7 @@
  *
  * [268] Missing Number
  *
- * Methods: Bit Manipulation
+ * Method: Bit Manipulation
  * Data Structure: Array
  *
  */
