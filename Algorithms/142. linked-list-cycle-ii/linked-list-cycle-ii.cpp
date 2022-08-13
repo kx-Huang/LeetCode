@@ -3,7 +3,7 @@
  *
  * [142] Linked List Cycle II
  *
- * Methods: Slow & Fast Pointers
+ * Method: Slow & Fast Pointers
  * Data Structure: Linked List
  *
  */
