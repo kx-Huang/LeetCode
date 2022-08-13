@@ -3,7 +3,7 @@
  *
  * [917] Reverse Only Letters
  *
- * Methods: Two Pointers
+ * Method: Two Pointers
  * Data Structure: String
  *
  */
