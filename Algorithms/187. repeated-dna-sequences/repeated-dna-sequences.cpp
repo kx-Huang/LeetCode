@@ -40,7 +40,7 @@ public:
         for (int i = 0; i < 10; i++) key = ((key << 2) | encode(s[i]));
         once.set(key);
 
-        // move one bit forward until end
+        // move one bit forward until end: O(n)
         int bitmask = 0xfffff;
         for (int i = 10; i < len; i++) {
             key = ((key << 2) | encode(s[i])) & bitmask;
