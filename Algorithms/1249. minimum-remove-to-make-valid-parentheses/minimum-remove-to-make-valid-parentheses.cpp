@@ -3,7 +3,7 @@
  *
  * [1249] Minimum Remove to Make Valid Parentheses
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Stack, String
  *
  */
