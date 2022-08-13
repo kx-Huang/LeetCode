@@ -3,7 +3,7 @@
  *
  * [23] Merge k Sorted Lists
  *
- * Methods: Divide and Conquer
+ * Method: Divide and Conquer
  * Data Structure: Linked List
  *
  */

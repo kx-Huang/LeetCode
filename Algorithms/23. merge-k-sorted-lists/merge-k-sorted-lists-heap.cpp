@@ -3,7 +3,7 @@
  *
  * [23] Merge k Sorted Lists
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Linked List, Min Heap
  *
  */
