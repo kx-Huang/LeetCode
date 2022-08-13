@@ -3,7 +3,7 @@
  *
  * [3] Longest Substring Without Repeating Characters
  *
- * Methods: Sliding Window
+ * Method: Sliding Window
  * Data Structure: Hash Table
  *
  */
