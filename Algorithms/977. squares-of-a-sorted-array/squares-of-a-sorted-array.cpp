@@ -3,7 +3,7 @@
  *
  * [977] Squares of a Sorted Array
  *
- * Methods: Two Pointers
+ * Method: Two Pointers
  * Data Structure: Array
  *
  */
