@@ -73,6 +73,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   |     | Title                        | Difficulty | Time        | Space   |
   | --- | ---------------------------- | ---------- | ----------- | ------- |
   | 1   | Two sum                      | Easy       | O(n)        | O(n)    |
+  | 49  | Group Anagrams               | Medium     | O(nlogn)    | O(n)    |
   | 128 | Longest Consecutive Sequence | Medium     | O(n)        | O(n)    |
   | 217 | Contains Duplicate           | Easy       | O(n)        | O(n)    |
   | 290 | Word Pattern                 | Easy       | O(MIN(m,n)) | O(m+n)) |
@@ -230,6 +231,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 3    | Longest Substring Without Repeating Characters | Medium     | O(n)        | O(n)    |
   | 5    | Longest Palindromic Substring                  | Medium     | O(n^2)      | O(n^2)  |
   | 28   | Implement strStr()                             | Easy       | O(m+n)      | O(m)    |
+  | 49   | Group Anagrams                                 | Medium     | O(nlogn)    | O(n)    |
   | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
   | 290  | Word Pattern                                   | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 385  | Mini Parser                                    | Medium     | O(n)        | O(n)    |
