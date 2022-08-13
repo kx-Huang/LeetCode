@@ -3,7 +3,7 @@
  *
  * [313] Super Ugly Number
  *
- * Methods: Dynamic Programming
+ * Method: Dynamic Programming
  * Data Structure: Min Heap
  *
  */
