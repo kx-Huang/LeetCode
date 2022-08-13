@@ -3,7 +3,7 @@
  *
  * [167] Two Sum II - Input Array Is Sorted
  *
- * Methods: Two Pointers
+ * Method: Two Pointers
  * Data Structure: Array
  *
  */
