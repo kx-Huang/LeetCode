@@ -3,7 +3,7 @@
  *
  * [349] Intersection of Two Arrays
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Hash Table
  *
  */
