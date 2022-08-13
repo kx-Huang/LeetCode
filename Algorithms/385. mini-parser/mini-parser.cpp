@@ -3,7 +3,7 @@
  *
  * [385] Mini Parser
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Stack, String
  *
  */
