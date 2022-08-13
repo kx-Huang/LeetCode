@@ -3,7 +3,7 @@
  *
  * [322] Dynamic Programming
  *
- * Methods: Backtracking
+ * Method: Backtracking
  * Data Structure: Array
  *
  */
