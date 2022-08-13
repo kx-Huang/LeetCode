@@ -188,6 +188,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   |      | Title                                    | Difficulty | Time | Space |
   | ---- | ---------------------------------------- | ---------- | ---- | ----- |
   | 20   | Valid Parentheses                        | Easy       | O(n) | O(n)  |
+  | 385  | Mini Parser                              | Medium     | O(n) | O(n)  |
   | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n) | O(n)  |
 
 ---
@@ -198,17 +199,27 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 - Useful Function in C++
 
-  | Function                                                                              | Header        |
-  | ------------------------------------------------------------------------------------- | ------------- |
-  | [`std::isalpha`](https://en.cppreference.com/w/cpp/string/byte/isalpha)               | `<cctype>`    |
-  | [`std::isupper`](https://en.cppreference.com/w/cpp/string/byte/isupper)               | `<cctype>`    |
-  | [`std::islower`](https://en.cppreference.com/w/cpp/string/byte/islower)               | `<cctype>`    |
-  | [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)                      | `<ctype.h>`   |
-  | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)                      | `<ctype.h>`   |
-  | [`std::string::substr`](https://en.cppreference.com/w/cpp/string/basic_string/substr) | `<string>`    |
-  | [`std::remove`, `std::remove_if`](https://en.cppreference.com/w/cpp/algorithm/remove) | `<algorithm>` |
+  | Function                                                                                             | Header        |
+  | ---------------------------------------------------------------------------------------------------- | ------------- |
+  | [`std::isalpha`](https://en.cppreference.com/w/cpp/string/byte/isalpha)                              | `<cctype>`    |
+  | [`std::isdigit`](https://en.cppreference.com/w/cpp/string/byte/isdigit)                              | `<cctype>`    |
+  | [`std::isupper`](https://en.cppreference.com/w/cpp/string/byte/isupper)                              | `<cctype>`    |
+  | [`std::islower`](https://en.cppreference.com/w/cpp/string/byte/islower)                              | `<cctype>`    |
+  | [`tolower`](https://en.cppreference.com/w/c/string/byte/tolower)                                     | `<ctype.h>`   |
+  | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)                                     | `<ctype.h>`   |
+  | [`std::string::substr`](https://en.cppreference.com/w/cpp/string/basic_string/substr)                | `<string>`    |
+  | [`std::remove`, `std::remove_if`](https://en.cppreference.com/w/cpp/algorithm/remove)                | `<algorithm>` |
+  | [`std::find`, `std::find_if`, `std::find_if_not`](https://en.cppreference.com/w/cpp/algorithm/find)  | `<algorithm>` |
+  | [`std::atoi`, `std::atol`, `std::atoll`](https://en.cppreference.com/w/cpp/string/byte/atoi)         | `<cstdlib>`   |
+  | [`std::stoi`, `std::stol`, `std::stoll`](https://en.cppreference.com/w/cpp/string/basic_string/stol) | `<string>`    |
 
-- Related Methodology: [2.9 Two Pointers](#29-two-pointers)
+- Related Data Structure:
+  - [1.2 Hash Table](#12-hash-table)
+  - [1.6 Stack](#16-stack)
+
+- Related Methodology:
+  - [2.3 Dynamic Programming](#23-dynamic-programming)
+  - [2.9 Two Pointers](#29-two-pointers)
 
 - LeetCode Problem
 
@@ -217,6 +228,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 3    | Longest Substring Without Repeating Characters | Medium     | O(n)   | O(n)   |
   | 5    | Longest Palindromic Substring                  | Medium     | O(n^2) | O(n^2) |
   | 28   | Implement strStr()                             | Easy       | O(m+n) | O(m)   |
+  | 385  | Mini Parser                                    | Medium     | O(n)   | O(n)   |
   | 819  | Most Common Word                               | Easy       | O(n)   | O(n)   |
   | 917  | Reverse Only Letters                           | Easy       | O(n)   | O(1)   |
   | 1249 | Minimum Remove to Make Valid Parentheses       | Medium     | O(n)   | O(n)   |
