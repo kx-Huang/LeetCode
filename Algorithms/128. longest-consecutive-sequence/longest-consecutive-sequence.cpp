@@ -3,7 +3,7 @@
  *
  * [128] Longest Consecutive Sequence
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Hash Table
  *
  */
