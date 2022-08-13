@@ -3,7 +3,7 @@
  *
  * [238] Product of Array Except Self
  *
- * Methods: Prefix Sum
+ * Method: Prefix Sum
  * Data Structure: Array
  *
  */
