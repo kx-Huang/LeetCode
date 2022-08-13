@@ -77,6 +77,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 217 | Contains Duplicate           | Easy       | O(n) | O(n)  |
   | 349 | Intersection of Two Arrays   | Easy       | O(n) | O(n)  |
   | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
+  | 763 | Partition Labels             | Medium     | O(n) | O(n)  |
   | 819 | Most Common Word             | Easy       | O(n) | O(n)  |
 
 ---
@@ -229,6 +230,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 5    | Longest Palindromic Substring                  | Medium     | O(n^2) | O(n^2) |
   | 28   | Implement strStr()                             | Easy       | O(m+n) | O(m)   |
   | 385  | Mini Parser                                    | Medium     | O(n)   | O(n)   |
+  | 763  | Partition Labels                               | Medium     | O(n)   | O(n)   |
   | 819  | Most Common Word                               | Easy       | O(n)   | O(n)   |
   | 917  | Reverse Only Letters                           | Easy       | O(n)   | O(1)   |
   | 1249 | Minimum Remove to Make Valid Parentheses       | Medium     | O(n)   | O(n)   |
@@ -475,6 +477,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 28  | Implement strStr()                             | Easy       | O(m+n) | O(m)   |
   | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)   | O(1)   |
   | 475 | Heaters                                        | Medium     | O(m+n) | O(1)   |
+  | 763 | Partition Labels                               | Medium     | O(n)   | O(n)   |
   | 917 | Reverse Only Letters                           | Easy       | O(n)   | O(1)   |
   | 977 | Squares of a Sorted Array                      | Easy       | O(n)   | O(n)   |
 
