@@ -3,7 +3,7 @@
  *
  * [328] Odd Even Linked List
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Linked List
  *
  */
