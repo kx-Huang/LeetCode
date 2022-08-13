@@ -3,7 +3,7 @@
  *
  * [20] Valid Parentheses
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: String, Stack
  *
  */
