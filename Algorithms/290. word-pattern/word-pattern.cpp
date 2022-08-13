@@ -3,7 +3,7 @@
  *
  * [290] Word Pattern
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Hash Table, String
  *
  */
