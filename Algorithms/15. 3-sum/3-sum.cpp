@@ -3,7 +3,7 @@
  *
  * [15] 3Sum
  *
- * Methods: Two Pointers
+ * Method: Two Pointers
  * Data Structure: Array
  *
  */
