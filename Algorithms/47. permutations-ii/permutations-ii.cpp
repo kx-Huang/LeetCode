@@ -3,7 +3,7 @@
  *
  * [47] Permutations II
  *
- * Methods: Backtracking
+ * Method: Backtracking
  * Data Structure: Hash Table
  *
  */
