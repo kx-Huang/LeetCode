@@ -230,6 +230,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 3    | Longest Substring Without Repeating Characters | Medium     | O(n)        | O(n)    |
   | 5    | Longest Palindromic Substring                  | Medium     | O(n^2)      | O(n^2)  |
   | 28   | Implement strStr()                             | Easy       | O(m+n)      | O(m)    |
+  | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
   | 290  | Word Pattern                                   | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 385  | Mini Parser                                    | Medium     | O(n)        | O(n)    |
   | 763  | Partition Labels                               | Medium     | O(n)        | O(n)    |
