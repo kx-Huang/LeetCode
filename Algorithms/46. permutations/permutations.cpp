@@ -3,7 +3,7 @@
  *
  * [46] Permutations
  *
- * Methods: Backtracking
+ * Method: Backtracking
  * Data Structure: Array
  *
  */
