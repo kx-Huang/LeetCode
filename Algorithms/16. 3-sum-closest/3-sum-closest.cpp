@@ -3,7 +3,7 @@
  *
  * [16] 3Sum Closest
  *
- * Methods: Two Pointers
+ * Method: Two Pointers
  * Data Structure: Array
  *
  */
