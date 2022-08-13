@@ -28,8 +28,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   - [2.1 Backtracking](#21-backtracking)
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
   - [2.3 Dynamic Programming](#23-dynamic-programming)
-  - [2.4 Prefix Sum](#24-prefix-sum)
-  - [2.5 Reservoir Sampling](#25-reservoir-sampling)
+  - [2.4 Mathematical Optimization](#24-mathematical-optimization)
+    - [2.4.1 Bit Manipulation](#241-bit-manipulation)
+    - [2.4.2 Boyer–Moore Majority Vote Algorithm](#242-boyermoore-majority-vote-algorithm)
+    - [2.4.3 Reservoir Sampling](#243-reservoir-sampling)
+  - [2.5 Prefix Sum](#25-prefix-sum)
   - [2.6 Search](#26-search)
     - [2.6.1 Binary Search](#261-binary-search)
     - [2.6.2 Breadth First Search (BFS)](#262-breadth-first-search-bfs)
@@ -365,16 +368,50 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 ---
 
-### 2.4 Prefix Sum
+### 2.4 Mathematical Optimization
 
-|     | Title                        | Difficulty | Time | Space |
-| --- | ---------------------------- | ---------- | ---- | ----- |
-| 238 | Product of Array Except Self | Medium     | O(n) | O(n)  |
-| 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
+|     | Title                   | Difficulty | Time | Space  |
+| --- | ----------------------- | ---------- | ---- | ------ |
+| 169 | Majority Element        | Easy       | O(n) | O(1)   |
+| 187 | Repeated DNA Sequences  | Medium     | O(n) | O(2^n) |
+| 229 | Majority Element II     | Medium     | O(n) | O(1)   |
+| 268 | Missing Number          | Easy       | O(n) | O(1)   |
+| 382 | Linked List Random Node | Medium     | O(n) | O(1)   |
 
 ---
 
-### 2.5 Reservoir Sampling
+#### 2.4.1 Bit Manipulation
+
+- Related Methodology:
+  - Bit Encoding (optimize space)
+  - Double XOR (cancel out)
+
+- LeetCode Problem
+
+  |     | Title                  | Difficulty | Time | Space  |
+  | --- | ---------------------- | ---------- | ---- | ------ |
+  | 187 | Repeated DNA Sequences | Medium     | O(n) | O(2^n) |
+  | 268 | Missing Number         | Easy       | O(n) | O(1)   |
+
+---
+
+#### 2.4.2 Boyer–Moore Majority Vote Algorithm
+
+- Goal: Given an array of size $n$, find all majority elements that appear more than $\lfloor\frac{n}{k}\rfloor$ times.
+
+- Procedure
+  <!-- TODO -->
+
+- LeetCode Problem
+
+  |     | Title               | Difficulty | Time | Space |
+  | --- | ------------------- | ---------- | ---- | ----- |
+  | 169 | Majority Element    | Easy       | O(n) | O(1)  |
+  | 229 | Majority Element II | Medium     | O(n) | O(1)  |
+
+---
+
+#### 2.4.3 Reservoir Sampling
 
 - Goal: Select $k$ entries from $n$ options $\{X_1, X_2,...,X_n\}$. For any $n\ge k$, each entry is selected with same probability $P(X_i)=\frac{k}{n}$.
 
@@ -391,6 +428,15 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   |     | Title                   | Difficulty | Time | Space |
   | --- | ----------------------- | ---------- | ---- | ----- |
   | 382 | Linked List Random Node | Medium     | O(n) | O(1)  |
+
+---
+
+### 2.5 Prefix Sum
+
+|     | Title                        | Difficulty | Time | Space |
+| --- | ---------------------------- | ---------- | ---- | ----- |
+| 238 | Product of Array Except Self | Medium     | O(n) | O(n)  |
+| 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
 
 ---
 
@@ -466,6 +512,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   |     | Title                | Difficulty | Time       | Space   |
   | --- | -------------------- | ---------- | ---------- | ------- |
   | 23  | Merge k Sorted Lists | Hard       | O(nk*logk) | O(logk) |
+  | 49  | Group Anagrams       | Medium     | O(nlogn)   | O(n)    |
   | 148 | Sort List            | Medium     | O(nlogn)   | O(logn) |
 
 ---
