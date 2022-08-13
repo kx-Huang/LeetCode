@@ -3,7 +3,7 @@
  *
  * [704] Binary Search
  *
- * Methods: Binary Search
+ * Method: Binary Search
  * Data Structure: Array
  *
  */
