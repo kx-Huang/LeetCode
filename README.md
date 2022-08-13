@@ -400,7 +400,16 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 - Goal: Given an array of size $n$, find all majority elements that appear more than $\lfloor\frac{n}{k}\rfloor$ times.
 
 - Procedure
-  <!-- TODO -->
+  - At most $k-1$ majority element in $\{A_1, A_2,..., A_n\}$ can appear more than $\lfloor\frac{n}{k}\rfloor$ times:
+    - Initialize $k-1$ candidates $\{C_1, C_2,..., C_{k-1}\}$
+    - Initialize $k-1$ vote count $\{V_1, V_2,..., V_{k-1}\}$
+  - For $A_i$ in $\{A_1, A_2,..., A_n\}$, do:
+    - if any $C_j$ equals $A_i$, increase $V_j$ by 1
+    - else if any $V_j$ equals $0$: update $C_j$ to $A_i$ and set $V_j$ to 1
+    - else if no candidate equals $A_i$, decrease every vote by 1
+  - For $C_i$ in $\{C_1, C_2,..., C_{k-1}\}$, do:
+    - Count occurrence of $C_i$ in $\{A_1, A_2,..., A_n\}$
+    - if occur more than $\lfloor\frac{n}{k}\rfloor$ times, add to output
 
 - LeetCode Problem
 
