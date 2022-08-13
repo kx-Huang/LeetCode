@@ -73,6 +73,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   |     | Title                        | Difficulty | Time        | Space   |
   | --- | ---------------------------- | ---------- | ----------- | ------- |
   | 1   | Two sum                      | Easy       | O(n)        | O(n)    |
+  | 36  | Valid Sudoku                 | Medium     | O(n^2)      | O(n^2)  |
   | 49  | Group Anagrams               | Medium     | O(nlogn)    | O(n)    |
   | 128 | Longest Consecutive Sequence | Medium     | O(n)        | O(n)    |
   | 217 | Contains Duplicate           | Easy       | O(n)        | O(n)    |
