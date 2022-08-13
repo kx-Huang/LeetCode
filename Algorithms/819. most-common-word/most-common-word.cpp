@@ -3,7 +3,7 @@
  *
  * [819] Most Common Word
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Hash Table, String
  *
  */
