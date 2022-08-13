@@ -3,7 +3,7 @@
  *
  * [114] Flatten Binary Tree to Linked List
  *
- * Methods: Morris Traversal
+ * Method: Morris Traversal
  * Data Structure: Tree
  *
  */

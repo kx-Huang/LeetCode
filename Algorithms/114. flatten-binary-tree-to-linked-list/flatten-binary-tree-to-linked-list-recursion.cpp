@@ -3,7 +3,7 @@
  *
  * [114] Flatten Binary Tree to Linked List
  *
- * Methods: Depth First Search, Divide and Conquer
+ * Method: Depth First Search, Divide and Conquer
  * Data Structure: Linked List, Tree
  *
  */
