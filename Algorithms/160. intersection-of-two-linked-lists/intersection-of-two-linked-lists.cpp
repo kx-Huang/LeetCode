@@ -3,7 +3,7 @@
  *
  * [160] Intersection of Two Linked Lists
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Linked List
  *
  */
