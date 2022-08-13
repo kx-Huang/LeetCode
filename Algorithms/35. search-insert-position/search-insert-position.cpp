@@ -3,7 +3,7 @@
  *
  * [35] Search Insert Position
  *
- * Methods: Binary Search
+ * Method: Binary Search
  * Data Structure: Array
  *
  */
