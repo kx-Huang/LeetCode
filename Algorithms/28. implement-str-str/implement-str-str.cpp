@@ -3,7 +3,7 @@
  *
  * [28] Implement strStr()
  *
- * Methods: KMP String Matching Algorithm
+ * Method: KMP String Matching Algorithm
  * Data Structure: String, Array
  *
  */
