@@ -17,7 +17,7 @@ public:
         int right = 0;
         int ans = 0;
 
-        // Sliding Window: O(2n) = O(n)
+        // sliding window: O(2n) = O(n)
         while (right < s.size()) {
             // add element at window right to hash table
             char c = s[right];
