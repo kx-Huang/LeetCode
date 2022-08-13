@@ -3,7 +3,7 @@
  *
  * [382] Linked List Random Node
  *
- * Methods: Reservoir Sampling
+ * Method: Reservoir Sampling
  * Data Structure: Linked List
  *
  */
