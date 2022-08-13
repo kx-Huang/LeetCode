@@ -3,7 +3,7 @@
  *
  * [25] Reverse Nodes in k-Group
  *
- * Methods: Iterative Traversal
+ * Method: Iterative Traversal
  * Data Structure: Linked List
  *
  */
