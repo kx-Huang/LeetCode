@@ -199,6 +199,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 20   | Valid Parentheses                        | Easy       | O(n) | O(n)  |
   | 385  | Mini Parser                              | Medium     | O(n) | O(n)  |
   | 726  | Number of Atoms                          | Hard       | O(n) | O(n)  |
+  | 1047 | Remove All Adjacent Duplicates In String | Easy       | O(n) | O(n)  |
   | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n) | O(n)  |
 
 ---
@@ -243,9 +244,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
   | 290  | Word Pattern                                   | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 385  | Mini Parser                                    | Medium     | O(n)        | O(n)    |
+  | 726  | Number of Atoms                                | Hard       | O(n)        | O(n)    |
   | 763  | Partition Labels                               | Medium     | O(n)        | O(n)    |
   | 819  | Most Common Word                               | Easy       | O(n)        | O(n)    |
   | 917  | Reverse Only Letters                           | Easy       | O(n)        | O(1)    |
+  | 1047 | Remove All Adjacent Duplicates In String       | Easy       | O(n)        | O(n)    |
   | 1249 | Minimum Remove to Make Valid Parentheses       | Medium     | O(n)        | O(n)    |
 
 ---
@@ -319,6 +322,8 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 ---
 
 #### 1.8.6 Red-black Tree
+
+- Template in C++: [`std::map`](https://en.cppreference.com/w/cpp/container/map)
 
 - Complexity
 
