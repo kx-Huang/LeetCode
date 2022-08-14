@@ -20,7 +20,7 @@ public:
         int currFactor = 1;
         // current coefficient (appears directly after one element)
         int coef = 1;
-        // iterate formula in reverse order
+        // iterate formula in reverse order: O(n)
         for (int i = formula.size() - 1; i >= 0; i--) {
             char c = formula[i];
             // number
