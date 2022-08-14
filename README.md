@@ -238,6 +238,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | ---- | ---------------------------------------------- | ---------- | ----------- | ------- |
   | 3    | Longest Substring Without Repeating Characters | Medium     | O(n)        | O(n)    |
   | 5    | Longest Palindromic Substring                  | Medium     | O(n^2)      | O(n^2)  |
+  | 6    | Zigzag Conversion                              | Medium     | O(n)        | O(n)    |
   | 14   | Longest Common Prefix                          | Easy       | O(m*n)      | O(n)    |
   | 28   | Implement strStr()                             | Easy       | O(m+n)      | O(m)    |
   | 49   | Group Anagrams                                 | Medium     | O(nlogn)    | O(n)    |
