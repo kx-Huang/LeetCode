@@ -73,20 +73,21 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 - LeetCode Problem
 
-  |     | Title                        | Difficulty | Time        | Space   |
-  | --- | ---------------------------- | ---------- | ----------- | ------- |
-  | 1   | Two sum                      | Easy       | O(n)        | O(n)    |
-  | 36  | Valid Sudoku                 | Medium     | O(n^2)      | O(n^2)  |
-  | 49  | Group Anagrams               | Medium     | O(nlogn)    | O(n)    |
-  | 128 | Longest Consecutive Sequence | Medium     | O(n)        | O(n)    |
-  | 187 | Repeated DNA Sequences       | Medium     | O(n)        | O(2^n)  |
-  | 217 | Contains Duplicate           | Easy       | O(n)        | O(n)    |
-  | 290 | Word Pattern                 | Easy       | O(MIN(m,n)) | O(m+n)) |
-  | 349 | Intersection of Two Arrays   | Easy       | O(n)        | O(n)    |
-  | 560 | Subarray Sum Equals K        | Medium     | O(n)        | O(n)    |
-  | 763 | Partition Labels             | Medium     | O(n)        | O(n)    |
-  | 819 | Most Common Word             | Easy       | O(n)        | O(n)    |
-  | 904 | Fruit Into Baskets           | Medium     | O(n)        | O(n)    |
+  |     | Title                                     | Difficulty | Time        | Space   |
+  | --- | ----------------------------------------- | ---------- | ----------- | ------- |
+  | 1   | Two sum                                   | Easy       | O(n)        | O(n)    |
+  | 30  | Substring with Concatenation of All Words | Hard       | O(m*n)      | O(m)    |
+  | 36  | Valid Sudoku                              | Medium     | O(n^2)      | O(n^2)  |
+  | 49  | Group Anagrams                            | Medium     | O(nlogn)    | O(n)    |
+  | 128 | Longest Consecutive Sequence              | Medium     | O(n)        | O(n)    |
+  | 187 | Repeated DNA Sequences                    | Medium     | O(n)        | O(2^n)  |
+  | 217 | Contains Duplicate                        | Easy       | O(n)        | O(n)    |
+  | 290 | Word Pattern                              | Easy       | O(MIN(m,n)) | O(m+n)) |
+  | 349 | Intersection of Two Arrays                | Easy       | O(n)        | O(n)    |
+  | 560 | Subarray Sum Equals K                     | Medium     | O(n)        | O(n)    |
+  | 763 | Partition Labels                          | Medium     | O(n)        | O(n)    |
+  | 819 | Most Common Word                          | Easy       | O(n)        | O(n)    |
+  | 904 | Fruit Into Baskets                        | Medium     | O(n)        | O(n)    |
 
 ---
 
@@ -243,6 +244,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 8    | String to Integer (atoi)                       | Medium     | O(n)        | O(1)    |
   | 14   | Longest Common Prefix                          | Easy       | O(m*n)      | O(n)    |
   | 28   | Implement strStr()                             | Easy       | O(m+n)      | O(m)    |
+  | 30   | Substring with Concatenation of All Words      | Hard       | O(m*n)      | O(m)    |
   | 49   | Group Anagrams                                 | Medium     | O(nlogn)    | O(n)    |
   | 187  | Repeated DNA Sequences                         | Medium     | O(n)        | O(2^n)  |
   | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
@@ -551,6 +553,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 15  | 3Sum                                           | Medium     | O(n^2) | O(n^2) |
   | 16  | 3Sum Closest                                   | Medium     | O(n^2) | O(n^2) |
   | 28  | Implement strStr()                             | Easy       | O(m+n) | O(m)   |
+  | 30  | Substring with Concatenation of All Words      | Hard       | O(m*n) | O(m)   |
   | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)   | O(1)   |
   | 475 | Heaters                                        | Medium     | O(m+n) | O(1)   |
   | 763 | Partition Labels                               | Medium     | O(n)   | O(n)   |
