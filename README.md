@@ -79,6 +79,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 30  | Substring with Concatenation of All Words | Hard       | O(m*n)      | O(m)    |
   | 36  | Valid Sudoku                              | Medium     | O(n^2)      | O(n^2)  |
   | 49  | Group Anagrams                            | Medium     | O(nlogn)    | O(n)    |
+  | 76  | Minimum Window Substring                  | Hard       | O(m+n)      | O(n)    |
   | 128 | Longest Consecutive Sequence              | Medium     | O(n)        | O(n)    |
   | 187 | Repeated DNA Sequences                    | Medium     | O(n)        | O(2^n)  |
   | 217 | Contains Duplicate                        | Easy       | O(n)        | O(n)    |
@@ -554,6 +555,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 16  | 3Sum Closest                                   | Medium     | O(n^2) | O(n^2) |
   | 28  | Implement strStr()                             | Easy       | O(m+n) | O(m)   |
   | 30  | Substring with Concatenation of All Words      | Hard       | O(m*n) | O(m)   |
+  | 76  | Minimum Window Substring                       | Hard       | O(m+n) | O(n)   |
   | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)   | O(1)   |
   | 475 | Heaters                                        | Medium     | O(m+n) | O(1)   |
   | 763 | Partition Labels                               | Medium     | O(n)   | O(n)   |
