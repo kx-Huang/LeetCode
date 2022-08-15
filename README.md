@@ -85,8 +85,10 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 217 | Contains Duplicate                        | Easy       | O(n)        | O(n)    |
   | 290 | Word Pattern                              | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 349 | Intersection of Two Arrays                | Easy       | O(n)        | O(n)    |
+  | 451 | Sort Characters By Frequency              | Medium     | O(nlogn)    | O(n)    |
   | 560 | Subarray Sum Equals K                     | Medium     | O(n)        | O(n)    |
   | 763 | Partition Labels                          | Medium     | O(n)        | O(n)    |
+  | 767 | Reorganize String                         | Medium     | O(n)        | O(n)    |
   | 819 | Most Common Word                          | Easy       | O(n)        | O(n)    |
   | 904 | Fruit Into Baskets                        | Medium     | O(n)        | O(n)    |
 
@@ -252,8 +254,10 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 290  | Word Pattern                                   | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 385  | Mini Parser                                    | Medium     | O(n)        | O(n)    |
   | 402  | Remove K Digits                                | Medium     | O(n)        | O(n)    |
+  | 451  | Sort Characters By Frequency                   | Medium     | O(nlogn)    | O(n)    |
   | 726  | Number of Atoms                                | Hard       | O(n)        | O(n)    |
   | 763  | Partition Labels                               | Medium     | O(n)        | O(n)    |
+  | 767  | Reorganize String                              | Medium     | O(n)        | O(n)    |
   | 819  | Most Common Word                               | Easy       | O(n)        | O(n)    |
   | 917  | Reverse Only Letters                           | Easy       | O(n)        | O(1)    |
   | 1047 | Remove All Adjacent Duplicates In String       | Easy       | O(n)        | O(n)    |
@@ -331,7 +335,9 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 #### 1.8.6 Red-black Tree
 
-- Template in C++: [`std::map`](https://en.cppreference.com/w/cpp/container/map)
+- Template in C++
+  - [`std::map`](https://en.cppreference.com/w/cpp/container/map)
+  - [`std::multimap`](https://en.cppreference.com/w/cpp/container/multimap)
 
 - Complexity
 
@@ -532,11 +538,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 
 - LeetCode Problem
 
-  |     | Title                | Difficulty | Time       | Space   |
-  | --- | -------------------- | ---------- | ---------- | ------- |
-  | 23  | Merge k Sorted Lists | Hard       | O(nk*logk) | O(logk) |
-  | 49  | Group Anagrams       | Medium     | O(nlogn)   | O(n)    |
-  | 148 | Sort List            | Medium     | O(nlogn)   | O(logn) |
+  |     | Title                        | Difficulty | Time       | Space   |
+  | --- | ---------------------------- | ---------- | ---------- | ------- |
+  | 23  | Merge k Sorted Lists         | Hard       | O(nk*logk) | O(logk) |
+  | 49  | Group Anagrams               | Medium     | O(nlogn)   | O(n)    |
+  | 148 | Sort List                    | Medium     | O(nlogn)   | O(logn) |
+  | 451 | Sort Characters By Frequency | Medium     | O(nlogn)   | O(n)    |
+  | 726 | Number of Atoms              | Hard       | O(n)       | O(n)    |
+  | 767 | Reorganize String            | Medium     | O(n)       | O(n)    |
 
 ---
 
