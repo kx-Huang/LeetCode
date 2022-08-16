@@ -201,6 +201,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   |      | Title                                    | Difficulty | Time | Space |
   | ---- | ---------------------------------------- | ---------- | ---- | ----- |
   | 20   | Valid Parentheses                        | Easy       | O(n) | O(n)  |
+  | 32   | Longest Valid Parentheses                | Hard       | O(n) | O(n)  |
   | 385  | Mini Parser                              | Medium     | O(n) | O(n)  |
   | 402  | Remove K Digits                          | Medium     | O(n) | O(n)  |
   | 726  | Number of Atoms                          | Hard       | O(n) | O(n)  |
@@ -248,6 +249,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
   | 14   | Longest Common Prefix                          | Easy       | O(m*n)      | O(n)    |
   | 28   | Implement strStr()                             | Easy       | O(m+n)      | O(m)    |
   | 30   | Substring with Concatenation of All Words      | Hard       | O(m*n)      | O(m)    |
+  | 32   | Longest Valid Parentheses                      | Hard       | O(n)        | O(n)    |
   | 49   | Group Anagrams                                 | Medium     | O(nlogn)    | O(n)    |
   | 187  | Repeated DNA Sequences                         | Medium     | O(n)        | O(2^n)  |
   | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
@@ -383,6 +385,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems and n
 | --- | ----------------------------- | ---------- | -------- | ------ |
 | 5   | Longest Palindromic Substring | Medium     | O(n^2)   | O(n^2) |
 | 28  | Implement strStr()            | Easy       | O(m+n)   | O(m)   |
+| 32  | Longest Valid Parentheses     | Hard       | O(n)     | O(n)   |
 | 313 | Super Ugly Number             | Medium     | O(nlogk) | O(n)   |
 | 322 | Coin Change                   | Medium     | O(m*n)   | O(m)   |
 
