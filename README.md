@@ -181,6 +181,12 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Insert | O(1)    | O(1)  |
   | Delete | O(1)    | O(1)  |
 
+- LeetCode Problem
+
+  |     | Title                        | Difficulty | Time | Space |
+  | --- | ---------------------------- | ---------- | ---- | ----- |
+  | 225 | Implement Stack using Queues | Easy       | O(n) | O(n)  |
+
 ---
 
 ### 1.6 Stack
@@ -252,6 +258,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 32   | Longest Valid Parentheses                      | Hard       | O(n)        | O(n)    |
   | 49   | Group Anagrams                                 | Medium     | O(nlogn)    | O(n)    |
   | 187  | Repeated DNA Sequences                         | Medium     | O(n)        | O(2^n)  |
+  | 225  | Implement Stack using Queues                   | Easy       | O(n)        | O(n)    |
   | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
   | 290  | Word Pattern                                   | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 385  | Mini Parser                                    | Medium     | O(n)        | O(n)    |
