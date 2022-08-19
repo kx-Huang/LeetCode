@@ -208,6 +208,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | ---- | ---------------------------------------- | ---------- | ---- | ----- |
   | 20   | Valid Parentheses                        | Easy       | O(n) | O(n)  |
   | 32   | Longest Valid Parentheses                | Hard       | O(n) | O(n)  |
+  | 71   | Simplify Path                            | Medium     | O(n) | O(n)  |
   | 385  | Mini Parser                              | Medium     | O(n) | O(n)  |
   | 402  | Remove K Digits                          | Medium     | O(n) | O(n)  |
   | 682  | Baseball Game                            | Easy       | O(n) | O(n)  |
@@ -259,6 +260,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 30   | Substring with Concatenation of All Words      | Hard       | O(m*n)      | O(m)    |
   | 32   | Longest Valid Parentheses                      | Hard       | O(n)        | O(n)    |
   | 49   | Group Anagrams                                 | Medium     | O(nlogn)    | O(n)    |
+  | 71   | Simplify Path                                  | Medium     | O(n)        | O(n)    |
   | 187  | Repeated DNA Sequences                         | Medium     | O(n)        | O(2^n)  |
   | 225  | Implement Stack using Queues                   | Easy       | O(n)        | O(n)    |
   | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
