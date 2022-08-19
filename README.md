@@ -210,7 +210,9 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 32   | Longest Valid Parentheses                | Hard       | O(n) | O(n)  |
   | 385  | Mini Parser                              | Medium     | O(n) | O(n)  |
   | 402  | Remove K Digits                          | Medium     | O(n) | O(n)  |
+  | 682  | Baseball Game                            | Easy       | O(n) | O(n)  |
   | 726  | Number of Atoms                          | Hard       | O(n) | O(n)  |
+  | 739  | Daily Temperatures                       | Medium     | O(n) | O(n)  |
   | 1047 | Remove All Adjacent Duplicates In String | Easy       | O(n) | O(n)  |
   | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n) | O(n)  |
 
