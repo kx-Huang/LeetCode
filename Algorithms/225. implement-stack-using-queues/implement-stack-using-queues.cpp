@@ -2,6 +2,10 @@
  * @lc app=leetcode id=225 lang=cpp
  *
  * [225] Implement Stack using Queues
+ *
+ * Method: Iterative Traversal
+ * Data Structure: Queue, Stack
+ *
  */
 
 // @lc code=start
@@ -12,13 +16,28 @@ private:
 public:
     MyStack() {}
 
-    void push(int x) {}
+    // pop queue and push to back to make the new element to front: O(n)
+    void push(int x) {
+        q.push(x);
+        for (int i = 0; i < q.size() - 1; i++) {
+            q.push(q.front());
+            q.pop();
+        }
+    }
 
-    int pop() {}
+    int pop() {
+        int val = q.front();
+        q.pop();
+        return val;
+    }
 
-    int top() {}
+    int top() {
+        return q.front();
+    }
 
-    bool empty() {}
+    bool empty() {
+        return q.empty();
+    }
 };
 
 /**
