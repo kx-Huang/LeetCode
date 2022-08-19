@@ -265,6 +265,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 187  | Repeated DNA Sequences                         | Medium     | O(n)        | O(2^n)  |
   | 224  | Basic Calculator                               | Hard       | O(n)        | O(n)    |
   | 225  | Implement Stack using Queues                   | Easy       | O(n)        | O(n)    |
+  | 227  | Basic Calculator II                            | Medium     | O(n)        | O(n)    |
   | 268  | Missing Number                                 | Easy       | O(n)        | O(1)    |
   | 290  | Word Pattern                                   | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 385  | Mini Parser                                    | Medium     | O(n)        | O(n)    |
