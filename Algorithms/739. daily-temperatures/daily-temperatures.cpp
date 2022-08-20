@@ -13,28 +13,21 @@ class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
         // use monotonous stack to save index of temperatures:
-        // the temperature is guaranteed to be increasing from stack top
-        stack<int> s;
+        // the temperatures are guaranteed to be decreasing
+        stack<int> right;
         int len = temperatures.size();
         vector<int> ans(len, 0);
 
         // iterative traversal: O(n)
-        // keep pushing smaller temperature in stack, make stack top smallest
-        // update answer vector if meet larger one
-        for (int i = 0; i < len; i++) {
-            if (s.empty()) {
-                s.push(i);
-                continue;
-            }
-            while (!s.empty()) {
-                int idx = s.top();
-                // if temperature is smaller than the smallest one (stack top)
-                if (temperatures[i] <= temperatures[idx]) break;
-                // else found the first larger temperature
-                ans[idx] = i - idx;
-                s.pop();
-            }
-            s.push(i);
+        for (int i = len - 1; i >= 0; i--) {
+            int val = temperatures[i];
+            // pop stack until stack top is larger than current or empty
+            while (!right.empty() && val >= temperatures[right.top()])
+                right.pop();
+            // if still exist larger, we find the nearest larger
+            if (!right.empty()) ans[i] = right.top() - i;
+            // push current to stack for further comparison
+            right.push(i);
         }
 
         return ans;
