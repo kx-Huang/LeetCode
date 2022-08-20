@@ -220,6 +220,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 907  | Sum of Subarray Minimums                 | Medium     | O(n) | O(n)  |
   | 1047 | Remove All Adjacent Duplicates In String | Easy       | O(n) | O(n)  |
   | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n) | O(n)  |
+  | 2104 | Sum of Subnumsay Ranges                  | Medium     | O(n) | O(n)  |
 
 ---
 
