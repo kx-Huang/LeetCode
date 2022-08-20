@@ -149,7 +149,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Insert | O(1)    | O(1)  |
   | Delete | O(1)    | O(1)  |
 
-- Related Methodology [2.7 Slow & Fast Pointers](#27-slow--fast-pointers)
+- Related Methodology [**2.7 Slow & Fast Pointers**](#27-slow--fast-pointers)
 
 - LeetCode Problem
 
@@ -211,17 +211,18 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 20   | Valid Parentheses                        | Easy       | O(n) | O(n)  |
   | 32   | Longest Valid Parentheses                | Hard       | O(n) | O(n)  |
   | 71   | Simplify Path                            | Medium     | O(n) | O(n)  |
+  | 84   | **Largest Rectangle in Histogram**       | Hard       | O(n) | O(n)  |
   | 224  | Basic Calculator                         | Hard       | O(n) | O(n)  |
   | 385  | Mini Parser                              | Medium     | O(n) | O(n)  |
   | 402  | Remove K Digits                          | Medium     | O(n) | O(n)  |
   | 682  | Baseball Game                            | Easy       | O(n) | O(n)  |
   | 726  | Number of Atoms                          | Hard       | O(n) | O(n)  |
-  | 739  | Daily Temperatures                       | Medium     | O(n) | O(n)  |
-  | 907  | Sum of Subarray Minimums                 | Medium     | O(n) | O(n)  |
+  | 739  | **Daily Temperatures**                   | Medium     | O(n) | O(n)  |
+  | 907  | **Sum of Subarray Minimums**             | Medium     | O(n) | O(n)  |
   | 946  | Validate Stack Sequences                 | Medium     | O(n) | O(n)  |
   | 1047 | Remove All Adjacent Duplicates In String | Easy       | O(n) | O(n)  |
   | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n) | O(n)  |
-  | 2104 | Sum of Subnumsay Ranges                  | Medium     | O(n) | O(n)  |
+  | 2104 | **Sum of Subnumsay Ranges**              | Medium     | O(n) | O(n)  |
 
 ---
 
