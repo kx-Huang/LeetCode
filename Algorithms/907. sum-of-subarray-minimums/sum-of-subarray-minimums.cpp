@@ -34,7 +34,7 @@ public:
         }
 
         // use monotonous stack to save index of array:
-        // the element is guaranteed to be decreasing, so stack top is minimum
+        // the elements are guaranteed to be decreasing, so stack top is minimum
         stack<int> left;   // "left" corresponds to nearest smaller in previous
         stack<int> right;  // "right" corresponds to nearest smaller in future
 
@@ -45,7 +45,7 @@ public:
         for (int i = 0; i < len; i++) {
             int val = arr[i];
             // if current element is smaller, drop larger elements in stack
-            while (!left.empty() && val < arr[left.top()]) left.pop();
+            while (!left.empty() && val <= arr[left.top()]) left.pop();
             // until current element is larger than maximum in previous
             // we find an nearest smaller element in previous, update distance
             if (!left.empty()) previous[i] = i - left.top();
@@ -60,7 +60,7 @@ public:
             // Remark: we must handle case for duplicate elements in array
             // so actually we are finding distance to nearest not-larger element
             // we will find out the reason in comments of the next code snippet
-            while (!right.empty() && val <= arr[right.top()]) right.pop();
+            while (!right.empty() && val < arr[right.top()]) right.pop();
             if (!right.empty()) future[i] = right.top() - i;
             right.push(i);
         }
