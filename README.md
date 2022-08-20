@@ -202,6 +202,8 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - Template in C++: [`std::stack`](https://en.cppreference.com/w/cpp/container/stack)
 
+- Related Methodology: **Monotonous Stack**
+
 - LeetCode Problem
 
   |      | Title                                    | Difficulty | Time | Space |
@@ -215,6 +217,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 682  | Baseball Game                            | Easy       | O(n) | O(n)  |
   | 726  | Number of Atoms                          | Hard       | O(n) | O(n)  |
   | 739  | Daily Temperatures                       | Medium     | O(n) | O(n)  |
+  | 907  | Sum of Subarray Minimums                 | Medium     | O(n) | O(n)  |
   | 1047 | Remove All Adjacent Duplicates In String | Easy       | O(n) | O(n)  |
   | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n) | O(n)  |
 
