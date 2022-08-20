@@ -4,7 +4,7 @@
  * [739] Daily Temperatures
  *
  * Method: Iterative Traversal
- * Data Structure: Stack
+ * Data Structure: Monotonous Stack
  *
  */
 
@@ -12,7 +12,7 @@
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
-        // use stack to save index
+        // use monotonous stack to save index of temperatures:
         // the temperature is guaranteed to be increasing from stack top
         stack<int> s;
         int len = temperatures.size();
