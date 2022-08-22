@@ -67,9 +67,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
   *Note: Rehashing cost is amortized to O(1) over individual inserts*
 
-- Template in C++
-  - [`std::unordered_map`](https://en.cppreference.com/w/cpp/container/unordered_map)
-  - [`std::unordered_set`](https://en.cppreference.com/w/cpp/container/unordered_set)
+- Container in C++
+
+  | Container                                                                                   | Header            |
+  | ------------------------------------------------------------------------------------------- | ----------------- |
+  | [`std::unordered_map`](https://en.cppreference.com/w/cpp/container/unordered_map)           | `<unordered_map>` |
+  | [`std::unordered_multimap`](https://en.cppreference.com/w/cpp/container/unordered_multimap) | `<unordered_map>` |
+  | [`std::unordered_set`](https://en.cppreference.com/w/cpp/container/unordered_set)           | `<unordered_set>` |
+  | [`std::unordered_multiset`](https://en.cppreference.com/w/cpp/container/unordered_multiset) | `<unordered_set>` |
 
 - LeetCode Problem
 
@@ -88,6 +93,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 383 | Ransom Note                               | Easy       | O(m+n)      | O(n)    |
   | 451 | Sort Characters By Frequency              | Medium     | O(nlogn)    | O(n)    |
   | 560 | Subarray Sum Equals K                     | Medium     | O(n)        | O(n)    |
+  | 705 | Design HashSet                            | Easy       | O(1)        | O(n)    |
   | 763 | Partition Labels                          | Medium     | O(n)        | O(n)    |
   | 767 | Reorganize String                         | Medium     | O(n)        | O(n)    |
   | 819 | Most Common Word                          | Easy       | O(n)        | O(n)    |
@@ -122,7 +128,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Sort   |   1   | Initialize a min heap with all the elements to be sorted.                                                     |
   |        |   2   | Repeatedly call *pop* to extract elements out of the heap.                                                    |
 
-- Template in C++: [`std::priority_queue`](https://en.cppreference.com/w/cpp/container/priority_queue)
+- Conatiner in C++: [`std::priority_queue`](https://en.cppreference.com/w/cpp/container/priority_queue)
 
 - LeetCode Problem
 
@@ -152,6 +158,13 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - Related Methodology [**2.7 Slow & Fast Pointers**](#27-slow--fast-pointers)
 
+- Container in C++:
+
+  | Container                                                                       | Header           |
+  | ------------------------------------------------------------------------------- | ---------------- |
+  | [`std::list`](https://en.cppreference.com/w/cpp/container/list)                 | `<list>`         |
+  | [`std::forward_list`](https://en.cppreference.com/w/cpp/container/forward_list) | `<forward_list>` |
+
 - LeetCode Problem
 
   |     | Title                                     | Difficulty | Time     | Space   |
@@ -168,6 +181,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 234 | Palindrome Linked List                    | Easy       | O(n)     | O(1)    |
   | 328 | Odd Even Linked List                      | Medium     | O(n)     | O(1)    |
   | 382 | Linked List Random Node                   | Medium     | O(n)     | O(1)    |
+  | 705 | Design HashSet                            | Easy       | O(1)     | O(n)    |
 
 ---
 
@@ -201,7 +215,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Insert | O(1)    | O(1)  |
   | Delete | O(1)    | O(1)  |
 
-- Template in C++: [`std::stack`](https://en.cppreference.com/w/cpp/container/stack)
+- Container in C++:
+
+  | Container                                                         | Header    |
+  | ----------------------------------------------------------------- | --------- |
+  | [`std::stack`](https://en.cppreference.com/w/cpp/container/stack) | `<stack>` |
 
 - Related Methodology: **Monotonous Stack**
 
@@ -360,9 +378,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 #### 1.8.6 Red-black Tree
 
-- Template in C++
-  - [`std::map`](https://en.cppreference.com/w/cpp/container/map)
-  - [`std::multimap`](https://en.cppreference.com/w/cpp/container/multimap)
+- Container in C++
+
+  | Container                                                               | Header  |
+  | ----------------------------------------------------------------------- | ------- |
+  | [`std::map`](https://en.cppreference.com/w/cpp/container/map)           | `<map>` |
+  | [`std::multimap`](https://en.cppreference.com/w/cpp/container/multimap) | `<map>` |
+  | [`std::set`](https://en.cppreference.com/w/cpp/container/set)           | `<set>` |
+  | [`std::multiset`](https://en.cppreference.com/w/cpp/container/multiset) | `<set>` |
 
 - Complexity
 
