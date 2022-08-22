@@ -89,6 +89,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 187 | Repeated DNA Sequences                    | Medium     | O(n)        | O(2^n)  |
   | 217 | Contains Duplicate                        | Easy       | O(n)        | O(n)    |
   | 290 | Word Pattern                              | Easy       | O(MIN(m,n)) | O(m+n)) |
+  | 347 | Top K Frequent Elements                   | Medium     | O(n)        | O(n)    |
   | 349 | Intersection of Two Arrays                | Easy       | O(n)        | O(n)    |
   | 383 | Ransom Note                               | Easy       | O(m+n)      | O(n)    |
   | 451 | Sort Characters By Frequency              | Medium     | O(nlogn)    | O(n)    |
@@ -158,7 +159,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - Related Methodology [**2.7 Slow & Fast Pointers**](#27-slow--fast-pointers)
 
-- Container in C++:
+- Container in C++
 
   | Container                                                                       | Header           |
   | ------------------------------------------------------------------------------- | ---------------- |
@@ -215,7 +216,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Insert | O(1)    | O(1)  |
   | Delete | O(1)    | O(1)  |
 
-- Container in C++:
+- Container in C++
 
   | Container                                                         | Header    |
   | ----------------------------------------------------------------- | --------- |
@@ -265,11 +266,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | [`std::atoi`, `std::atol`, `std::atoll`](https://en.cppreference.com/w/cpp/string/byte/atoi)         | `<cstdlib>`   |
   | [`std::stoi`, `std::stol`, `std::stoll`](https://en.cppreference.com/w/cpp/string/basic_string/stol) | `<string>`    |
 
-- Related Data Structure:
+- Related Data Structure
   - [1.2 Hash Table](#12-hash-table)
   - [1.6 Stack](#16-stack)
 
-- Related Methodology:
+- Related Methodology
   - [2.3 Dynamic Programming](#23-dynamic-programming)
   - [2.9 Two Pointers](#29-two-pointers)
 
@@ -453,7 +454,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 #### 2.4.1 Bit Manipulation
 
-- Related Methodology:
+- Related Methodology
   - Bit Encoding (optimize space)
   - Double XOR (cancel out)
 
@@ -589,6 +590,13 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - Complexity: See *[Section 1.3: Sorting Algorithm](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-)* in resources page for more details
 
+- Algorithm in C++
+
+  | Algorithm                                                                     | Header        |
+  | ----------------------------------------------------------------------------- | ------------- |
+  | [`std::sort`](https://en.cppreference.com/w/cpp/algorithm/sort)               | `<algorithm>` |
+  | [`std::nth_element`](https://en.cppreference.com/w/cpp/algorithm/nth_element) | `<algorithm>` |
+
 - LeetCode Problem
 
   |     | Title                        | Difficulty | Time       | Space   |
@@ -596,6 +604,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 23  | Merge k Sorted Lists         | Hard       | O(nk*logk) | O(logk) |
   | 49  | Group Anagrams               | Medium     | O(nlogn)   | O(n)    |
   | 148 | Sort List                    | Medium     | O(nlogn)   | O(logn) |
+  | 347 | Top K Frequent Elements      | Medium     | O(n)       | O(n)    |
   | 451 | Sort Characters By Frequency | Medium     | O(nlogn)   | O(n)    |
   | 726 | Number of Atoms              | Hard       | O(n)       | O(n)    |
   | 767 | Reorganize String            | Medium     | O(n)       | O(n)    |
