@@ -24,6 +24,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
     - [1.8.5 K-D Tree](#185-k-d-tree)
     - [1.8.6 Red-black Tree](#186-red-black-tree)
     - [1.8.7 Trie](#187-trie)
+  - [1.9 Union-Find Disjoint Set (UFDS)](#19-union-find-disjoint-set-ufds)
 - [2. Methodology](#2-methodology)
   - [2.1 Backtracking](#21-backtracking)
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
@@ -407,6 +408,10 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 ---
 
 #### 1.8.7 Trie
+
+---
+
+### 1.9 Union-Find Disjoint Set (UFDS)
 
 ---
 
