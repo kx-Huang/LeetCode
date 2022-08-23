@@ -94,6 +94,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 383 | Ransom Note                               | Easy       | O(m+n)      | O(n)    |
   | 451 | Sort Characters By Frequency              | Medium     | O(nlogn)    | O(n)    |
   | 560 | Subarray Sum Equals K                     | Medium     | O(n)        | O(n)    |
+  | 621 | Task Scheduler                            | Medium     | O(n)        | O(n)    |
   | 705 | Design HashSet                            | Easy       | O(1)        | O(n)    |
   | 763 | Partition Labels                          | Medium     | O(n)        | O(n)    |
   | 767 | Reorganize String                         | Medium     | O(n)        | O(n)    |
