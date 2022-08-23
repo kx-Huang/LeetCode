@@ -203,6 +203,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   |     | Title                        | Difficulty | Time | Space |
   | --- | ---------------------------- | ---------- | ---- | ----- |
   | 225 | Implement Stack using Queues | Easy       | O(n) | O(n)  |
+  | 933 | Number of Recent Calls       | Easy       | O(n) | O(n)  |
 
 ---
 
