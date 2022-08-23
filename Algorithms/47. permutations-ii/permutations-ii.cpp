@@ -3,7 +3,7 @@
  *
  * [47] Permutations II
  *
- * Method: Backtracking
+ * Method: Backtracking, Depth First Search
  * Data Structure: Hash Table
  *
  */
@@ -37,7 +37,7 @@ private:
             // same as problem 46
             swap(nums[pos], nums[i]);
             getPermutations(ans, nums, pos + 1);
-            swap(nums[pos], nums[i]);
+            swap(nums[pos], nums[i]);  // backtracking
         }
     }
 };
