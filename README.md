@@ -432,14 +432,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ### 2.3 Dynamic Programming
 
-|     | Title                               | Difficulty | Time     | Space  |
-| --- | ----------------------------------- | ---------- | -------- | ------ |
-| 5   | Longest Palindromic Substring       | Medium     | O(n^2)   | O(n^2) |
-| 28  | Implement strStr()                  | Easy       | O(m+n)   | O(m)   |
-| 32  | Longest Valid Parentheses           | Hard       | O(n)     | O(n)   |
-| 313 | Super Ugly Number                   | Medium     | O(nlogk) | O(n)   |
-| 322 | Coin Change                         | Medium     | O(m*n)   | O(m)   |
-| 718 | Maximum Length of Repeated Subarray | Medium     | O(m*n)   | O(m*n) |
+|     | Title                               | Difficulty | Time     | Space       |
+| --- | ----------------------------------- | ---------- | -------- | ----------- |
+| 5   | Longest Palindromic Substring       | Medium     | O(n^2)   | O(n^2)      |
+| 28  | Implement strStr()                  | Easy       | O(m+n)   | O(m)        |
+| 32  | Longest Valid Parentheses           | Hard       | O(n)     | O(n)        |
+| 313 | Super Ugly Number                   | Medium     | O(nlogk) | O(n)        |
+| 322 | Coin Change                         | Medium     | O(m*n)   | O(m)        |
+| 718 | Maximum Length of Repeated Subarray | Medium     | O(m*n)   | O(MAX(m,n)) |
 
 ---
 
