@@ -275,6 +275,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   - [2.3 Dynamic Programming](#23-dynamic-programming)
   - [2.9 Two Pointers](#29-two-pointers)
 
+- Related Algorithm
+  - [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
+  - [Rabin–Karp String-searching Algorithm](https://en.wikipedia.org/wiki/Rabin–Karp_algorithm)
+  - [Sliding Window](https://www.geeksforgeeks.org/window-sliding-technique/)
+
 - LeetCode Problem
 
   |      | Title                                          | Difficulty | Time        | Space   |
@@ -605,8 +610,8 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
   | Algorithm                                                                     | Header        |
   | ----------------------------------------------------------------------------- | ------------- |
-  | [`std::sort`](https://en.cppreference.com/w/cpp/algorithm/sort)               | `<algorithm>` |
   | [`std::nth_element`](https://en.cppreference.com/w/cpp/algorithm/nth_element) | `<algorithm>` |
+  | [`std::sort`](https://en.cppreference.com/w/cpp/algorithm/sort)               | `<algorithm>` |
 
 - LeetCode Problem
 
@@ -626,6 +631,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - Related Algorithm
   - [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
+  - [Rabin–Karp String-searching Algorithm](https://en.wikipedia.org/wiki/Rabin–Karp_algorithm)
   - [Sliding Window](https://www.geeksforgeeks.org/window-sliding-technique/)
 
 - LeetCode Problem
