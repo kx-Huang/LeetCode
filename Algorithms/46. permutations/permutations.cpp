@@ -3,7 +3,7 @@
  *
  * [46] Permutations
  *
- * Method: Backtracking
+ * Method: Backtracking, Depth First Search
  * Data Structure: Array
  *
  */
@@ -29,7 +29,7 @@ private:
         for (int i = pos; i < nums.size(); i++) {
             swap(nums[pos], nums[i]);
             getPermutations(ans, nums, pos + 1);
-            swap(nums[pos], nums[i]);
+            swap(nums[pos], nums[i]);  // backtracking
         }
     }
 };
