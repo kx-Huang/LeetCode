@@ -25,6 +25,8 @@ public:
 
         // relation: dp[i+1][j+1] = dp[i][j] + 1 if nums[i] == nums[k]
         // time complexity: O(m*n)
+        // Remarks: space complexity can be reduced to O(max(m,n))
+        //          as we only access the previous state for current state
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 dp[i + 1][j + 1] = nums1[i] == nums2[j] ? dp[i][j] + 1 : 0;
