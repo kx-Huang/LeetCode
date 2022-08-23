@@ -10,20 +10,15 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   - [1.2 Hash Table](#12-hash-table)
   - [1.3 Heap](#13-heap)
     - [1.3.1 Binary Heap](#131-binary-heap)
-    - [1.3.2 Binomial Heap](#132-binomial-heap)
-    - [1.3.3 Fibonacci Heap](#133-fibonacci-heap)
   - [1.4 Linked List](#14-linked-list)
   - [1.5 Queue](#15-queue)
   - [1.6 Stack](#16-stack)
   - [1.7 String](#17-string)
   - [1.8 Tree](#18-tree)
     - [1.8.1 AVL Tree](#181-avl-tree)
-    - [1.8.2 B Tree](#182-b-tree)
-    - [1.8.3 B+ Tree](#183-b-tree)
-    - [1.8.4 Binary Search Tree (BST)](#184-binary-search-tree-bst)
-    - [1.8.5 K-D Tree](#185-k-d-tree)
-    - [1.8.6 Red-black Tree](#186-red-black-tree)
-    - [1.8.7 Trie](#187-trie)
+    - [1.8.2 Binary Search Tree (BST)](#182-binary-search-tree-bst)
+    - [1.8.3 K-D Tree](#183-k-d-tree)
+    - [1.8.4 Red-black Tree](#184-red-black-tree)
   - [1.9 Union-Find Disjoint Set (UFDS)](#19-union-find-disjoint-set-ufds)
 - [2. Methodology](#2-methodology)
   - [2.1 Backtracking](#21-backtracking)
@@ -139,14 +134,6 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | --- | -------------------- | ---------- | -------- | ----- |
   | 23  | Merge k Sorted Lists | Hard       | O(nlogk) | O(k)  |
   | 313 | Super Ugly Number    | Medium     | O(nlogk) | O(n)  |
-
-#### 1.3.2 Binomial Heap
-
----
-
-#### 1.3.3 Fibonacci Heap
-
----
 
 ### 1.4 Linked List
 
@@ -345,15 +332,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-#### 1.8.2 B Tree
-
----
-
-#### 1.8.3 B+ Tree
-
----
-
-#### 1.8.4 Binary Search Tree (BST)
+#### 1.8.2 Binary Search Tree (BST)
 
 - Complexity
 
@@ -372,7 +351,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-#### 1.8.5 K-D Tree
+#### 1.8.3 K-D Tree
 
 - Complexity
 
@@ -385,7 +364,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-#### 1.8.6 Red-black Tree
+#### 1.8.4 Red-black Tree
 
 - Container in C++
 
@@ -404,10 +383,6 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Search | O(logn) | O(logn) |
   | Insert | O(logn) | O(logn) |
   | Delete | O(logn) | O(logn) |
-
----
-
-#### 1.8.7 Trie
 
 ---
 
