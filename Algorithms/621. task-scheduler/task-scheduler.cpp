@@ -3,7 +3,7 @@
  *
  * [621] Task Scheduler
  *
- * Method: Iterative Traversal,
+ * Method: Iterative Traversal
  * Data Structure: Hash Table, Round-robin
  *
  */
