@@ -72,6 +72,8 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | [`std::unordered_set`](https://en.cppreference.com/w/cpp/container/unordered_set)           | `<unordered_set>` |
   | [`std::unordered_multiset`](https://en.cppreference.com/w/cpp/container/unordered_multiset) | `<unordered_set>` |
 
+- Related Algorithm: [**Rabin–Karp String-searching Algorithm**](https://en.wikipedia.org/wiki/Rabin–Karp_algorithm)
+
 - LeetCode Problem
 
   |     | Title                                     | Difficulty | Time        | Space   |
@@ -146,7 +148,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Insert | O(1)    | O(1)  |
   | Delete | O(1)    | O(1)  |
 
-- Related Methodology [**2.7 Slow & Fast Pointers**](#27-slow--fast-pointers)
+- Related Methodology: [**2.7 Slow & Fast Pointers**](#27-slow--fast-pointers)
 
 - Container in C++
 
@@ -212,7 +214,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | ----------------------------------------------------------------- | --------- |
   | [`std::stack`](https://en.cppreference.com/w/cpp/container/stack) | `<stack>` |
 
-- Related Methodology: **Monotonous Stack**
+- Related Methodology: [**Monotonic Stack**](https://liuzhenglaichn.gitbook.io/algorithm/monotonic-stack)
 
 - LeetCode Problem
 
