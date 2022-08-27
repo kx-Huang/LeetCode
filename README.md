@@ -598,15 +598,16 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |     | Title                        | Difficulty | Time       | Space   |
-  | --- | ---------------------------- | ---------- | ---------- | ------- |
-  | 23  | Merge k Sorted Lists         | Hard       | O(nk*logk) | O(logk) |
-  | 49  | Group Anagrams               | Medium     | O(nlogn)   | O(n)    |
-  | 148 | Sort List                    | Medium     | O(nlogn)   | O(logn) |
-  | 347 | Top K Frequent Elements      | Medium     | O(n)       | O(n)    |
-  | 451 | Sort Characters By Frequency | Medium     | O(nlogn)   | O(n)    |
-  | 726 | Number of Atoms              | Hard       | O(n)       | O(n)    |
-  | 767 | Reorganize String            | Medium     | O(n)       | O(n)    |
+  |      | Title                                            | Difficulty | Time       | Space   |
+  | ---- | ------------------------------------------------ | ---------- | ---------- | ------- |
+  | 23   | Merge k Sorted Lists                             | Hard       | O(nk*logk) | O(logk) |
+  | 49   | Group Anagrams                                   | Medium     | O(nlogn)   | O(n)    |
+  | 148  | Sort List                                        | Medium     | O(nlogn)   | O(logn) |
+  | 347  | Top K Frequent Elements                          | Medium     | O(n)       | O(n)    |
+  | 451  | Sort Characters By Frequency                     | Medium     | O(nlogn)   | O(n)    |
+  | 726  | Number of Atoms                                  | Hard       | O(n)       | O(n)    |
+  | 767  | Reorganize String                                | Medium     | O(n)       | O(n)    |
+  | 1846 | Maximum Element After Decreasing and Rearranging | Medium     | O(nlogn)   | O(1)    |
 
 ---
 
