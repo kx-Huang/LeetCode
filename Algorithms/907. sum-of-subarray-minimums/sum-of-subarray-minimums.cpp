@@ -34,7 +34,7 @@ public:
         }
 
         // use monotonous stack to save index of array:
-        // the elements are guaranteed to be decreasing, so stack top is minimum
+        // the elements are guaranteed to be decreasing, so stack top is maximum
         stack<int> left;   // "left" corresponds to nearest smaller in previous
         stack<int> right;  // "right" corresponds to nearest smaller in future
 
