@@ -76,7 +76,7 @@ public:
         //        2. we can choose "", "8", "78", "978" from left: 4 choices
         //        3. we can choose "", "4", "46" from right: 3 choices
         //   as a result, we have 3*4=12 choices in total to form sub-arrays
-        //   which is exact the previous[i] * future[i]
+        //   which is exactly previous[i] * future[i] choices
         // - in this 12 different sub-arrays: the minimum element is "3" itself
         //   so the sum is 12 * 3 = 36
         // - we can do the same thing for all elements in array with same logic
