@@ -390,6 +390,10 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ### 1.9 Union-Find Disjoint Set (UFDS)
 
+|     | Title                        | Difficulty | Time | Space |
+| --- | ---------------------------- | ---------- | ---- | ----- |
+| 128 | Longest Consecutive Sequence | Medium     | O(n) | O(n)  |
+
 ---
 
 ## 2. Methodology
