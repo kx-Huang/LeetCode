@@ -606,6 +606,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | ---- | ------------------------------------------------ | ---------- | ---------- | ------- |
   | 23   | Merge k Sorted Lists                             | Hard       | O(nk*logk) | O(logk) |
   | 49   | Group Anagrams                                   | Medium     | O(nlogn)   | O(n)    |
+  | 56   | Merge Intervals                                  | Medium     | O(nlogn)   | O(n)    |
   | 148  | Sort List                                        | Medium     | O(nlogn)   | O(logn) |
   | 347  | Top K Frequent Elements                          | Medium     | O(n)       | O(n)    |
   | 451  | Sort Characters By Frequency                     | Medium     | O(nlogn)   | O(n)    |
