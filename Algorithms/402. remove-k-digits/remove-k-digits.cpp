@@ -3,7 +3,7 @@
  *
  * [402] Remove K Digits
  *
- * Method: Iterative Traversal
+ * Method: Greedy
  * Data Structure: Stack, String
  *
  */
