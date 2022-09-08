@@ -24,18 +24,19 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   - [2.1 Backtracking](#21-backtracking)
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
   - [2.3 Dynamic Programming](#23-dynamic-programming)
-  - [2.4 Mathematical Optimization](#24-mathematical-optimization)
-    - [2.4.1 Bit Manipulation](#241-bit-manipulation)
-    - [2.4.2 Boyer–Moore Majority Vote Algorithm](#242-boyermoore-majority-vote-algorithm)
-    - [2.4.3 Reservoir Sampling](#243-reservoir-sampling)
-  - [2.5 Prefix Sum](#25-prefix-sum)
-  - [2.6 Search](#26-search)
-    - [2.6.1 Binary Search](#261-binary-search)
-    - [2.6.2 Breadth First Search (BFS)](#262-breadth-first-search-bfs)
-    - [2.6.3 Depth First Search (DFS)](#263-depth-first-search-dfs)
-  - [2.7 Slow & Fast Pointers](#27-slow--fast-pointers)
-  - [2.8 Sorting](#28-sorting)
-  - [2.9 Two Pointers](#29-two-pointers)
+  - [2.4 Greedy](#24-greedy)
+  - [2.5 Mathematical Optimization](#25-mathematical-optimization)
+    - [2.5.1 Bit Manipulation](#251-bit-manipulation)
+    - [2.5.2 Boyer–Moore Majority Vote Algorithm](#252-boyermoore-majority-vote-algorithm)
+    - [2.5.3 Reservoir Sampling](#253-reservoir-sampling)
+  - [2.6 Prefix Sum](#26-prefix-sum)
+  - [2.7 Search](#27-search)
+    - [2.7.1 Binary Search](#271-binary-search)
+    - [2.7.2 Breadth First Search (BFS)](#272-breadth-first-search-bfs)
+    - [2.7.3 Depth First Search (DFS)](#273-depth-first-search-dfs)
+  - [2.8 Slow & Fast Pointers](#28-slow--fast-pointers)
+  - [2.9 Sorting](#29-sorting)
+  - [2.10 Two Pointers](#210-two-pointers)
 
 ## 0. Acknowledgement
 
@@ -61,7 +62,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Delete | O(1)    | O(n)  |
   | Rehash | O(n)    | O(n)  |
 
-  *Note: Rehashing cost is amortized to O(1) over individual inserts*
+  _Note: Rehashing cost is amortized to O(1) over individual inserts_
 
 - Container in C++
 
@@ -79,7 +80,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   |     | Title                                     | Difficulty | Time        | Space   |
   | --- | ----------------------------------------- | ---------- | ----------- | ------- |
   | 1   | Two sum                                   | Easy       | O(n)        | O(n)    |
-  | 30  | Substring with Concatenation of All Words | Hard       | O(m*n)      | O(m)    |
+  | 30  | Substring with Concatenation of All Words | Hard       | O(m\*n)     | O(m)    |
   | 36  | Valid Sudoku                              | Medium     | O(n^2)      | O(n^2)  |
   | 49  | Group Anagrams                            | Medium     | O(nlogn)    | O(n)    |
   | 76  | Minimum Window Substring                  | Hard       | O(m+n)      | O(n)    |
@@ -116,17 +117,17 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - Procedure
 
-  |        | Step  | Procedure                                                                                                     |
-  | ------ | :---: | ------------------------------------------------------------------------------------------------------------- |
-  | Create |   1   | Put all the items into a complete binary tree.                                                                |
-  |        |   2   | Starting at the rightmost array position that has a child, *percolate down* all nodes in reverse level-order. |
-  | Push   |   1   | Insert new item as the rightmost leaf of the tree.                                                            |
-  |        |   2   | *Percolate up* newItem to an appropriate spot in the heap to restore the heap property.                       |
-  | Pop    |   1   | Save the root to be returned.                                                                                 |
-  |        |   2   | Move the item in the rightmost leaf of the tree to the root.                                                  |
-  |        |   3   | *Percolate down* the recently moved item at the root to its proper place to restore heap property.            |
-  | Sort   |   1   | Initialize a min heap with all the elements to be sorted.                                                     |
-  |        |   2   | Repeatedly call *pop* to extract elements out of the heap.                                                    |
+  |        | Step | Procedure                                                                                                     |
+  | ------ | :--: | ------------------------------------------------------------------------------------------------------------- |
+  | Create |  1   | Put all the items into a complete binary tree.                                                                |
+  |        |  2   | Starting at the rightmost array position that has a child, _percolate down_ all nodes in reverse level-order. |
+  | Push   |  1   | Insert new item as the rightmost leaf of the tree.                                                            |
+  |        |  2   | _Percolate up_ newItem to an appropriate spot in the heap to restore the heap property.                       |
+  | Pop    |  1   | Save the root to be returned.                                                                                 |
+  |        |  2   | Move the item in the rightmost leaf of the tree to the root.                                                  |
+  |        |  3   | _Percolate down_ the recently moved item at the root to its proper place to restore heap property.            |
+  | Sort   |  1   | Initialize a min heap with all the elements to be sorted.                                                     |
+  |        |  2   | Repeatedly call _pop_ to extract elements out of the heap.                                                    |
 
 - Conatiner in C++: [`std::priority_queue`](https://en.cppreference.com/w/cpp/container/priority_queue)
 
@@ -259,14 +260,17 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | [`std::stoi`, `std::stol`, `std::stoll`](https://en.cppreference.com/w/cpp/string/basic_string/stol) | `<string>`    |
 
 - Related Data Structure
+
   - [1.2 Hash Table](#12-hash-table)
   - [1.6 Stack](#16-stack)
 
 - Related Methodology
+
   - [2.3 Dynamic Programming](#23-dynamic-programming)
   - [2.9 Two Pointers](#29-two-pointers)
 
 - Related Algorithm
+
   - [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
   - [Rabin–Karp String-searching Algorithm](https://en.wikipedia.org/wiki/Rabin–Karp_algorithm)
   - [Sliding Window](https://www.geeksforgeeks.org/window-sliding-technique/)
@@ -279,9 +283,9 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 5    | Longest Palindromic Substring                  | Medium     | O(n^2)      | O(n^2)  |
   | 6    | Zigzag Conversion                              | Medium     | O(n)        | O(n)    |
   | 8    | String to Integer (atoi)                       | Medium     | O(n)        | O(1)    |
-  | 14   | Longest Common Prefix                          | Easy       | O(m*n)      | O(n)    |
+  | 14   | Longest Common Prefix                          | Easy       | O(m\*n)     | O(n)    |
   | 28   | Implement strStr()                             | Easy       | O(m+n)      | O(m)    |
-  | 30   | Substring with Concatenation of All Words      | Hard       | O(m*n)      | O(m)    |
+  | 30   | Substring with Concatenation of All Words      | Hard       | O(m\*n)     | O(m)    |
   | 32   | Longest Valid Parentheses                      | Hard       | O(n)        | O(n)    |
   | 49   | Group Anagrams                                 | Medium     | O(nlogn)    | O(n)    |
   | 71   | Simplify Path                                  | Medium     | O(n)        | O(n)    |
@@ -308,6 +312,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 ### 1.8 Tree
 
 - Related Methodology
+
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
   - [2.6 Search](#26-search)
 
@@ -400,13 +405,13 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ### 2.1 Backtracking
 
-|     | Title                   | Difficulty | Time     | Space    |
-| --- | ----------------------- | ---------- | -------- | -------- |
-| 46  | Permutations            | Medium     | O(n*n!)  | O(n*n!)  |
-| 47  | Permutations II         | Medium     | O(n*n!)  | O(n*n!)  |
-| 78  | Subsets                 | Medium     | O(n*2^n) | O(n*2^n) |
-| 113 | Path Sum II             | Medium     | O(n^2)   | O(n^2)   |
-| 491 | Increasing Subsequences | Medium     | O(n*2^n) | O(n*2^n) |
+|     | Title                   | Difficulty | Time      | Space     |
+| --- | ----------------------- | ---------- | --------- | --------- |
+| 46  | Permutations            | Medium     | O(n\*n!)  | O(n\*n!)  |
+| 47  | Permutations II         | Medium     | O(n\*n!)  | O(n\*n!)  |
+| 78  | Subsets                 | Medium     | O(n\*2^n) | O(n\*2^n) |
+| 113 | Path Sum II             | Medium     | O(n^2)    | O(n^2)    |
+| 491 | Increasing Subsequences | Medium     | O(n\*2^n) | O(n\*2^n) |
 
 ---
 
@@ -430,12 +435,23 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 28  | Implement strStr()                  | Easy       | O(m+n)   | O(m)        |
 | 32  | Longest Valid Parentheses           | Hard       | O(n)     | O(n)        |
 | 313 | Super Ugly Number                   | Medium     | O(nlogk) | O(n)        |
-| 322 | Coin Change                         | Medium     | O(m*n)   | O(m)        |
-| 718 | Maximum Length of Repeated Subarray | Medium     | O(m*n)   | O(MAX(m,n)) |
+| 322 | Coin Change                         | Medium     | O(m\*n)  | O(m)        |
+| 718 | Maximum Length of Repeated Subarray | Medium     | O(m\*n)  | O(MAX(m,n)) |
 
 ---
 
-### 2.4 Mathematical Optimization
+### 2.4 Greedy
+
+|     | Title            | Difficulty | Time | Space |
+| --- | ---------------- | ---------- | ---- | ----- |
+| 45  | Jump Game II     | Medium     | O(n) | O(1)  |
+| 402 | Remove K Digits  | Medium     | O(n) | O(n)  |
+| 621 | Task Scheduler   | Medium     | O(n) | O(n)  |
+| 763 | Partition Labels | Medium     | O(n) | O(n)  |
+
+---
+
+### 2.5 Mathematical Optimization
 
 |     | Title                   | Difficulty | Time | Space  |
 | --- | ----------------------- | ---------- | ---- | ------ |
@@ -447,9 +463,10 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-#### 2.4.1 Bit Manipulation
+#### 2.5.1 Bit Manipulation
 
 - Related Methodology
+
   - Bit Encoding (optimize space)
   - Double XOR (cancel out)
 
@@ -462,11 +479,12 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-#### 2.4.2 Boyer–Moore Majority Vote Algorithm
+#### 2.5.2 Boyer–Moore Majority Vote Algorithm
 
 - Goal: Given an array of size $n$, find all majority elements that appear more than $\lfloor\frac{n}{k}\rfloor$ times.
 
 - Procedure
+
   - At most $k-1$ majority element in $\{A_1, A_2,..., A_n\}$ can appear more than $\lfloor\frac{n}{k}\rfloor$ times:
     - Initialize $k-1$ candidates $\{C_1, C_2,..., C_{k-1}\}$
     - Initialize $k-1$ vote count $\{V_1, V_2,..., V_{k-1}\}$
@@ -487,17 +505,18 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-#### 2.4.3 Reservoir Sampling
+#### 2.5.3 Reservoir Sampling
 
 - Goal: Select $k$ entries from $n$ options $\{X_1, X_2,...,X_n\}$. For any $n\ge k$, each entry is selected with same probability $P(X_i)=\frac{k}{n}$.
 
 - Procedure
+
   - Choose $\{X_1, X_2,..., X_k\}$ first and put them into the reservoir
   - For $i\in [1,n-k]$, do:
     1. Pick $X_{k+i}$ with probability $P(X_{k+i})=\frac{k}{k+i}$
     2. If $X_{k+i}$ is picked, randomly replace an entry in the reservoir with same probability
 
-  *Note: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for detailed proof*
+  _Note: See [Section 3: Proof of Reservoir Sampling](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for detailed proof_
 
 - LeetCode Problem
 
@@ -507,7 +526,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-### 2.5 Prefix Sum
+### 2.6 Prefix Sum
 
 |     | Title                        | Difficulty | Time | Space |
 | --- | ---------------------------- | ---------- | ---- | ----- |
@@ -516,23 +535,23 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-### 2.6 Search
+### 2.7 Search
 
-|     | Title                                     | Difficulty | Time     | Space    |
-| --- | ----------------------------------------- | ---------- | -------- | -------- |
-| 35  | Search Insert Position                    | Easy       | O(logn)  | O(1)     |
-| 46  | Permutations                              | Medium     | O(n*n!)  | O(n*n!)  |
-| 47  | Permutations II                           | Medium     | O(n*n!)  | O(n*n!)  |
-| 78  | Subsets                                   | Medium     | O(n*2^n) | O(n*2^n) |
-| 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)     | O(logn)  |
-| 113 | Path Sum II                               | Medium     | O(n^2)   | O(n^2)   |
-| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)     | O(1)     |
-| 491 | Increasing Subsequences                   | Medium     | O(n*2^n) | O(n*2^n) |
-| 704 | Binary Search                             | Easy       | O(logn)  | O(1)     |
+|     | Title                                     | Difficulty | Time      | Space     |
+| --- | ----------------------------------------- | ---------- | --------- | --------- |
+| 35  | Search Insert Position                    | Easy       | O(logn)   | O(1)      |
+| 46  | Permutations                              | Medium     | O(n\*n!)  | O(n\*n!)  |
+| 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
+| 78  | Subsets                                   | Medium     | O(n\*2^n) | O(n\*2^n) |
+| 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
+| 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
+| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
+| 491 | Increasing Subsequences                   | Medium     | O(n\*2^n) | O(n\*2^n) |
+| 704 | Binary Search                             | Easy       | O(logn)   | O(1)      |
 
 ---
 
-#### 2.6.1 Binary Search
+#### 2.7.1 Binary Search
 
 - Complexity
 
@@ -550,11 +569,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-#### 2.6.2 Breadth First Search (BFS)
+#### 2.7.2 Breadth First Search (BFS)
 
 ---
 
-#### 2.6.3 Depth First Search (DFS)
+#### 2.7.3 Depth First Search (DFS)
 
 - Binary Tree
 
@@ -563,23 +582,23 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Recursive traversal                                                                       | O(n)            | O(n)             |
   | [Morris traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) | O(n)            | O(1)             |
 
-  *Note: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for more details*
+  _Note: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for more details_
 
 - LeetCode Problem
 
-  |     | Title                                     | Difficulty | Time     | Space    |
-  | --- | ----------------------------------------- | ---------- | -------- | -------- |
-  | 46  | Permutations                              | Medium     | O(n*n!)  | O(n*n!)  |
-  | 47  | Permutations II                           | Medium     | O(n*n!)  | O(n*n!)  |
-  | 78  | Subsets                                   | Medium     | O(n*2^n) | O(n*2^n) |
-  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)     | O(logn)  |
-  | 113 | Path Sum II                               | Medium     | O(n^2)   | O(n^2)   |
-  | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)     | O(1)     |
-  | 491 | Increasing Subsequences                   | Medium     | O(n*2^n) | O(n*2^n) |
+  |     | Title                                     | Difficulty | Time      | Space     |
+  | --- | ----------------------------------------- | ---------- | --------- | --------- |
+  | 46  | Permutations                              | Medium     | O(n\*n!)  | O(n\*n!)  |
+  | 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
+  | 78  | Subsets                                   | Medium     | O(n\*2^n) | O(n\*2^n) |
+  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
+  | 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
+  | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
+  | 491 | Increasing Subsequences                   | Medium     | O(n\*2^n) | O(n\*2^n) |
 
 ---
 
-### 2.7 Slow & Fast Pointers
+### 2.8 Slow & Fast Pointers
 
 |     | Title                  | Difficulty | Time     | Space   |
 | --- | ---------------------- | ---------- | -------- | ------- |
@@ -589,9 +608,9 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-### 2.8 Sorting
+### 2.9 Sorting
 
-- Complexity: See *[Section 1.3: Sorting Algorithm](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-)* in resources page for more details
+- Complexity: See _[Section 1.3: Sorting Algorithm](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-)_ in resources page for more details
 
 - Algorithm in C++
 
@@ -602,42 +621,43 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |      | Title                                            | Difficulty | Time       | Space   |
-  | ---- | ------------------------------------------------ | ---------- | ---------- | ------- |
-  | 23   | Merge k Sorted Lists                             | Hard       | O(nk*logk) | O(logk) |
-  | 49   | Group Anagrams                                   | Medium     | O(nlogn)   | O(n)    |
-  | 56   | Merge Intervals                                  | Medium     | O(nlogn)   | O(n)    |
-  | 148  | Sort List                                        | Medium     | O(nlogn)   | O(logn) |
-  | 347  | Top K Frequent Elements                          | Medium     | O(n)       | O(n)    |
-  | 451  | Sort Characters By Frequency                     | Medium     | O(nlogn)   | O(n)    |
-  | 726  | Number of Atoms                                  | Hard       | O(n)       | O(n)    |
-  | 767  | Reorganize String                                | Medium     | O(n)       | O(n)    |
-  | 1846 | Maximum Element After Decreasing and Rearranging | Medium     | O(nlogn)   | O(1)    |
+  |      | Title                                            | Difficulty | Time        | Space   |
+  | ---- | ------------------------------------------------ | ---------- | ----------- | ------- |
+  | 23   | Merge k Sorted Lists                             | Hard       | O(nk\*logk) | O(logk) |
+  | 49   | Group Anagrams                                   | Medium     | O(nlogn)    | O(n)    |
+  | 56   | Merge Intervals                                  | Medium     | O(nlogn)    | O(n)    |
+  | 148  | Sort List                                        | Medium     | O(nlogn)    | O(logn) |
+  | 347  | Top K Frequent Elements                          | Medium     | O(n)        | O(n)    |
+  | 451  | Sort Characters By Frequency                     | Medium     | O(nlogn)    | O(n)    |
+  | 726  | Number of Atoms                                  | Hard       | O(n)        | O(n)    |
+  | 767  | Reorganize String                                | Medium     | O(n)        | O(n)    |
+  | 1846 | Maximum Element After Decreasing and Rearranging | Medium     | O(nlogn)    | O(1)    |
 
 ---
 
-### 2.9 Two Pointers
+### 2.10 Two Pointers
 
 - Related Algorithm
+
   - [Knuth–Morris–Pratt String-searching Algorithm (KMP)](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
   - [Rabin–Karp String-searching Algorithm](https://en.wikipedia.org/wiki/Rabin–Karp_algorithm)
   - [Sliding Window](https://www.geeksforgeeks.org/window-sliding-technique/)
 
 - LeetCode Problem
 
-  |     | Title                                          | Difficulty | Time   | Space  |
-  | --- | ---------------------------------------------- | ---------- | ------ | ------ |
-  | 3   | Longest Substring Without Repeating Characters | Medium     | O(n)   | O(n)   |
-  | 15  | 3Sum                                           | Medium     | O(n^2) | O(n^2) |
-  | 16  | 3Sum Closest                                   | Medium     | O(n^2) | O(n^2) |
-  | 28  | Implement strStr()                             | Easy       | O(m+n) | O(m)   |
-  | 30  | Substring with Concatenation of All Words      | Hard       | O(m*n) | O(m)   |
-  | 76  | Minimum Window Substring                       | Hard       | O(m+n) | O(n)   |
-  | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)   | O(1)   |
-  | 475 | Heaters                                        | Medium     | O(m+n) | O(1)   |
-  | 763 | Partition Labels                               | Medium     | O(n)   | O(n)   |
-  | 904 | Fruit Into Baskets                             | Medium     | O(n)   | O(n)   |
-  | 917 | Reverse Only Letters                           | Easy       | O(n)   | O(1)   |
-  | 977 | Squares of a Sorted Array                      | Easy       | O(n)   | O(n)   |
+  |     | Title                                          | Difficulty | Time    | Space  |
+  | --- | ---------------------------------------------- | ---------- | ------- | ------ |
+  | 3   | Longest Substring Without Repeating Characters | Medium     | O(n)    | O(n)   |
+  | 15  | 3Sum                                           | Medium     | O(n^2)  | O(n^2) |
+  | 16  | 3Sum Closest                                   | Medium     | O(n^2)  | O(n^2) |
+  | 28  | Implement strStr()                             | Easy       | O(m+n)  | O(m)   |
+  | 30  | Substring with Concatenation of All Words      | Hard       | O(m\*n) | O(m)   |
+  | 76  | Minimum Window Substring                       | Hard       | O(m+n)  | O(n)   |
+  | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)    | O(1)   |
+  | 475 | Heaters                                        | Medium     | O(m+n)  | O(1)   |
+  | 763 | Partition Labels                               | Medium     | O(n)    | O(n)   |
+  | 904 | Fruit Into Baskets                             | Medium     | O(n)    | O(n)   |
+  | 917 | Reverse Only Letters                           | Easy       | O(n)    | O(1)   |
+  | 977 | Squares of a Sorted Array                      | Easy       | O(n)    | O(n)   |
 
 ---
