@@ -16,6 +16,7 @@ public:
         if (amount == 0) return 0;
 
         // $n needs dp[n] coins
+        // initialize to amount+1 coins (which means not possible)
         vector<int> dp(amount + 1, amount + 1);
 
         // initial condition: $0 needs no coin
