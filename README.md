@@ -437,7 +437,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 313  | Super Ugly Number                   | Medium     | O(nlogk)             | O(n)        |
 | 322  | Coin Change                         | Medium     | O(m\*n)              | O(m)        |
 | 718  | Maximum Length of Repeated Subarray | Medium     | O(m\*n)              | O(MAX(m,n)) |
-| 1444 | Number of Ways of Cutting a Pizza   | Hard       | O(n\*m\*MAX(n,m)\*k) | O(m\*n\*k)  |
+| 1444 | Number of Ways of Cutting a Pizza   | Hard       | O(m\*n\*MAX(m,n)\*k) | O(m\*n\*k)  |
 
 ---
 

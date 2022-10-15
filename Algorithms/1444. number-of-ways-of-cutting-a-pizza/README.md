@@ -54,7 +54,7 @@ $$
 
 ## What is the time and space complexity?
 
-- Time complexity: `O(n * m * MAX(n, m) * k)`:
+- Time complexity: `O(m * n * MAX(m, n) * k)`:
 
   - `n`: number of row
   - `m`: number of column
