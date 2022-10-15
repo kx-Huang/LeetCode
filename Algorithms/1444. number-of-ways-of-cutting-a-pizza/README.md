@@ -61,4 +61,4 @@ $$
   - `MAX(n, m)`: sum in DP relationship
   - `k`: number of cut
 
-- Space complexity: `O(m\*n\*k)`
+- Space complexity: `O(m*n*k)`
