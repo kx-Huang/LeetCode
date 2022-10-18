@@ -434,6 +434,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 5    | Longest Palindromic Substring       | Medium     | O(n^2)               | O(n^2)      |
 | 28   | Implement strStr()                  | Easy       | O(m+n)               | O(m)        |
 | 32   | Longest Valid Parentheses           | Hard       | O(n)                 | O(n)        |
+| 62   | Unique Paths                        | Medium     | O(m\*n)              | O(1)        |
 | 313  | Super Ugly Number                   | Medium     | O(nlogk)             | O(n)        |
 | 322  | Coin Change                         | Medium     | O(m\*n)              | O(m)        |
 | 718  | Maximum Length of Repeated Subarray | Medium     | O(m\*n)              | O(MAX(m,n)) |
@@ -454,13 +455,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ### 2.5 Mathematical Optimization
 
-|     | Title                   | Difficulty | Time | Space  |
-| --- | ----------------------- | ---------- | ---- | ------ |
-| 169 | Majority Element        | Easy       | O(n) | O(1)   |
-| 187 | Repeated DNA Sequences  | Medium     | O(n) | O(2^n) |
-| 229 | Majority Element II     | Medium     | O(n) | O(1)   |
-| 268 | Missing Number          | Easy       | O(n) | O(1)   |
-| 382 | Linked List Random Node | Medium     | O(n) | O(1)   |
+|     | Title                   | Difficulty | Time        | Space  |
+| --- | ----------------------- | ---------- | ----------- | ------ |
+| 62  | Unique Paths            | Medium     | O(MIN(m,n)) | O(1)   |
+| 169 | Majority Element        | Easy       | O(n)        | O(1)   |
+| 187 | Repeated DNA Sequences  | Medium     | O(n)        | O(2^n) |
+| 229 | Majority Element II     | Medium     | O(n)        | O(1)   |
+| 268 | Missing Number          | Easy       | O(n)        | O(1)   |
+| 382 | Linked List Random Node | Medium     | O(n)        | O(1)   |
 
 ---
 
