@@ -14,7 +14,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   - [1.5 Queue](#15-queue)
   - [1.6 Stack](#16-stack)
   - [1.7 String](#17-string)
-  - [1.8 Tree](#18-tree)
+  - [1.8 Binary Tree](#18-binary-tree)
     - [1.8.1 AVL Tree](#181-avl-tree)
     - [1.8.2 Binary Search Tree (BST)](#182-binary-search-tree-bst)
     - [1.8.3 K-D Tree](#183-k-d-tree)
@@ -309,7 +309,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-### 1.8 Tree
+### 1.8 Binary Tree
 
 - Related Methodology
 
@@ -574,6 +574,10 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 #### 2.7.2 Breadth First Search (BFS)
 
+- Related Data Structure
+
+  - [1.5 Queue](#15-queue)
+
 - LeetCode Problem
 
   |     | Title             | Difficulty | Time    | Space   |
@@ -584,14 +588,17 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 #### 2.7.3 Depth First Search (DFS)
 
-- Binary Tree
+- Related Data Structure
 
-  |                                                                                           | Time Complexity | Space Complexity |
-  | ----------------------------------------------------------------------------------------- | --------------- | ---------------- |
-  | Recursive traversal                                                                       | O(n)            | O(n)             |
-  | [Morris traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) | O(n)            | O(1)             |
+  - [1.6 Stack](#16-stack)
+  - [1.8 Binary Tree](#18-binary-tree)
 
-  _Note: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for more details_
+    |                                                                                           | Time Complexity | Space Complexity |
+    | ----------------------------------------------------------------------------------------- | --------------- | ---------------- |
+    | Recursive traversal                                                                       | O(n)            | O(n)             |
+    | [Morris traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) | O(n)            | O(1)             |
+
+    _Note: See [Section 2: Morris Traversal](https://github.com/kx-Huang/LeetCode/tree/master/Resources#resources-) in resources page for more details_
 
 - LeetCode Problem
 
