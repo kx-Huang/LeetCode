@@ -574,6 +574,12 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 #### 2.7.2 Breadth First Search (BFS)
 
+- LeetCode Problem
+
+  |     | Title             | Difficulty | Time    | Space   |
+  | --- | ----------------- | ---------- | ------- | ------- |
+  | 200 | Number of Islands | Medium     | O(m\*n) | O(m\*n) |
+
 ---
 
 #### 2.7.3 Depth First Search (DFS)
