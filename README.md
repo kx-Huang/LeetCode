@@ -149,7 +149,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | Insert | O(1)    | O(1)  |
   | Delete | O(1)    | O(1)  |
 
-- Related Methodology: [**2.7 Slow & Fast Pointers**](#27-slow--fast-pointers)
+- Related Methodology: [**2.8 Slow & Fast Pointers**](#28-slow--fast-pointers)
 
 - Container in C++
 
@@ -255,6 +255,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | [`toupper`](https://en.cppreference.com/w/c/string/byte/toupper)                                     | `<ctype.h>`   |
   | [`std::string::substr`](https://en.cppreference.com/w/cpp/string/basic_string/substr)                | `<string>`    |
   | [`std::remove`, `std::remove_if`](https://en.cppreference.com/w/cpp/algorithm/remove)                | `<algorithm>` |
+  | [`std::reverse`](https://en.cppreference.com/w/cpp/algorithm/reverse)                                | `<algorithm>` |
   | [`std::find`, `std::find_if`, `std::find_if_not`](https://en.cppreference.com/w/cpp/algorithm/find)  | `<algorithm>` |
   | [`std::atoi`, `std::atol`, `std::atoll`](https://en.cppreference.com/w/cpp/string/byte/atoi)         | `<cstdlib>`   |
   | [`std::stoi`, `std::stol`, `std::stoll`](https://en.cppreference.com/w/cpp/string/basic_string/stol) | `<string>`    |
@@ -267,7 +268,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 - Related Methodology
 
   - [2.3 Dynamic Programming](#23-dynamic-programming)
-  - [2.9 Two Pointers](#29-two-pointers)
+  - [2.10 Two Pointers](#210-two-pointers)
 
 - Related Algorithm
 
@@ -314,12 +315,13 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 - Related Methodology
 
   - [2.2 Divide and Conquer](#22-divide-and-conquer)
-  - [2.6 Search](#26-search)
+  - [2.7 Search](#27-search)
 
 - LeetCode Problem
 
   |     | Title                                     | Difficulty | Time   | Space   |
   | --- | ----------------------------------------- | ---------- | ------ | ------- |
+  | 103 | Binary Tree Zigzag Level Order Traversal  | Medium     | O(n)   | O(n)    |
   | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)   | O(logn) |
   | 113 | Path Sum II                               | Medium     | O(n^2) | O(n^2)  |
   | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)   | O(1)    |
@@ -546,6 +548,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 46  | Permutations                              | Medium     | O(n\*n!)  | O(n\*n!)  |
 | 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
 | 78  | Subsets                                   | Medium     | O(n\*2^n) | O(n\*2^n) |
+| 103 | Binary Tree Zigzag Level Order Traversal  | Medium     | O(n)      | O(n)      |
 | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
 | 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
 | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
@@ -580,9 +583,10 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |     | Title             | Difficulty | Time    | Space   |
-  | --- | ----------------- | ---------- | ------- | ------- |
-  | 200 | Number of Islands | Medium     | O(m\*n) | O(m\*n) |
+  |     | Title                                    | Difficulty | Time    | Space   |
+  | --- | ---------------------------------------- | ---------- | ------- | ------- |
+  | 103 | Binary Tree Zigzag Level Order Traversal | Medium     | O(n)    | O(n)    |
+  | 200 | Number of Islands                        | Medium     | O(m\*n) | O(m\*n) |
 
 ---
 
@@ -642,6 +646,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 23   | Merge k Sorted Lists                             | Hard       | O(nk\*logk) | O(logk) |
   | 49   | Group Anagrams                                   | Medium     | O(nlogn)    | O(n)    |
   | 56   | Merge Intervals                                  | Medium     | O(nlogn)    | O(n)    |
+  | 88   | Merge Sorted Array                               | Easy       | O(m+n)      | O(m+n)  |
   | 148  | Sort List                                        | Medium     | O(nlogn)    | O(logn) |
   | 347  | Top K Frequent Elements                          | Medium     | O(n)        | O(n)    |
   | 451  | Sort Characters By Frequency                     | Medium     | O(nlogn)    | O(n)    |
@@ -669,6 +674,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 28  | Implement strStr()                             | Easy       | O(m+n)  | O(m)   |
   | 30  | Substring with Concatenation of All Words      | Hard       | O(m\*n) | O(m)   |
   | 76  | Minimum Window Substring                       | Hard       | O(m+n)  | O(n)   |
+  | 88  | Merge Sorted Array                             | Easy       | O(m+n)  | O(m+n) |
   | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)    | O(1)   |
   | 475 | Heaters                                        | Medium     | O(m+n)  | O(1)   |
   | 763 | Partition Labels                               | Medium     | O(n)    | O(n)   |
