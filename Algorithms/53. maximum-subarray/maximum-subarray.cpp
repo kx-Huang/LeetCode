@@ -2,6 +2,7 @@
  * @lc app=leetcode id=53 lang=cpp
  *
  * [53] Maximum Subarray
+ *
  * Method: Kadane's Algorithm
  * Data Structure: Array
  *
