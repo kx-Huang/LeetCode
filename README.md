@@ -29,7 +29,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
     - [2.5.1 Bit Manipulation](#251-bit-manipulation)
     - [2.5.2 Boyer–Moore Majority Vote Algorithm](#252-boyermoore-majority-vote-algorithm)
     - [2.5.3 Reservoir Sampling](#253-reservoir-sampling)
-  - [2.6 Prefix Sum](#26-prefix-sum)
+  - [2.6 Prefix Sum/Product](#26-prefix-sumproduct)
   - [2.7 Search](#27-search)
     - [2.7.1 Binary Search](#271-binary-search)
     - [2.7.2 Breadth First Search (BFS)](#272-breadth-first-search-bfs)
@@ -551,10 +551,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ---
 
-### 2.6 Prefix Sum
+### 2.6 Prefix Sum/Product
 
 |     | Title                        | Difficulty | Time | Space |
 | --- | ---------------------------- | ---------- | ---- | ----- |
+| 152 | Maximum Product Subarray     | Medium     | O(n) | O(1)  |
 | 238 | Product of Array Except Self | Medium     | O(n) | O(n)  |
 | 560 | Subarray Sum Equals K        | Medium     | O(n) | O(n)  |
 
@@ -697,6 +698,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 30  | Substring with Concatenation of All Words      | Hard       | O(m\*n) | O(m)   |
   | 76  | Minimum Window Substring                       | Hard       | O(m+n)  | O(n)   |
   | 88  | Merge Sorted Array                             | Easy       | O(m+n)  | O(m+n) |
+  | 152 | Maximum Product Subarray                       | Medium     | O(n)    | O(1)   |
   | 167 | Two Sum II - Input Array Is Sorted             | Medium     | O(n)    | O(1)   |
   | 475 | Heaters                                        | Medium     | O(m+n)  | O(1)   |
   | 763 | Partition Labels                               | Medium     | O(n)    | O(n)   |
