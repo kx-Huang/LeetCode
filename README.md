@@ -41,6 +41,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 ## 0. Acknowledgement
 
 - Special thanks to [**Ruida Huang**](https://www.linkedin.com/in/ruida-huang-a777a7220/) and student organization **Sparks US** [@University of Michigan-Ann Arbor](https://umich.edu) that provides the initial category of LeetCode problems for me to start with
+- If you are pressed for time, go check out this post: [Curated List of Top 75 LeetCode Questions to Save Your Time](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 - `LeetCode VSCode Extension` is used for quick problem preview and code submission, please check [`config.md`](https://github.com/kx-Huang/LeetCode/blob/master/config.md) for detailed instructions
 - Great thanks to all resouce contributors of related resouces
 
