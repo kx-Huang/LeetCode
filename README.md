@@ -49,6 +49,16 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ### 1.1 Graph
 
+- Related Algorithm:
+
+  - [**Topological Sort**](https://en.wikipedia.org/wiki/Topological_sorting)
+
+- LeetCode Problem
+
+  |     | Title           | Difficulty | Time   | Space  |
+  | --- | --------------- | ---------- | ------ | ------ |
+  | 207 | Course Schedule | Medium     | O(V+E) | O(V+E) |
+
 ---
 
 ### 1.2 Hash Table
@@ -86,7 +96,9 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 49  | Group Anagrams                            | Medium     | O(nlogn)    | O(n)    |
   | 76  | Minimum Window Substring                  | Hard       | O(m+n)      | O(n)    |
   | 128 | Longest Consecutive Sequence              | Medium     | O(n)        | O(n)    |
+  | 139 | Word Break                                | Medium     | O(m\*n)     | O(m+n)  |
   | 187 | Repeated DNA Sequences                    | Medium     | O(n)        | O(2^n)  |
+  | 207 | Course Schedule                           | Medium     | O(V+E)      | O(V+E)  |
   | 217 | Contains Duplicate                        | Easy       | O(n)        | O(n)    |
   | 290 | Word Pattern                              | Easy       | O(MIN(m,n)) | O(m+n)) |
   | 347 | Top K Frequent Elements                   | Medium     | O(n)        | O(n)    |
@@ -192,10 +204,13 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |     | Title                        | Difficulty | Time | Space |
-  | --- | ---------------------------- | ---------- | ---- | ----- |
-  | 225 | Implement Stack using Queues | Easy       | O(n) | O(n)  |
-  | 933 | Number of Recent Calls       | Easy       | O(n) | O(n)  |
+  |     | Title                                    | Difficulty | Time    | Space   |
+  | --- | ---------------------------------------- | ---------- | ------- | ------- |
+  | 103 | Binary Tree Zigzag Level Order Traversal | Medium     | O(n)    | O(n)    |
+  | 200 | Number of Islands                        | Medium     | O(m\*n) | O(m\*n) |
+  | 207 | Course Schedule                          | Medium     | O(V+E)  | O(V+E)  |
+  | 225 | Implement Stack using Queues             | Easy       | O(n)    | O(n)    |
+  | 933 | Number of Recent Calls                   | Easy       | O(n)    | O(n)    |
 
 ---
 
@@ -220,23 +235,24 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |      | Title                                    | Difficulty | Time | Space |
-  | ---- | ---------------------------------------- | ---------- | ---- | ----- |
-  | 20   | Valid Parentheses                        | Easy       | O(n) | O(n)  |
-  | 32   | Longest Valid Parentheses                | Hard       | O(n) | O(n)  |
-  | 71   | Simplify Path                            | Medium     | O(n) | O(n)  |
-  | 84   | **Largest Rectangle in Histogram**       | Hard       | O(n) | O(n)  |
-  | 224  | Basic Calculator                         | Hard       | O(n) | O(n)  |
-  | 385  | Mini Parser                              | Medium     | O(n) | O(n)  |
-  | 402  | Remove K Digits                          | Medium     | O(n) | O(n)  |
-  | 682  | Baseball Game                            | Easy       | O(n) | O(n)  |
-  | 726  | Number of Atoms                          | Hard       | O(n) | O(n)  |
-  | 739  | **Daily Temperatures**                   | Medium     | O(n) | O(n)  |
-  | 907  | **Sum of Subarray Minimums**             | Medium     | O(n) | O(n)  |
-  | 946  | Validate Stack Sequences                 | Medium     | O(n) | O(n)  |
-  | 1047 | Remove All Adjacent Duplicates In String | Easy       | O(n) | O(n)  |
-  | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n) | O(n)  |
-  | 2104 | **Sum of Subnumsay Ranges**              | Medium     | O(n) | O(n)  |
+  |      | Title                                    | Difficulty | Time    | Space   |
+  | ---- | ---------------------------------------- | ---------- | ------- | ------- |
+  | 20   | Valid Parentheses                        | Easy       | O(n)    | O(n)    |
+  | 32   | Longest Valid Parentheses                | Hard       | O(n)    | O(n)    |
+  | 71   | Simplify Path                            | Medium     | O(n)    | O(n)    |
+  | 84   | **Largest Rectangle in Histogram**       | Hard       | O(n)    | O(n)    |
+  | 200  | Number of Islands                        | Medium     | O(m\*n) | O(m\*n) |
+  | 224  | Basic Calculator                         | Hard       | O(n)    | O(n)    |
+  | 385  | Mini Parser                              | Medium     | O(n)    | O(n)    |
+  | 402  | Remove K Digits                          | Medium     | O(n)    | O(n)    |
+  | 682  | Baseball Game                            | Easy       | O(n)    | O(n)    |
+  | 726  | Number of Atoms                          | Hard       | O(n)    | O(n)    |
+  | 739  | **Daily Temperatures**                   | Medium     | O(n)    | O(n)    |
+  | 907  | **Sum of Subarray Minimums**             | Medium     | O(n)    | O(n)    |
+  | 946  | Validate Stack Sequences                 | Medium     | O(n)    | O(n)    |
+  | 1047 | Remove All Adjacent Duplicates In String | Easy       | O(n)    | O(n)    |
+  | 1249 | Minimum Remove to Make Valid Parentheses | Medium     | O(n)    | O(n)    |
+  | 2104 | **Sum of Subnumsay Ranges**              | Medium     | O(n)    | O(n)    |
 
 ---
 
@@ -653,6 +669,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 56   | Merge Intervals                                  | Medium     | O(nlogn)    | O(n)    |
   | 88   | Merge Sorted Array                               | Easy       | O(m+n)      | O(m+n)  |
   | 148  | Sort List                                        | Medium     | O(nlogn)    | O(logn) |
+  | 207  | Course Schedule                                  | Medium     | O(V+E)      | O(V+E)  |
   | 347  | Top K Frequent Elements                          | Medium     | O(n)        | O(n)    |
   | 451  | Sort Characters By Frequency                     | Medium     | O(nlogn)    | O(n)    |
   | 726  | Number of Atoms                                  | Hard       | O(n)        | O(n)    |
