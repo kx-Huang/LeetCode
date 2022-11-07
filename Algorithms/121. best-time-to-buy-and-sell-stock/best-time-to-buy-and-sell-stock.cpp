@@ -19,8 +19,8 @@ public:
 
         // O(n)
         for (int i = 1; i < prices.size(); i++) {
-            curMin = min(curMin, prices[i]);
             ans = max(ans, prices[i] - curMin);
+            curMin = min(curMin, prices[i]);
         }
 
         return ans;
