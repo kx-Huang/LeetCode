@@ -565,6 +565,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 |     | Title                                     | Difficulty | Time      | Space     |
 | --- | ----------------------------------------- | ---------- | --------- | --------- |
+| 33  | Search in Rotated Sorted Array            | Medium     | O(logn)   | O(1)      |
 | 35  | Search Insert Position                    | Easy       | O(logn)   | O(1)      |
 | 46  | Permutations                              | Medium     | O(n\*n!)  | O(n\*n!)  |
 | 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
@@ -594,6 +595,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
   |     | Title                                | Difficulty | Time    | Space |
   | --- | ------------------------------------ | ---------- | ------- | ----- |
+  | 33  | Search in Rotated Sorted Array       | Medium     | O(logn) | O(1)  |
   | 35  | Search Insert Position               | Easy       | O(logn) | O(1)  |
   | 153 | Find Minimum in Rotated Sorted Array | Medium     | O(logn) | O(1)  |
   | 704 | Binary Search                        | Easy       | O(logn) | O(1)  |
@@ -696,6 +698,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   |     | Title                                          | Difficulty | Time    | Space  |
   | --- | ---------------------------------------------- | ---------- | ------- | ------ |
   | 3   | Longest Substring Without Repeating Characters | Medium     | O(n)    | O(n)   |
+  | 11  | Container With Most Water                      | Medium     | O(n)    | O(1)   |
   | 15  | 3Sum                                           | Medium     | O(n^2)  | O(n^2) |
   | 16  | 3Sum Closest                                   | Medium     | O(n^2)  | O(n^2) |
   | 28  | Implement strStr()                             | Easy       | O(m+n)  | O(m)   |
