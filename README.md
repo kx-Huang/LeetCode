@@ -569,10 +569,12 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 46  | Permutations                              | Medium     | O(n\*n!)  | O(n\*n!)  |
 | 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
 | 78  | Subsets                                   | Medium     | O(n\*2^n) | O(n\*2^n) |
+| 99  | Recover Binary Search Tree                | Medium     | O(n)      | O(n)      |
 | 103 | Binary Tree Zigzag Level Order Traversal  | Medium     | O(n)      | O(n)      |
 | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
 | 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
 | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
+| 200 | Number of Islands                         | Medium     | O(m\*n)   | O(m\*n)   |
 | 491 | Increasing Subsequences                   | Medium     | O(n\*2^n) | O(n\*2^n) |
 | 704 | Binary Search                             | Easy       | O(logn)   | O(1)      |
 
