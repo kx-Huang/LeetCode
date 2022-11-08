@@ -15,6 +15,7 @@ public:
         int left = 0;
         int right = nums.size() - 1;
 
+        // binary search: O(logn)
         while (left < right) {
             // no rotation in this range
             if (nums[left] < nums[right]) return nums[left];
