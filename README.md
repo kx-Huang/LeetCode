@@ -211,6 +211,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 200 | Number of Islands                        | Medium     | O(m\*n) | O(m\*n) |
   | 207 | Course Schedule                          | Medium     | O(V+E)  | O(V+E)  |
   | 225 | Implement Stack using Queues             | Easy       | O(n)    | O(n)    |
+  | 297 | Serialize and Deserialize Binary Tree    | Hard       | O(n)    | O(n)    |
   | 933 | Number of Recent Calls                   | Easy       | O(n)    | O(n)    |
 
 ---
@@ -349,6 +350,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)   | O(1)    |
   | 124 | Binary Tree Maximum Path Sum              | Hard       | O(n)   | O(n)    |
   | 226 | Invert Binary Tree                        | Easy       | O(n)   | O(n)    |
+  | 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)   | O(n)    |
 
 ---
 
@@ -455,6 +457,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 124 | Binary Tree Maximum Path Sum              | Hard       | O(n)      | O(n)    |
 | 148 | Sort List                                 | Medium     | O(nlogn)  | O(logn) |
 | 226 | Invert Binary Tree                        | Easy       | O(n)      | O(n)    |
+| 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)      | O(n)    |
 
 ---
 
@@ -588,6 +591,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
 | 153 | Find Minimum in Rotated Sorted Array      | Medium     | O(logn)   | O(1)      |
 | 200 | Number of Islands                         | Medium     | O(m\*n)   | O(m\*n)   |
+| 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)      | O(n)      |
 | 491 | Increasing Subsequences                   | Medium     | O(n\*2^n) | O(n\*2^n) |
 | 704 | Binary Search                             | Easy       | O(logn)   | O(1)      |
 
@@ -654,6 +658,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
   | 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
   | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
+  | 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)      | O(n)      |
   | 491 | Increasing Subsequences                   | Medium     | O(n\*2^n) | O(n\*2^n) |
 
 ---
