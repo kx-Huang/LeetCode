@@ -3,7 +3,7 @@
  *
  * [102] Binary Tree Level Order Traversal
  *
- * Method: Breadth First Search
+ * Method: Level-order Traversal
  * Data Structure: Binary Tree, Queue
  *
  */
