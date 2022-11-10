@@ -3,7 +3,7 @@
  *
  * [109] Convert Sorted List to Binary Search Tree
  *
- * Method: Depth First Search, Divide and Conquer
+ * Method: In-order traversal, Divide and Conquer
  * Data Structure: Linked List, Tree
  *
  */
