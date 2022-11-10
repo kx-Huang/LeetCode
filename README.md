@@ -206,6 +206,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
   |     | Title                                    | Difficulty | Time    | Space   |
   | --- | ---------------------------------------- | ---------- | ------- | ------- |
+  | 102 | Binary Tree Level Order Traversal        | Medium     | O(n)    | O(n)    |
   | 103 | Binary Tree Zigzag Level Order Traversal | Medium     | O(n)    | O(n)    |
   | 200 | Number of Islands                        | Medium     | O(m\*n) | O(m\*n) |
   | 207 | Course Schedule                          | Medium     | O(V+E)  | O(V+E)  |
@@ -339,10 +340,15 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   |     | Title                                     | Difficulty | Time   | Space   |
   | --- | ----------------------------------------- | ---------- | ------ | ------- |
   | 99  | Recover Binary Search Tree                | Medium     | O(n)   | O(n)    |
+  | 100 | Same Tree                                 | Easy       | O(n)   | O(n)    |
+  | 102 | Binary Tree Level Order Traversal         | Medium     | O(n)   | O(n)    |
   | 103 | Binary Tree Zigzag Level Order Traversal  | Medium     | O(n)   | O(n)    |
+  | 104 | Maximum Depth of Binary Tree              | Easy       | O(n)   | O(n)    |
   | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)   | O(logn) |
   | 113 | Path Sum II                               | Medium     | O(n^2) | O(n^2)  |
   | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)   | O(1)    |
+  | 124 | Binary Tree Maximum Path Sum              | Hard       | O(n)   | O(n)    |
+  | 226 | Invert Binary Tree                        | Easy       | O(n)   | O(n)    |
 
 ---
 
@@ -441,10 +447,14 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 |     | Title                                     | Difficulty | Time      | Space   |
 | --- | ----------------------------------------- | ---------- | --------- | ------- |
 | 23  | Merge k Sorted Lists                      | Medium     | O(nklogk) | O(logk) |
+| 100 | Same Tree                                 | Easy       | O(n)      | O(n)    |
+| 104 | Maximum Depth of Binary Tree              | Easy       | O(n)      | O(n)    |
 | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn) |
 | 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)  |
 | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(n)    |
+| 124 | Binary Tree Maximum Path Sum              | Hard       | O(n)      | O(n)    |
 | 148 | Sort List                                 | Medium     | O(nlogn)  | O(logn) |
+| 226 | Invert Binary Tree                        | Easy       | O(n)      | O(n)    |
 
 ---
 
@@ -571,6 +581,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
 | 78  | Subsets                                   | Medium     | O(n\*2^n) | O(n\*2^n) |
 | 99  | Recover Binary Search Tree                | Medium     | O(n)      | O(n)      |
+| 102 | Binary Tree Level Order Traversal         | Medium     | O(n)      | O(n)      |
 | 103 | Binary Tree Zigzag Level Order Traversal  | Medium     | O(n)      | O(n)      |
 | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
 | 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
@@ -612,6 +623,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
   |     | Title                                    | Difficulty | Time    | Space   |
   | --- | ---------------------------------------- | ---------- | ------- | ------- |
+  | 102 | Binary Tree Level Order Traversal        | Medium     | O(n)    | O(n)    |
   | 103 | Binary Tree Zigzag Level Order Traversal | Medium     | O(n)    | O(n)    |
   | 200 | Number of Islands                        | Medium     | O(m\*n) | O(m\*n) |
 
