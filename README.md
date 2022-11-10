@@ -352,6 +352,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 124 | Binary Tree Maximum Path Sum              | Hard       | O(n)   | O(n)    |
   | 226 | Invert Binary Tree                        | Easy       | O(n)   | O(n)    |
   | 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)   | O(n)    |
+  | 572 | Subtree of Another Tree                   | Easy       | O(n)   | O(n)    |
   | 993 | Cousins in Binary Tree                    | Easy       | O(n)   | O(n)    |
 
 ---
@@ -460,6 +461,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 148 | Sort List                                 | Medium     | O(nlogn)  | O(logn) |
 | 226 | Invert Binary Tree                        | Easy       | O(n)      | O(n)    |
 | 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)      | O(n)    |
+| 572 | Subtree of Another Tree                   | Easy       | O(n)      | O(n)    |
 
 ---
 
