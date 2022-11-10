@@ -4,7 +4,7 @@
  * [103] Binary Tree Zigzag Level Order Traversal
  *
  * Method: Breadth First Search
- * Data Structure: Queue
+ * Data Structure: Binary Tree, Queue
  *
  */
 
@@ -24,56 +24,33 @@
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        //  no root
-        if (root == nullptr) return vector<vector<int>>();
+        vector<vector<int>> res;
+        if (root == nullptr) return res;
 
-        TreeNode* cur = root;
-        bool levelNeedReverse = false;
-
-        int curLevelNodeLeft = 1;
-        int nextLevelNodeLeft = 0;
-
-        vector<int> level;
-        vector<vector<int>> ans;
-
-        // queue for level-order traversal
         queue<TreeNode*> q;
-        q.push(cur);
+        q.push(root);
+        bool backward = false;
 
         while (!q.empty()) {
-            // pop queue get current node
-            cur = q.front();
-            level.push_back(cur->val);
-            q.pop();
-            curLevelNodeLeft--;
-
-            // push children in queue and update next level children count
-            if (cur->left != nullptr) {
-                q.push(cur->left);
-                nextLevelNodeLeft++;
+            // get current level children size
+            int n = q.size();
+            vector<int> curLevel;
+            for (int i = 0; i < n; i++) {
+                // dequeue add to current level traversal result
+                TreeNode* cur = q.front();
+                q.pop();
+                curLevel.push_back(cur->val);
+                // enqueue childen for next level traversal
+                if (cur->left) q.push(cur->left);
+                if (cur->right) q.push(cur->right);
             }
-            if (cur->right != nullptr) {
-                q.push(cur->right);
-                nextLevelNodeLeft++;
-            }
-
-            // this level is done, reverse traversal results if needed
-            if (curLevelNodeLeft == 0) {
-                // do reverse
-                if (levelNeedReverse == true)
-                    reverse(level.begin(), level.end());
-                // toggle reverse indicator
-                levelNeedReverse = levelNeedReverse ? false : true;
-                // plug in level traverse result to ans
-                ans.push_back(level);
-                // clear current level traversal
-                level.clear();
-                // move to next level, update children count
-                curLevelNodeLeft = nextLevelNodeLeft;
-                nextLevelNodeLeft = 0;
-            }
+            // push current level traversal results to return vector
+            if (backward) reverse(curLevel.begin(), curLevel.end());
+            res.push_back(curLevel);
+            backward = !backward;
         }
-        return ans;
+
+        return res;
     }
 };
 // @lc code=end
