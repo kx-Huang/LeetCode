@@ -354,6 +354,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 124 | Binary Tree Maximum Path Sum                              | Hard       | O(n)   | O(n)    |
   | 226 | Invert Binary Tree                                        | Easy       | O(n)   | O(n)    |
   | 230 | Kth Smallest Element in a BST                             | Medium     | O(n)   | O(n)    |
+  | 235 | Lowest Common Ancestor of a Binary Search Tree            | Medium     | O(n)   | O(n)    |
   | 297 | Serialize and Deserialize Binary Tree                     | Hard       | O(n)   | O(n)    |
   | 572 | Subtree of Another Tree                                   | Easy       | O(n)   | O(n)    |
   | 993 | Cousins in Binary Tree                                    | Easy       | O(n)   | O(n)    |
@@ -386,12 +387,13 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |     | Title                                     | Difficulty | Time | Space   |
-  | --- | ----------------------------------------- | ---------- | ---- | ------- |
-  | 98  | Validate Binary Search Tree               | Medium     | O(n) | O(n)    |
-  | 99  | Recover Binary Search Tree                | Medium     | O(n) | O(n)    |
-  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n) | O(logn) |
-  | 230 | Kth Smallest Element in a BST             | Medium     | O(n) | O(n)    |
+  |     | Title                                          | Difficulty | Time | Space   |
+  | --- | ---------------------------------------------- | ---------- | ---- | ------- |
+  | 98  | Validate Binary Search Tree                    | Medium     | O(n) | O(n)    |
+  | 99  | Recover Binary Search Tree                     | Medium     | O(n) | O(n)    |
+  | 109 | Convert Sorted List to Binary Search Tree      | Medium     | O(n) | O(logn) |
+  | 230 | Kth Smallest Element in a BST                  | Medium     | O(n) | O(n)    |
+  | 235 | Lowest Common Ancestor of a Binary Search Tree | Medium     | O(n) | O(n)    |
 
 ---
 
@@ -587,25 +589,27 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 ### 2.7 Search
 
-|     | Title                                     | Difficulty | Time      | Space     |
-| --- | ----------------------------------------- | ---------- | --------- | --------- |
-| 33  | Search in Rotated Sorted Array            | Medium     | O(logn)   | O(1)      |
-| 35  | Search Insert Position                    | Easy       | O(logn)   | O(1)      |
-| 46  | Permutations                              | Medium     | O(n\*n!)  | O(n\*n!)  |
-| 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
-| 78  | Subsets                                   | Medium     | O(n\*2^n) | O(n\*2^n) |
-| 99  | Recover Binary Search Tree                | Medium     | O(n)      | O(n)      |
-| 102 | Binary Tree Level Order Traversal         | Medium     | O(n)      | O(n)      |
-| 103 | Binary Tree Zigzag Level Order Traversal  | Medium     | O(n)      | O(n)      |
-| 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
-| 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
-| 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
-| 153 | Find Minimum in Rotated Sorted Array      | Medium     | O(logn)   | O(1)      |
-| 200 | Number of Islands                         | Medium     | O(m\*n)   | O(m\*n)   |
-| 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)      | O(n)      |
-| 491 | Increasing Subsequences                   | Medium     | O(n\*2^n) | O(n\*2^n) |
-| 704 | Binary Search                             | Easy       | O(logn)   | O(1)      |
-| 993 | Cousins in Binary Tree                    | Easy       | O(n)      | O(n)      |
+|     | Title                                          | Difficulty | Time      | Space     |
+| --- | ---------------------------------------------- | ---------- | --------- | --------- |
+| 33  | Search in Rotated Sorted Array                 | Medium     | O(logn)   | O(1)      |
+| 35  | Search Insert Position                         | Easy       | O(logn)   | O(1)      |
+| 46  | Permutations                                   | Medium     | O(n\*n!)  | O(n\*n!)  |
+| 47  | Permutations II                                | Medium     | O(n\*n!)  | O(n\*n!)  |
+| 78  | Subsets                                        | Medium     | O(n\*2^n) | O(n\*2^n) |
+| 99  | Recover Binary Search Tree                     | Medium     | O(n)      | O(n)      |
+| 102 | Binary Tree Level Order Traversal              | Medium     | O(n)      | O(n)      |
+| 103 | Binary Tree Zigzag Level Order Traversal       | Medium     | O(n)      | O(n)      |
+| 109 | Convert Sorted List to Binary Search Tree      | Medium     | O(n)      | O(logn)   |
+| 113 | Path Sum II                                    | Medium     | O(n^2)    | O(n^2)    |
+| 114 | Flatten Binary Tree to Linked List             | Medium     | O(n)      | O(1)      |
+| 153 | Find Minimum in Rotated Sorted Array           | Medium     | O(logn)   | O(1)      |
+| 200 | Number of Islands                              | Medium     | O(m\*n)   | O(m\*n)   |
+| 230 | Kth Smallest Element in a BST                  | Medium     | O(n)      | O(n)      |
+| 235 | Lowest Common Ancestor of a Binary Search Tree | Medium     | O(n)      | O(n)      |
+| 297 | Serialize and Deserialize Binary Tree          | Hard       | O(n)      | O(n)      |
+| 491 | Increasing Subsequences                        | Medium     | O(n\*2^n) | O(n\*2^n) |
+| 704 | Binary Search                                  | Easy       | O(logn)   | O(1)      |
+| 993 | Cousins in Binary Tree                         | Easy       | O(n)      | O(n)      |
 
 ---
 
@@ -662,18 +666,19 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |     | Title                                     | Difficulty | Time      | Space     |
-  | --- | ----------------------------------------- | ---------- | --------- | --------- |
-  | 46  | Permutations                              | Medium     | O(n\*n!)  | O(n\*n!)  |
-  | 47  | Permutations II                           | Medium     | O(n\*n!)  | O(n\*n!)  |
-  | 78  | Subsets                                   | Medium     | O(n\*2^n) | O(n\*2^n) |
-  | 99  | Recover Binary Search Tree                | Medium     | O(n)      | O(n)      |
-  | 109 | Convert Sorted List to Binary Search Tree | Medium     | O(n)      | O(logn)   |
-  | 113 | Path Sum II                               | Medium     | O(n^2)    | O(n^2)    |
-  | 114 | Flatten Binary Tree to Linked List        | Medium     | O(n)      | O(1)      |
-  | 230 | Kth Smallest Element in a BST             | Medium     | O(n)      | O(n)      |
-  | 297 | Serialize and Deserialize Binary Tree     | Hard       | O(n)      | O(n)      |
-  | 491 | Increasing Subsequences                   | Medium     | O(n\*2^n) | O(n\*2^n) |
+  |     | Title                                          | Difficulty | Time      | Space     |
+  | --- | ---------------------------------------------- | ---------- | --------- | --------- |
+  | 46  | Permutations                                   | Medium     | O(n\*n!)  | O(n\*n!)  |
+  | 47  | Permutations II                                | Medium     | O(n\*n!)  | O(n\*n!)  |
+  | 78  | Subsets                                        | Medium     | O(n\*2^n) | O(n\*2^n) |
+  | 99  | Recover Binary Search Tree                     | Medium     | O(n)      | O(n)      |
+  | 109 | Convert Sorted List to Binary Search Tree      | Medium     | O(n)      | O(logn)   |
+  | 113 | Path Sum II                                    | Medium     | O(n^2)    | O(n^2)    |
+  | 114 | Flatten Binary Tree to Linked List             | Medium     | O(n)      | O(1)      |
+  | 230 | Kth Smallest Element in a BST                  | Medium     | O(n)      | O(n)      |
+  | 235 | Lowest Common Ancestor of a Binary Search Tree | Medium     | O(n)      | O(n)      |
+  | 297 | Serialize and Deserialize Binary Tree          | Hard       | O(n)      | O(n)      |
+  | 491 | Increasing Subsequences                        | Medium     | O(n\*2^n) | O(n\*2^n) |
 
 ---
 
