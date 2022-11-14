@@ -739,6 +739,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 16  | 3Sum Closest                                   | Medium     | O(n^2)  | O(n^2) |
   | 28  | Implement strStr()                             | Easy       | O(m+n)  | O(m)   |
   | 30  | Substring with Concatenation of All Words      | Hard       | O(m\*n) | O(m)   |
+  | 75  | Sort Colors                                    | Medium     | O(n)    | O(1)   |
   | 76  | Minimum Window Substring                       | Hard       | O(m+n)  | O(n)   |
   | 88  | Merge Sorted Array                             | Easy       | O(m+n)  | O(m+n) |
   | 152 | Maximum Product Subarray                       | Medium     | O(n)    | O(1)   |
