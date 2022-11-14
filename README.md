@@ -146,10 +146,11 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 
 - LeetCode Problem
 
-  |     | Title                | Difficulty | Time     | Space |
-  | --- | -------------------- | ---------- | -------- | ----- |
-  | 23  | Merge k Sorted Lists | Hard       | O(nlogk) | O(k)  |
-  | 313 | Super Ugly Number    | Medium     | O(nlogk) | O(n)  |
+  |     | Title                        | Difficulty | Time     | Space |
+  | --- | ---------------------------- | ---------- | -------- | ----- |
+  | 23  | Merge k Sorted Lists         | Hard       | O(nlogk) | O(k)  |
+  | 295 | Find Median from Data Stream | Hard       | O(logn)  | O(n)  |
+  | 313 | Super Ugly Number            | Medium     | O(nlogk) | O(n)  |
 
 ### 1.4 Linked List
 
