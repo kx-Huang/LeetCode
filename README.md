@@ -245,6 +245,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 32   | Longest Valid Parentheses                | Hard       | O(n)    | O(n)    |
   | 71   | Simplify Path                            | Medium     | O(n)    | O(n)    |
   | 84   | **Largest Rectangle in Histogram**       | Hard       | O(n)    | O(n)    |
+  | 173  | Binary Search Tree Iterator              | Medium     | O(n)    | O(n)    |
   | 200  | Number of Islands                        | Medium     | O(m\*n) | O(m\*n) |
   | 224  | Basic Calculator                         | Hard       | O(n)    | O(n)    |
   | 385  | Mini Parser                              | Medium     | O(n)    | O(n)    |
@@ -353,6 +354,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 113 | Path Sum II                                               | Medium     | O(n^2) | O(n^2)  |
   | 114 | Flatten Binary Tree to Linked List                        | Medium     | O(n)   | O(1)    |
   | 124 | Binary Tree Maximum Path Sum                              | Hard       | O(n)   | O(n)    |
+  | 173 | Binary Search Tree Iterator                               | Medium     | O(n)   | O(n)    |
   | 226 | Invert Binary Tree                                        | Easy       | O(n)   | O(n)    |
   | 230 | Kth Smallest Element in a BST                             | Medium     | O(n)   | O(n)    |
   | 235 | Lowest Common Ancestor of a Binary Search Tree            | Medium     | O(n)   | O(n)    |
@@ -393,6 +395,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 98  | Validate Binary Search Tree                    | Medium     | O(n) | O(n)    |
   | 99  | Recover Binary Search Tree                     | Medium     | O(n) | O(n)    |
   | 109 | Convert Sorted List to Binary Search Tree      | Medium     | O(n) | O(logn) |
+  | 173 | Binary Search Tree Iterator                    | Medium     | O(n) | O(n)    |
   | 230 | Kth Smallest Element in a BST                  | Medium     | O(n) | O(n)    |
   | 235 | Lowest Common Ancestor of a Binary Search Tree | Medium     | O(n) | O(n)    |
 
