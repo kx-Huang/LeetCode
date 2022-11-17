@@ -97,6 +97,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 76  | Minimum Window Substring                  | Hard       | O(m+n)      | O(n)    |
   | 128 | Longest Consecutive Sequence              | Medium     | O(n)        | O(n)    |
   | 139 | Word Break                                | Medium     | O(m\*n)     | O(m+n)  |
+  | 146 | LRU Cache                                 | Medium     | O(n)        | O(n)    |
   | 187 | Repeated DNA Sequences                    | Medium     | O(n)        | O(2^n)  |
   | 207 | Course Schedule                           | Medium     | O(V+E)      | O(V+E)  |
   | 217 | Contains Duplicate                        | Easy       | O(n)        | O(n)    |
