@@ -34,7 +34,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
     - [2.7.1 Binary Search](#271-binary-search)
     - [2.7.2 Breadth First Search (BFS)](#272-breadth-first-search-bfs)
     - [2.7.3 Depth First Search (DFS)](#273-depth-first-search-dfs)
-  - [2.8 Slow & Fast Pointers](#28-slow--fast-pointers)
+  - [2.8 Slow \& Fast Pointers](#28-slow--fast-pointers)
   - [2.9 Sorting](#29-sorting)
   - [2.10 Two Pointers](#210-two-pointers)
 
@@ -112,6 +112,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 763 | Partition Labels                          | Medium     | O(n)        | O(n)    |
   | 767 | Reorganize String                         | Medium     | O(n)        | O(n)    |
   | 819 | Most Common Word                          | Easy       | O(n)        | O(n)    |
+  | 827 | Making A Large Island                     | Hard       | O(n^2)      | O(n^2)  |
   | 904 | Fruit Into Baskets                        | Medium     | O(n)        | O(n)    |
 
 ---
@@ -214,6 +215,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 207 | Course Schedule                          | Medium     | O(V+E)  | O(V+E)  |
   | 225 | Implement Stack using Queues             | Easy       | O(n)    | O(n)    |
   | 297 | Serialize and Deserialize Binary Tree    | Hard       | O(n)    | O(n)    |
+  | 827 | Making A Large Island                    | Hard       | O(n^2)  | O(n^2)  |
   | 933 | Number of Recent Calls                   | Easy       | O(n)    | O(n)    |
   | 993 | Cousins in Binary Tree                   | Easy       | O(n)    | O(n)    |
 
@@ -614,6 +616,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
 | 297 | Serialize and Deserialize Binary Tree          | Hard       | O(n)      | O(n)      |
 | 491 | Increasing Subsequences                        | Medium     | O(n\*2^n) | O(n\*2^n) |
 | 704 | Binary Search                                  | Easy       | O(logn)   | O(1)      |
+| 827 | Making A Large Island                          | Hard       | O(n^2)    | O(n^2)    |
 | 993 | Cousins in Binary Tree                         | Easy       | O(n)      | O(n)      |
 
 ---
@@ -684,6 +687,7 @@ Personal solutions and notes for LeetCode problems in `C++`. More problems will 
   | 235 | Lowest Common Ancestor of a Binary Search Tree | Medium     | O(n)      | O(n)      |
   | 297 | Serialize and Deserialize Binary Tree          | Hard       | O(n)      | O(n)      |
   | 491 | Increasing Subsequences                        | Medium     | O(n\*2^n) | O(n\*2^n) |
+  | 827 | Making A Large Island                          | Hard       | O(n^2)    | O(n^2)    |
 
 ---
 
