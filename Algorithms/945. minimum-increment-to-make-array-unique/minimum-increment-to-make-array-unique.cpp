@@ -4,7 +4,7 @@
  * [945] Minimum Increment to Make Array Unique
  *
  * Method: Iterative Traversal
- * Data Structure: Union-Find Disjoint Set
+ * Data Structure: Array
  *
  */
 
