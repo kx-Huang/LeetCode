@@ -69,9 +69,7 @@ private:
                 }
                 // BFS for a group done, save result and move to next group
                 islandArea[cur_group_id] = cur_group_size;
-                max_group_size = cur_group_size > max_group_size
-                                     ? cur_group_size
-                                     : max_group_size;
+                max_group_size = max(cur_group_size, max_group_size);
                 cur_group_id++;
                 cur_group_size = 0;
             }
@@ -108,7 +106,7 @@ private:
                         size += mark[id] ? 0 : islandArea[id];
                         mark[id] = 1;
                     }
-                    ans = size > ans ? size : ans;
+                    ans = max(size, ans);
                 }
             }
         }
